@@ -1,7 +1,7 @@
 # Überblick über offene Fragen und Zettel: 
 
 ### Fragen  ---  Arbeitet aus
-- [ ] Frage 1 --- __________
+- [ ] Frage 1 --- Elias
 - [ ] Frage 2 --- __________
 - [ ] Frage 3 --- __________
 - [ ] Frage 4 --- __________
