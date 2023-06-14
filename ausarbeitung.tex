@@ -56,7 +56,10 @@
 \newcounter{question}
 \newcommand{\question}[1]{\stepcounter{question}\paragraph{Frage \thequestion: #1}~}
 
-
+\newcommand{\qref}[1]{%
+  \phantomsection\label{q:#1}% Create a label for the question
+  \textbf{\hyperref[q:#1]{#1}}% Link to the question label
+}
 
 \begin{document}
 
@@ -71,39 +74,39 @@
 
 Einige Fragen sind ähnlich oder decken ähnliche Themen ab. Hier sind die entsprechenden Paare:
 
-Fragen \ref{q:1} und \ref{q:13} diskutieren die Austauschenergie beim H2 Molekül und ihre Bedeutung für die chemische Bindung.
+Fragen \qref{1} und \qref{13} diskutieren die Austauschenergie beim H2 Molekül und ihre Bedeutung für die chemische Bindung.
 
-Fragen \ref{q:2} und \ref{q:14}, \ref{q:21}, \ref{q:32}, \ref{q:40} und \ref{q:55} fragen nach Informationen, die aus dem Rotations-Schwingungsspektrum von Molekülen abgeleitet werden können.
+Fragen \qref{2} und \qref{14}, \qref{21}, \qref{32}, \qref{40} und \qref{55} fragen nach Informationen, die aus dem Rotations-Schwingungsspektrum von Molekülen abgeleitet werden können.
 
-Fragen \ref{q:3} und \ref{q:15} behandeln elektrische Rotations-Schwingungsübergänge und die Entstehung von Schwingungsbanden.
+Fragen \qref{3} und \qref{15} behandeln elektrische Rotations-Schwingungsübergänge und die Entstehung von Schwingungsbanden.
 
-Fragen \ref{q:4} und \ref{q:16}, \ref{q:27} und \ref{q:45}, \ref{q:50} und \ref{q:54} beziehen sich auf den Zusammenhang zwischen der Gitterebene und einem Vektor im reziproken Raum.
+Fragen \qref{4} und \qref{16}, \qref{27} und \qref{45}, \qref{50} und \qref{54} beziehen sich auf den Zusammenhang zwischen der Gitterebene und einem Vektor im reziproken Raum.
 
-Fragen \ref{q:5} und \ref{q:17}, \ref{q:47} und \ref{q:59} beziehen sich auf das Auftreten von Energiebandlücken mit Hilfe des Models der fast freien Elektronen.
+Fragen \qref{5} und \qref{17}, \qref{47} und \qref{59} beziehen sich auf das Auftreten von Energiebandlücken mit Hilfe des Models der fast freien Elektronen.
 
-Fragen \ref{q:6} und \ref{q:18} behandeln, wie experimentell die Dispersionsrelationskurve von Phononen ermittelt werden kann.
+Fragen \qref{6} und \qref{18} behandeln, wie experimentell die Dispersionsrelationskurve von Phononen ermittelt werden kann.
 
-Fragen \ref{q:7} und \ref{q:19}, \ref{q:38}, \ref{q:51} und \ref{q:57} diskutieren die Wärmekapazität sowohl in der klassischen als auch in der quantenmechanischen Betrachtung.
+Fragen \qref{7} und \qref{19}, \qref{38}, \qref{51} und \qref{57} diskutieren die Wärmekapazität sowohl in der klassischen als auch in der quantenmechanischen Betrachtung.
 
-Fragen \ref{q:8} und \ref{q:20} beziehen sich auf das Bloch-Theorem eines Elektrons im harmonischen Potential.
+Fragen \qref{8} und \qref{20} beziehen sich auf das Bloch-Theorem eines Elektrons im harmonischen Potential.
 
-Fragen \ref{q:9} und \ref{q:56} behandeln den Paulschen Paramagnetismus.
+Fragen \qref{9} und \qref{56} behandeln den Paulschen Paramagnetismus.
 
-Fragen \ref{q:24} und \ref{q:37} beziehen sich auf die Hybridisierung in mehratomigen Molekülen.
+Fragen \qref{24} und \qref{37} beziehen sich auf die Hybridisierung in mehratomigen Molekülen.
 
-Fragen \ref{q:25} und \ref{q:35}, \ref{q:44} behandeln die Laue'sche Beugungsbedingung und die Ewald-Konstruktion.
+Fragen \qref{25} und \qref{35}, \qref{44} behandeln die Laue'sche Beugungsbedingung und die Ewald-Konstruktion.
 
-Fragen \ref{q:26} und \ref{q:36} diskutieren den Unterschied zwischen einem fcc-Gitter und einer hcp-Struktur.
+Fragen \qref{26} und \qref{36} diskutieren den Unterschied zwischen einem fcc-Gitter und einer hcp-Struktur.
 
-Fragen \ref{q:28} und \ref{q:39}, \ref{q:48} und \ref{q:58} vergleichen die Einstein- und Debye-Modelle der spezifischen Wärme.
+Fragen \qref{28} und \qref{39}, \qref{48} und \qref{58} vergleichen die Einstein- und Debye-Modelle der spezifischen Wärme.
 
-Fragen \ref{q:30} und \ref{q:49} erläutern den Atomfaktor und den Strukturfaktor bei der Röntgenbeugung.
+Fragen \qref{30} und \qref{49} erläutern den Atomfaktor und den Strukturfaktor bei der Röntgenbeugung.
 
-Fragen \ref{q:41} und \ref{q:52} behandeln die Lennard-Jones-Potential und Van der Waals Bindung.
+Fragen \qref{41} und \qref{52} behandeln die Lennard-Jones-Potential und Van der Waals Bindung.
 
-Fragen \ref{q:42} und \ref{q:33} behandeln das Konzept des Bravaisgitters und der Wigner-Seitz Zelle.
+Fragen \qref{42} und \qref{33} behandeln das Konzept des Bravaisgitters und der Wigner-Seitz Zelle.
 
-Fragen \ref{q:43} und \ref{q:31}, \ref{q:34} diskutieren das Franck-Condon Prinzip und die Intensität von Schwingungsbänden in einem Molekülspektrum.
+Fragen \qref{43} und \qref{31}, \qref{34} diskutieren das Franck-Condon Prinzip und die Intensität von Schwingungsbänden in einem Molekülspektrum.
 
 Es ist wichtig zu beachten, dass obwohl diese Fragen ähnliche Themen behandeln, die spezifischen Aspekte oder der Kontext, der in jeder Frage behandelt wird, variieren können. Daher ist es wichtig, jede Frage sorgfältig zu lesen und zu verstehen, bevor man versucht, sie zu beantworten.
 
@@ -386,6 +389,7 @@ Eine der Annahmen des klassischen Drude-Modells zur Beschreibung der Elektronen 
 
 \question{Bindungszustände / Elektronenkonfiguration in N2 diskutieren.}
 \label{q:70}
+Siehe \qref{52}.
 
 \question{Skizzieren Sie die wesentlichen Elemente der Born-Oppenheimer Näherung.}
 \label{q:71}
