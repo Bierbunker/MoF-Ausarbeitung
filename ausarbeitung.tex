@@ -61,6 +61,11 @@
   \textbf{\hyperref[q:#1]{#1}}% Link to the question label
 }
 
+\newcommand{\aqref}[1]{%
+  \phantomsection\label{q:#1}% Create a label for the question
+  \textbf{\hyperref[q:#1]{Frage #1}}% Link to the question label
+}
+
 \begin{document}
 
 \maketitle
@@ -189,6 +194,8 @@ Somit ist die Länge des reziproken Gittervektors $\vec{G_{hkl}}$ indirekt propo
 \question{Erklären Sie die Herkunft der 'Austauschenergie' in H2. Wann ist sie groß, wann klein? Warum ist sie entscheidend für die chemische Bindung?}
 \label{q:12}
 
+Siehe \aqref{1}
+
 \question{Welche Informationen über molekulare Kenngrößen können aus Rotations-Schwingungsspektren von Molekülen erhalten werden?}
 \label{q:13}
 
@@ -197,6 +204,8 @@ Somit ist die Länge des reziproken Gittervektors $\vec{G_{hkl}}$ indirekt propo
 
 \question{Diskutiere den Zusammenhang zwischen Gitterebene im Kristall und Vektoren des reziproken Gitters.}
 \label{q:15}
+
+Siehe \aqref{4}.
 
 \question{Diskutieren Sie die Wärmekapazität des Gitters im Rahmen des klassischen und der Quantenmechanik.}
 \label{q:16}
@@ -271,6 +280,8 @@ Somit ist die Länge des reziproken Gittervektors $\vec{G_{hkl}}$ indirekt propo
 
 \question{Zusammenhang zwischen Gitterebene und Vektoren im reziproken Gitter}
 \label{q:38}
+
+Siehe \aqref{4}.
 
 \question{Statische Abschirmung des Elektronengases}
 \label{q:39}
@@ -464,11 +475,17 @@ Siehe \qref{52}.
 \question{Was bewirkt die Austauschenergie beim H2 Molekül? Wann ist sie groß/klein? Wieso ist sie für die chemische Bindung wichtig?}
 \label{q:80}
 
+Siehe \aqref{1}.
+
 \question{Was kann man aus dem Rotations-Schwingungsspektrum für molekulare Größen bestimmen?}
 \label{q:81}
 
+Siehe \aqref{2}.
+
 \question{Diskutieren Sie elektrische Rotations-Schwingungsübergänge und die Entstehung von Schwingungsbanden.}
 \label{q:82}
+
+Siehe \aqref{3}.
 
 \question{Wie kann experimentell die Dispersionsrelationskurve von Phononen ermittelt werden?}
 \label{q:83}
@@ -478,6 +495,8 @@ Siehe \qref{52}.
 
 \question{Was für ein Zusammenhang besteht zwischen der Gitterebene und einem Vektor im reziproken Raum?}
 \label{q:85}
+
+Siehe \aqref{4}.
 
 \question{Erklären Sie das Auftreten von Energiebandlücken mit Hilfe des Models der fast freien Elektronen.}
 \label{q:86}
