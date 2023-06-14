@@ -23,7 +23,7 @@
 \usepackage{lastpage}
 \usepackage{graphicx}
 \usepackage{float}
-
+\usepackage{mhchem}
 \usepackage{xcolor}
 \usepackage[hidelinks,colorlinks]{hyperref}
 %Colorlinks setup:
@@ -56,7 +56,15 @@
 \newcounter{question}
 \newcommand{\question}[1]{\stepcounter{question}\paragraph{Frage \thequestion: #1}~}
 
+\newcommand{\qref}[1]{%
+  \phantomsection\label{q:#1}% Create a label for the question
+  \textbf{\hyperref[q:#1]{#1}}% Link to the question label
+}
 
+\newcommand{\aqref}[1]{%
+  \phantomsection\label{q:#1}% Create a label for the question
+  \textbf{\hyperref[q:#1]{Frage #1}}% Link to the question label
+}
 
 \begin{document}
 
@@ -71,39 +79,39 @@
 
 Einige Fragen sind ähnlich oder decken ähnliche Themen ab. Hier sind die entsprechenden Paare:
 
-Fragen \ref{q:1} und \ref{q:13} diskutieren die Austauschenergie beim H2 Molekül und ihre Bedeutung für die chemische Bindung.
+Fragen \qref{1} und \qref{13} diskutieren die Austauschenergie beim H2 Molekül und ihre Bedeutung für die chemische Bindung.
 
-Fragen \ref{q:2} und \ref{q:14}, \ref{q:21}, \ref{q:32}, \ref{q:40} und \ref{q:55} fragen nach Informationen, die aus dem Rotations-Schwingungsspektrum von Molekülen abgeleitet werden können.
+Fragen \qref{2} und \qref{14}, \qref{21}, \qref{32}, \qref{40} und \qref{55} fragen nach Informationen, die aus dem Rotations-Schwingungsspektrum von Molekülen abgeleitet werden können.
 
-Fragen \ref{q:3} und \ref{q:15} behandeln elektrische Rotations-Schwingungsübergänge und die Entstehung von Schwingungsbanden.
+Fragen \qref{3} und \qref{15} behandeln elektrische Rotations-Schwingungsübergänge und die Entstehung von Schwingungsbanden.
 
-Fragen \ref{q:4} und \ref{q:16}, \ref{q:27} und \ref{q:45}, \ref{q:50} und \ref{q:54} beziehen sich auf den Zusammenhang zwischen der Gitterebene und einem Vektor im reziproken Raum.
+Fragen \qref{4} und \qref{16}, \qref{27} und \qref{45}, \qref{50} und \qref{54} beziehen sich auf den Zusammenhang zwischen der Gitterebene und einem Vektor im reziproken Raum.
 
-Fragen \ref{q:5} und \ref{q:17}, \ref{q:47} und \ref{q:59} beziehen sich auf das Auftreten von Energiebandlücken mit Hilfe des Models der fast freien Elektronen.
+Fragen \qref{5} und \qref{17}, \qref{47} und \qref{59} beziehen sich auf das Auftreten von Energiebandlücken mit Hilfe des Models der fast freien Elektronen.
 
-Fragen \ref{q:6} und \ref{q:18} behandeln, wie experimentell die Dispersionsrelationskurve von Phononen ermittelt werden kann.
+Fragen \qref{6} und \qref{18} behandeln, wie experimentell die Dispersionsrelationskurve von Phononen ermittelt werden kann.
 
-Fragen \ref{q:7} und \ref{q:19}, \ref{q:38}, \ref{q:51} und \ref{q:57} diskutieren die Wärmekapazität sowohl in der klassischen als auch in der quantenmechanischen Betrachtung.
+Fragen \qref{7} und \qref{19}, \qref{38}, \qref{51} und \qref{57} diskutieren die Wärmekapazität sowohl in der klassischen als auch in der quantenmechanischen Betrachtung.
 
-Fragen \ref{q:8} und \ref{q:20} beziehen sich auf das Bloch-Theorem eines Elektrons im harmonischen Potential.
+Fragen \qref{8} und \qref{20} beziehen sich auf das Bloch-Theorem eines Elektrons im harmonischen Potential.
 
-Fragen \ref{q:9} und \ref{q:56} behandeln den Paulschen Paramagnetismus.
+Fragen \qref{9} und \qref{56} behandeln den Paulschen Paramagnetismus.
 
-Fragen \ref{q:24} und \ref{q:37} beziehen sich auf die Hybridisierung in mehratomigen Molekülen.
+Fragen \qref{24} und \qref{37} beziehen sich auf die Hybridisierung in mehratomigen Molekülen.
 
-Fragen \ref{q:25} und \ref{q:35}, \ref{q:44} behandeln die Laue'sche Beugungsbedingung und die Ewald-Konstruktion.
+Fragen \qref{25} und \qref{35}, \qref{44} behandeln die Laue'sche Beugungsbedingung und die Ewald-Konstruktion.
 
-Fragen \ref{q:26} und \ref{q:36} diskutieren den Unterschied zwischen einem fcc-Gitter und einer hcp-Struktur.
+Fragen \qref{26} und \qref{36} diskutieren den Unterschied zwischen einem fcc-Gitter und einer hcp-Struktur.
 
-Fragen \ref{q:28} und \ref{q:39}, \ref{q:48} und \ref{q:58} vergleichen die Einstein- und Debye-Modelle der spezifischen Wärme.
+Fragen \qref{28} und \qref{39}, \qref{48} und \qref{58} vergleichen die Einstein- und Debye-Modelle der spezifischen Wärme.
 
-Fragen \ref{q:30} und \ref{q:49} erläutern den Atomfaktor und den Strukturfaktor bei der Röntgenbeugung.
+Fragen \qref{30} und \qref{49} erläutern den Atomfaktor und den Strukturfaktor bei der Röntgenbeugung.
 
-Fragen \ref{q:41} und \ref{q:52} behandeln die Lennard-Jones-Potential und Van der Waals Bindung.
+Fragen \qref{41} und \qref{52} behandeln die Lennard-Jones-Potential und Van der Waals Bindung.
 
-Fragen \ref{q:42} und \ref{q:33} behandeln das Konzept des Bravaisgitters und der Wigner-Seitz Zelle.
+Fragen \qref{42} und \qref{33} behandeln das Konzept des Bravaisgitters und der Wigner-Seitz Zelle.
 
-Fragen \ref{q:43} und \ref{q:31}, \ref{q:34} diskutieren das Franck-Condon Prinzip und die Intensität von Schwingungsbänden in einem Molekülspektrum.
+Fragen \qref{43} und \qref{31}, \qref{34} diskutieren das Franck-Condon Prinzip und die Intensität von Schwingungsbänden in einem Molekülspektrum.
 
 Es ist wichtig zu beachten, dass obwohl diese Fragen ähnliche Themen behandeln, die spezifischen Aspekte oder der Kontext, der in jeder Frage behandelt wird, variieren können. Daher ist es wichtig, jede Frage sorgfältig zu lesen und zu verstehen, bevor man versucht, sie zu beantworten.
 
@@ -112,14 +120,52 @@ Es ist wichtig zu beachten, dass obwohl diese Fragen ähnliche Themen behandeln,
 \question{Austauschenergie beim H2 Molekül? Wann ist es groß/klein? Wieso ist es für die Bindung wichtig?}
 \label{q:1}
 
+Die Austauschenergie oder oft auch \textbf{Austauschwechselwirkung} spielt bei der chemischen Bindung eine bedeutende Rolle. \\
+Sie ist groß, falls sich die Atomorbitale stark überlappen---sprich symmetrisch sind---und kleiner falls sie sich weniger überlappen (=anti-symmetrisch). \\
+Wie man in der Abbildung erkennen kann, ergibt sich eine Bindung nur, wenn die Orbitale sich überlappen (im symmetrischen Fall $U_S$). \\
+\begin{figure}[H]  
+    \centering
+    \includegraphics[width=.4\textwidth]{resources/05-01-2015/Frage1.png}
+    \caption{siehe \href{http://hyperphysics.phy-astr.gsu.edu/hbase/molecule/hmol.html}{LINK}}
+\end{figure}
+
 \question{Was kann man aus dem Rotations-Schwingungsspektrum für molekulare Größen bestimmen?}
 \label{q:2}
+
+Unter Annahme, dass die beiden Atome ihren Abstand bei Rotation nicht ändern kann man den \textbf{Bindungsabstand} $R_e$ bestimmen. \\
+Weiter lässt sich die \textbf{Rotationskonstante} $B_e$ bzw. deren anharmonischer Anteil $\alpha_e$, die \textbf{Schwingungsfrequenz} $\omega$ und das \textbf{Trägheitsmoment} $I$ bestimmen. \\
+
+\[B_e = \frac{\hbar}{4 \pi c M R_e^2}\text{\quad [cm$^{-1}$]}\]
+\[E_{rot} = \frac{\hbar^2}{2 I} \cdot J(J+1)\text{\quad [J]}\]
+\[E_{rot} = B_e \cdot h\cdot c\]
+$J$ ist dabei die Quantenzahl der Rotation und $M$ die reduzierte Masse (damit $M * R_e^2$ eben $I$ entspricht; gilt freilich nur für 2-Atom Systeme). \\
+
+\[\Delta E_{rot} = \frac{(J+1)\hbar^2}{M\cdot {R_e}^2}\]
+\[\Delta E_{vib} = \hbar \cdot \omega\]
 
 \question{Diskutieren Sie elektrische Rotations-Schwingungsübergänge und die Entstehung von Schwingungsbanden.}
 \label{q:3}
 
+Übergänge zwischen Schwingungs-Rotations-Niveaus ($f_i$,$J_i$) $\rightarrow$ ($f_j$,$J_j$) innerhaltb desselben elektronischen Zustandes bilden für $f_i \neq f_j$ ein Schwingungs-Rotations-Spektrum. \\
+
+\textbf{WICHTIG:} nur Moleküle welche ein permanentes Dipolmoment besitzen können solche Übergänge durchführen (z.B.: \ce{CO2}, \ce{H2O} aber \underline{nicht} \ce{O2}, andere homonuklearen, \dots etc.). \\
+
+Wird Energie (Photon) von außen zugeführt oder abgegeben, so kann ein Übergang zwischen den Niveaus stattfinden - Auswahlregel $\Delta J = \pm 1$. Sprich Rotations-Schwingungsübergänge spielen sich zwischen benachbarten Niveaus ab.\\
+
+\textbf{Schwingungsbanden} bezeichnen nun alle Rotationslinien welche zu einem Schwingungsübergang gehören. \\
+
+
 \question{Was für ein Zusammenhang besteht zwischen der Gitterebene und einem Vektor im reziproken Raum?}
 \label{q:4}
+
+Der Abstand zweier Gitterebenen $d_{hkl}$ ist gegeben durch:
+\[d_{hkl} = \frac{a}{\sqrt{h^2 + k^2 + l^2}}\]
+und hängt mit dem reziproken Gittervektor $\vec{G_{hkl}}$ 
+\[\vec{G_{hkl}} = h\vec{b_1} + k\vec{b_2} + l\vec{b_3}\]
+wie folgt zusammen:
+\[d_{hkl} = \frac{2\pi}{|\vec{G_{hkl}}|}\]
+
+Somit ist die Länge des reziproken Gittervektors $\vec{G_{hkl}}$ indirekt proportional zum Abstand der Gitterebenen $d_{hkl}$.
 
 \question{Erklären Sie das Auftreten von Energiebandlücken mit Hilfe des Models der fast freien Elektronen.}
 \label{q:5}
@@ -148,6 +194,8 @@ Es ist wichtig zu beachten, dass obwohl diese Fragen ähnliche Themen behandeln,
 \question{Erklären Sie die Herkunft der 'Austauschenergie' in H2. Wann ist sie groß, wann klein? Warum ist sie entscheidend für die chemische Bindung?}
 \label{q:12}
 
+Siehe \aqref{1}
+
 \question{Welche Informationen über molekulare Kenngrößen können aus Rotations-Schwingungsspektren von Molekülen erhalten werden?}
 \label{q:13}
 
@@ -156,6 +204,8 @@ Es ist wichtig zu beachten, dass obwohl diese Fragen ähnliche Themen behandeln,
 
 \question{Diskutiere den Zusammenhang zwischen Gitterebene im Kristall und Vektoren des reziproken Gitters.}
 \label{q:15}
+
+Siehe \aqref{4}.
 
 \question{Diskutieren Sie die Wärmekapazität des Gitters im Rahmen des klassischen und der Quantenmechanik.}
 \label{q:16}
@@ -231,6 +281,8 @@ Es ist wichtig zu beachten, dass obwohl diese Fragen ähnliche Themen behandeln,
 \question{Zusammenhang zwischen Gitterebene und Vektoren im reziproken Gitter}
 \label{q:38}
 
+Siehe \aqref{4}.
+
 \question{Statische Abschirmung des Elektronengases}
 \label{q:39}
 
@@ -279,17 +331,65 @@ Es ist wichtig zu beachten, dass obwohl diese Fragen ähnliche Themen behandeln,
 \question{Diskutiere die Elektronenkonfiguration von N2.}
 \label{q:52}
 
+N$_2$: $1\sigma_g^2 ~ 1\sigma_u^{*2} ~ 2\sigma_g^2 ~ 2\sigma_u^{*2} ~ 1\pi_u^4 ~ 3\sigma_g^2$ \\
+14 Elektronen werden auf die $\pi$- und $\sigma$-Bindungen aufgeteilt. Achtung: Die Reihenfolge der $1\pi$- und der $3\sigma$-Orbitale kann variieren. Die unterschiedliche Reihenfolge dieser Orbitale kommt durch eine Mischung der s- und p-Atomorbitale zustande: Eine solche kann vorkommen, wenn der energetische Unterschied zwischen dem 2s- und dem 2p-Orbital der Atome klein genug ist (N$_2$ bildet genau die Grenze, bis zu der die Bildung dieser Mischung möglich ist). Dadurch wird zwar das $2\sigma_g$-Orbital stärker bindend, das $3\sigma_g$ wird jedoch schwächer bindend. Dadurch ist das $1\pi_u$-Orbital energetisch günstiger als das $3\sigma_g$ (\autoref{fig:q52}). Ist der (energetische) Abstand zwischen den s- und p-Atomorbitalen groß genug, so kann die Mischung der Orbitale vernachlässigt werden.
+
+\begin{figure}[H]  
+    \centering
+    \includegraphics[width=.4\textwidth]{resources/24-03-2015/N2-F2.png}
+    \caption{Elektronische Struktur von N$_2$ und F$_2$.}
+    \label{fig:q52}
+\end{figure}
+
+
 \question{Diskutiere die Van der Waals Wechselwirkung und das Lennard-Jones Potential.}
 \label{q:53}
+
+Befindet sich ein neutrales Atom in einem elektrischen Feld $\vb{E}$, so induziert das Feld ein Dipolmoment $\vb{p_{ind}}$. Umgekehrt kann durch ein bestehendes Dipolmoment $\vb{p_A}$ aber auch ein elektrisches Feld entstehen - aus der Multipolentwicklung des elektrischen Feldes einer Ladungsverteilung ergibt sich für den Dipolanteil:
+\begin{equation*}
+    \vb{E}(\vb{p_A}) = \frac{1}{4\pi\varepsilon_0 R^3} (3 p_A \vb{\hat{R}} \cos{\theta_A} - \vb{p_A})
+\end{equation*}
+Ein neutrales Atom mit kugelsymmetrischer Elektronenhülle weist über die Zeit gemittelt aufgrund der Bewegung der Elektronen kein Dipolmoment auf - trotzdem hat ein solches Atom immer ein momentanes Dipolmoment. Dadurch entsteht ein elektrisches Feld, welches in einem anderen neutralen Atom ein Dipolmoment induzieren kann. Diese Wechselwirkung neutraler Atome ist die van-der-Waals-Wechselwirkung. Sie ist relativ schwach im Vergleich zu einer Ionenbindung und vor allem kurzreichweitig. Für das van-der-Waals-Potential gilt:
+\begin{equation*}
+    E_{pot}(R) = -\frac{C}{R^6}
+\end{equation*}
+Um das Potential noch besser zu beschreiben wird das empirisch ermittelte Lennard-Jones-Potential verwendet, das zusätzlich zum anziehenden Term des van-der-Waals-Potenzials noch einen abstoßenden Term berücksichtigt:
+\begin{equation*}
+    E_{pot}(R) = \frac{a}{R^{12}} - \frac{b}{R^6}
+\end{equation*}
+Dabei sind $a$ und $b$ Anpassungsparameter, die so gewählt werden, dass das Potenzial dem experimentell bestimmten Potenzial in möglichst guter Näherung entspricht. Durch die Kombination von anziehendem und abstoßendem Term entsteht ein Minimum des Potenzials beim Bindungsabstand mit $E_B = E_{pot}(R_e) = \frac{b^2}{2a}$.
+
 
 \question{Konzept des Bravaisgitters und der Wigner-Seitz Zelle.}
 \label{q:54}
 
+Ein Bravaisgitter ist ein rein mathematisches Gitter, welches die Periodizität eines Kristallgitters beschreiben soll. An die einzelnen Gitterpunkte des periodischen Bravaisgitters können im Prinzip beliebig komplizierte Kombinationen von Atomen oder Molekülen gesetzt werden, die dann als Basis bezeichnet werden. Das Bravaisgitter beschreibt also nur die Periodizität, die Basis beschreibt die konkrete Struktur des Kristalls. Wichtig: Die Anordnung und Orientierung der Punkte im Bravaisgitter müssen identisch sein, egal von welchem Punkt man es betrachtet.
+
+In einem solchen Gitter lassen sich unterschiedliche Arten von Einheitszellen definieren. Die Wigner-Seitz-Zelle lässt sich konstruieren, indem man:
+\begin{itemize}
+    \item ein Atom mit allen seinen Nachbarn verbindet
+    \item Die Mittelsenkrechte auf alle Verbindungslinien konstruiert (in 3D entspricht das einer Ebene)
+    \item Die von diesen Flächen eingeschlossene Fläche entspricht dann der Wigner-Seitz-Einheitszelle
+\end{itemize}
+Anmerkung: Konstruiert man die Wigner-Seitz-Einheitszelle im reziproken Gitter, so entspricht diese der 1. Brillouin-Zone.
+
 \question{Diskutiere den Unterschied zwischen der akustischen und optischen Phononendispersionsrelation bzw. longitudinaler/transversaler, akustischer und optischer Phononen.}
 \label{q:55}
 
+Betrachtet man eine eindimensionale Kette aus zwei abwechselnd aufeinander folgenden Atomen $M_1$ und $M_2$, welche durch eine Hook'sche Feder verbunden sind, und löst die zugehörige Bewegungsgleichung, so ergibt sich daraus eine quadratische Gleichung für die Frequenz $\omega$. Die beiden Lösungen dieser Gleichung sind der optische und der akustische Ast, wobei der optische Ast nur dann auftritt, wenn die Kette tatsächlich aus einer zweiatomigen Basis besteht. Bei einer einatomigen Basis gibt es nur den akustischen Ast. Der optische Ast weist außerdem eine höhere Frequenz auf. Durch die unterschiedliche räumliche Orientierung der Schwingung lassen sich der akustische und der optische Ast weiters in transversale und longitudinale Äste einteilen. Bei $s$ Atomen pro Einheitszelle ergeben sich immer $3$ akustische Freiheitsgrade und $3s-3$ optische Freiheitsgrade (also insgesamt $3s$ Schwigungsäste).
+% eventuell noch ausbaufähig
+
 \question{Diskutiere das statische Verhalten des freien Elektronengases.}
 \label{q:56}
+
+Eine der Annahmen des klassischen Drude-Modells zur Beschreibung der Elektronen als freies Elektronengas schließt Kollisionen zwischen Elektronen aus und beschränkt sich somit nur auf Stöße zwischen Elektronen und Atomrümpfen. Letztere werden dabei als statisch betrachtet. Im Modell werden zusammengefasst die folgenden Annahmen getroffen:
+
+\begin{enumerate}
+    \item ideales Elektronengas: Keine WW zwischen den Elektronen
+    \item Elektronen kollidieren nur mit Atomrümpfen, nicht untereinander
+    \item Die Geschwindigkeit der Elektronen nach einem Stoß entspricht der Temperatur und sind damit vom herrschenden thermodynamischen Gleichgewicht abhängig
+    \item Die mittlere freie Weglänge liegt in der Größenordnung der Atomabstände
+\end{enumerate}
 
 \question{Diskutiere die Einstein- und Debye-Näherung der Wärmekapazität.}
 \label{q:57}
@@ -338,6 +438,7 @@ Es ist wichtig zu beachten, dass obwohl diese Fragen ähnliche Themen behandeln,
 
 \question{Bindungszustände / Elektronenkonfiguration in N2 diskutieren.}
 \label{q:70}
+Siehe \qref{52}.
 
 \question{Skizzieren Sie die wesentlichen Elemente der Born-Oppenheimer Näherung.}
 \label{q:71}
@@ -374,11 +475,17 @@ Es ist wichtig zu beachten, dass obwohl diese Fragen ähnliche Themen behandeln,
 \question{Was bewirkt die Austauschenergie beim H2 Molekül? Wann ist sie groß/klein? Wieso ist sie für die chemische Bindung wichtig?}
 \label{q:80}
 
+Siehe \aqref{1}.
+
 \question{Was kann man aus dem Rotations-Schwingungsspektrum für molekulare Größen bestimmen?}
 \label{q:81}
 
+Siehe \aqref{2}.
+
 \question{Diskutieren Sie elektrische Rotations-Schwingungsübergänge und die Entstehung von Schwingungsbanden.}
 \label{q:82}
+
+Siehe \aqref{3}.
 
 \question{Wie kann experimentell die Dispersionsrelationskurve von Phononen ermittelt werden?}
 \label{q:83}
@@ -388,6 +495,8 @@ Es ist wichtig zu beachten, dass obwohl diese Fragen ähnliche Themen behandeln,
 
 \question{Was für ein Zusammenhang besteht zwischen der Gitterebene und einem Vektor im reziproken Raum?}
 \label{q:85}
+
+Siehe \aqref{4}.
 
 \question{Erklären Sie das Auftreten von Energiebandlücken mit Hilfe des Models der fast freien Elektronen.}
 \label{q:86}

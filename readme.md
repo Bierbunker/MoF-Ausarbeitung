@@ -1,6 +1,6 @@
 # Ausarbeitung Mof-Prüfung Surnev
+![<<<Progress>>](resources/progress.png)
 # ================================
-
 ## WICHTIG pushen kann man nur auf den work branch (siehe git basics)!
 ## Wie mitmachen...
 1. Repository clonen

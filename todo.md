@@ -1,10 +1,10 @@
 # Überblick über offene Fragen und Zettel: 
 
 ### Fragen  ---  Arbeitet aus
-- [ ] Frage 1 --- Elias
-- [ ] Frage 2 --- __________
-- [ ] Frage 3 --- __________
-- [ ] Frage 4 --- __________
+- [x] Frage 1 --- Elias
+- [x] Frage 2 --- Elias
+- [x] Frage 3 --- Elias
+- [x] Frage 4 --- Elias
 - [ ] Frage 5 --- __________
 - [ ] Frage 6 --- __________
 - [ ] Frage 7 --- __________
@@ -12,10 +12,10 @@
 - [ ] Frage 9 --- __________
 - [ ] Frage 10 --- __________
 - [ ] Frage 11 --- __________
-- [ ] Frage 12 --- __________
+- [x] Frage 12 --- siehe Frage 1
 - [ ] Frage 13 --- __________
 - [ ] Frage 14 --- __________
-- [ ] Frage 15 --- __________
+- [x] Frage 15 --- siehe Frage 4
 - [ ] Frage 16 --- __________
 - [ ] Frage 17 --- __________
 - [ ] Frage 18 --- __________
@@ -38,7 +38,7 @@
 - [ ] Frage 35 --- __________
 - [ ] Frage 36 --- __________
 - [ ] Frage 37 --- __________
-- [ ] Frage 38 --- __________
+- [x] Frage 38 --- siehe Frage 4
 - [ ] Frage 39 --- __________
 - [ ] Frage 40 --- __________
 - [ ] Frage 41 --- __________
@@ -52,14 +52,14 @@
 - [ ] Frage 49 --- __________
 - [ ] Frage 50 --- __________
 - [ ] Frage 51 --- __________
-- [ ] Frage 52 --- __________
-- [ ] Frage 53 --- __________
-- [ ] Frage 54 --- __________
-- [ ] Frage 55 --- __________
-- [ ] Frage 56 --- __________
-- [ ] Frage 57 --- __________
-- [ ] Frage 58 --- __________
-- [ ] Frage 59 --- __________
+- [x] Frage 52 --- Matthias
+- [x] Frage 53 --- Matthias
+- [x] Frage 54 --- Matthias
+- [x] Frage 55 --- Matthias
+- [x] Frage 56 --- Matthias
+- [ ] Frage 57 --- Matthias
+- [ ] Frage 58 --- Matthias
+- [ ] Frage 59 --- Matthias
 - [ ] Frage 60 --- __________
 - [ ] Frage 61 --- __________
 - [ ] Frage 62 --- __________
@@ -70,7 +70,7 @@
 - [ ] Frage 67 --- __________
 - [ ] Frage 68 --- __________
 - [ ] Frage 69 --- __________
-- [ ] Frage 70 --- __________
+- [x] Frage 70 --- siehe Frage 52
 - [ ] Frage 71 --- __________
 - [ ] Frage 72 --- __________
 - [ ] Frage 73 --- __________
@@ -80,12 +80,12 @@
 - [ ] Frage 77 --- __________
 - [ ] Frage 78 --- __________
 - [ ] Frage 79 --- __________
-- [ ] Frage 80 --- __________
-- [ ] Frage 81 --- __________
-- [ ] Frage 82 --- __________
+- [x] Frage 80 --- siehe Frage 1
+- [x] Frage 81 --- siehe Frage 2
+- [x] Frage 82 --- siehe Frage 3
 - [ ] Frage 83 --- __________
 - [ ] Frage 84 --- __________
-- [ ] Frage 85 --- __________
+- [x] Frage 85 --- siehe Frage 4
 - [ ] Frage 86 --- __________
 - [ ] Frage 87 --- __________
 - [ ] Frage 88 --- __________
