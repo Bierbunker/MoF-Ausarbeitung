@@ -23,7 +23,7 @@
 \usepackage{lastpage}
 \usepackage{graphicx}
 \usepackage{float}
-
+\usepackage{mhchem}
 \usepackage{xcolor}
 \usepackage[hidelinks,colorlinks]{hyperref}
 %Colorlinks setup:
@@ -115,14 +115,52 @@ Es ist wichtig zu beachten, dass obwohl diese Fragen ähnliche Themen behandeln,
 \question{Austauschenergie beim H2 Molekül? Wann ist es groß/klein? Wieso ist es für die Bindung wichtig?}
 \label{q:1}
 
+Die Austauschenergie oder oft auch \textbf{Austauschwechselwirkung} spielt bei der chemischen Bindung eine bedeutende Rolle. \\
+Sie ist groß, falls sich die Atomorbitale stark überlappen---sprich symmetrisch sind---und kleiner falls sie sich weniger überlappen (=anti-symmetrisch). \\
+Wie man in der Abbildung erkennen kann, ergibt sich eine Bindung nur, wenn die Orbitale sich überlappen (im symmetrischen Fall $U_S$). \\
+\begin{figure}[H]  
+    \centering
+    \includegraphics[width=.4\textwidth]{resources/05-01-2015/Frage1.png}
+    \caption{siehe \href{http://hyperphysics.phy-astr.gsu.edu/hbase/molecule/hmol.html}{LINK}}
+\end{figure}
+
 \question{Was kann man aus dem Rotations-Schwingungsspektrum für molekulare Größen bestimmen?}
 \label{q:2}
+
+Unter Annahme, dass die beiden Atome ihren Abstand bei Rotation nicht ändern kann man den \textbf{Bindungsabstand} $R_e$ bestimmen. \\
+Weiter lässt sich die \textbf{Rotationskonstante} $B_e$ bzw. deren anharmonischer Anteil $\alpha_e$, die \textbf{Schwingungsfrequenz} $\omega$ und das \textbf{Trägheitsmoment} $I$ bestimmen. \\
+
+\[B_e = \frac{\hbar}{4 \pi c M R_e^2}\text{\quad [cm$^{-1}$]}\]
+\[E_{rot} = \frac{\hbar^2}{2 I} \cdot J(J+1)\text{\quad [J]}\]
+\[E_{rot} = B_e \cdot h\cdot c\]
+$J$ ist dabei die Quantenzahl der Rotation und $M$ die reduzierte Masse (damit $M * R_e^2$ eben $I$ entspricht; gilt freilich nur für 2-Atom Systeme). \\
+
+\[\Delta E_{rot} = \frac{(J+1)\hbar^2}{M\cdot {R_e}^2}\]
+\[\Delta E_{vib} = \hbar \cdot \omega\]
 
 \question{Diskutieren Sie elektrische Rotations-Schwingungsübergänge und die Entstehung von Schwingungsbanden.}
 \label{q:3}
 
+Übergänge zwischen Schwingungs-Rotations-Niveaus ($f_i$,$J_i$) $\rightarrow$ ($f_j$,$J_j$) innerhaltb desselben elektronischen Zustandes bilden für $f_i \neq f_j$ ein Schwingungs-Rotations-Spektrum. \\
+
+\textbf{WICHTIG:} nur Moleküle welche ein permanentes Dipolmoment besitzen können solche Übergänge durchführen (z.B.: \ce{CO2}, \ce{H2O} aber \underline{nicht} \ce{O2}, andere homonuklearen, \dots etc.). \\
+
+Wird Energie (Photon) von außen zugeführt oder abgegeben, so kann ein Übergang zwischen den Niveaus stattfinden - Auswahlregel $\Delta J = \pm 1$. Sprich Rotations-Schwingungsübergänge spielen sich zwischen benachbarten Niveaus ab.\\
+
+\textbf{Schwingungsbanden} bezeichnen nun alle Rotationslinien welche zu einem Schwingungsübergang gehören. \\
+
+
 \question{Was für ein Zusammenhang besteht zwischen der Gitterebene und einem Vektor im reziproken Raum?}
 \label{q:4}
+
+Der Abstand zweier Gitterebenen $d_{hkl}$ ist gegeben durch:
+\[d_{hkl} = \frac{a}{\sqrt{h^2 + k^2 + l^2}}\]
+und hängt mit dem reziproken Gittervektor $\vec{G_{hkl}}$ 
+\[\vec{G_{hkl}} = h\vec{b_1} + k\vec{b_2} + l\vec{b_3}\]
+wie folgt zusammen:
+\[d_{hkl} = \frac{2\pi}{|\vec{G_{hkl}}|}\]
+
+Somit ist die Länge des reziproken Gittervektors $\vec{G_{hkl}}$ indirekt proportional zum Abstand der Gitterebenen $d_{hkl}$.
 
 \question{Erklären Sie das Auftreten von Energiebandlücken mit Hilfe des Models der fast freien Elektronen.}
 \label{q:5}
