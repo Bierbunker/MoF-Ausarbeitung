@@ -279,17 +279,65 @@ Es ist wichtig zu beachten, dass obwohl diese Fragen ähnliche Themen behandeln,
 \question{Diskutiere die Elektronenkonfiguration von N2.}
 \label{q:52}
 
+N$_2$: $1\sigma_g^2 ~ 1\sigma_u^{*2} ~ 2\sigma_g^2 ~ 2\sigma_u^{*2} ~ 1\pi_u^4 ~ 3\sigma_g^2$ \\
+14 Elektronen werden auf die $\pi$- und $\sigma$-Bindungen aufgeteilt. Achtung: Die Reihenfolge der $1\pi$- und der $3\sigma$-Orbitale kann variieren. Die unterschiedliche Reihenfolge dieser Orbitale kommt durch eine Mischung der s- und p-Atomorbitale zustande: Eine solche kann vorkommen, wenn der energetische Unterschied zwischen dem 2s- und dem 2p-Orbital der Atome klein genug ist (N$_2$ bildet genau die Grenze, bis zu der die Bildung dieser Mischung möglich ist). Dadurch wird zwar das $2\sigma_g$-Orbital stärker bindend, das $3\sigma_g$ wird jedoch schwächer bindend. Dadurch ist das $1\pi_u$-Orbital energetisch günstiger als das $3\sigma_g$ (\autoref{fig:q52}). Ist der (energetische) Abstand zwischen den s- und p-Atomorbitalen groß genug, so kann die Mischung der Orbitale vernachlässigt werden.
+
+\begin{figure}[H]  
+    \centering
+    \includegraphics[width=.4\textwidth]{resources/24-03-2015/N2-F2.png}
+    \caption{Elektronische Struktur von N$_2$ und F$_2$.}
+    \label{fig:q52}
+\end{figure}
+
+
 \question{Diskutiere die Van der Waals Wechselwirkung und das Lennard-Jones Potential.}
 \label{q:53}
+
+Befindet sich ein neutrales Atom in einem elektrischen Feld $\vb{E}$, so induziert das Feld ein Dipolmoment $\vb{p_{ind}}$. Umgekehrt kann durch ein bestehendes Dipolmoment $\vb{p_A}$ aber auch ein elektrisches Feld entstehen - aus der Multipolentwicklung des elektrischen Feldes einer Ladungsverteilung ergibt sich für den Dipolanteil:
+\begin{equation*}
+    \vb{E}(\vb{p_A}) = \frac{1}{4\pi\varepsilon_0 R^3} (3 p_A \vb{\hat{R}} \cos{\theta_A} - \vb{p_A})
+\end{equation*}
+Ein neutrales Atom mit kugelsymmetrischer Elektronenhülle weist über die Zeit gemittelt aufgrund der Bewegung der Elektronen kein Dipolmoment auf - trotzdem hat ein solches Atom immer ein momentanes Dipolmoment. Dadurch entsteht ein elektrisches Feld, welches in einem anderen neutralen Atom ein Dipolmoment induzieren kann. Diese Wechselwirkung neutraler Atome ist die van-der-Waals-Wechselwirkung. Sie ist relativ schwach im Vergleich zu einer Ionenbindung und vor allem kurzreichweitig. Für das van-der-Waals-Potential gilt:
+\begin{equation*}
+    E_{pot}(R) = -\frac{C}{R^6}
+\end{equation*}
+Um das Potential noch besser zu beschreiben wird das empirisch ermittelte Lennard-Jones-Potential verwendet, das zusätzlich zum anziehenden Term des van-der-Waals-Potenzials noch einen abstoßenden Term berücksichtigt:
+\begin{equation*}
+    E_{pot}(R) = \frac{a}{R^{12}} - \frac{b}{R^6}
+\end{equation*}
+Dabei sind $a$ und $b$ Anpassungsparameter, die so gewählt werden, dass das Potenzial dem experimentell bestimmten Potenzial in möglichst guter Näherung entspricht. Durch die Kombination von anziehendem und abstoßendem Term entsteht ein Minimum des Potenzials beim Bindungsabstand mit $E_B = E_{pot}(R_e) = \frac{b^2}{2a}$.
+
 
 \question{Konzept des Bravaisgitters und der Wigner-Seitz Zelle.}
 \label{q:54}
 
+Ein Bravaisgitter ist ein rein mathematisches Gitter, welches die Periodizität eines Kristallgitters beschreiben soll. An die einzelnen Gitterpunkte des periodischen Bravaisgitters können im Prinzip beliebig komplizierte Kombinationen von Atomen oder Molekülen gesetzt werden, die dann als Basis bezeichnet werden. Das Bravaisgitter beschreibt also nur die Periodizität, die Basis beschreibt die konkrete Struktur des Kristalls. Wichtig: Die Anordnung und Orientierung der Punkte im Bravaisgitter müssen identisch sein, egal von welchem Punkt man es betrachtet.
+
+In einem solchen Gitter lassen sich unterschiedliche Arten von Einheitszellen definieren. Die Wigner-Seitz-Zelle lässt sich konstruieren, indem man:
+\begin{itemize}
+    \item ein Atom mit allen seinen Nachbarn verbindet
+    \item Die Mittelsenkrechte auf alle Verbindungslinien konstruiert (in 3D entspricht das einer Ebene)
+    \item Die von diesen Flächen eingeschlossene Fläche entspricht dann der Wigner-Seitz-Einheitszelle
+\end{itemize}
+Anmerkung: Konstruiert man die Wigner-Seitz-Einheitszelle im reziproken Gitter, so entspricht diese der 1. Brillouin-Zone.
+
 \question{Diskutiere den Unterschied zwischen der akustischen und optischen Phononendispersionsrelation bzw. longitudinaler/transversaler, akustischer und optischer Phononen.}
 \label{q:55}
 
+Betrachtet man eine eindimensionale Kette aus zwei abwechselnd aufeinander folgenden Atomen $M_1$ und $M_2$, welche durch eine Hook'sche Feder verbunden sind, und löst die zugehörige Bewegungsgleichung, so ergibt sich daraus eine quadratische Gleichung für die Frequenz $\omega$. Die beiden Lösungen dieser Gleichung sind der optische und der akustische Ast, wobei der optische Ast nur dann auftritt, wenn die Kette tatsächlich aus einer zweiatomigen Basis besteht. Bei einer einatomigen Basis gibt es nur den akustischen Ast. Der optische Ast weist außerdem eine höhere Frequenz auf. Durch die unterschiedliche räumliche Orientierung der Schwingung lassen sich der akustische und der optische Ast weiters in transversale und longitudinale Äste einteilen. Bei $s$ Atomen pro Einheitszelle ergeben sich immer $3$ akustische Freiheitsgrade und $3s-3$ optische Freiheitsgrade (also insgesamt $3s$ Schwigungsäste).
+% eventuell noch ausbaufähig
+
 \question{Diskutiere das statische Verhalten des freien Elektronengases.}
 \label{q:56}
+
+Eine der Annahmen des klassischen Drude-Modells zur Beschreibung der Elektronen als freies Elektronengas schließt Kollisionen zwischen Elektronen aus und beschränkt sich somit nur auf Stöße zwischen Elektronen und Atomrümpfen. Letztere werden dabei als statisch betrachtet. Im Modell werden zusammengefasst die folgenden Annahmen getroffen:
+
+\begin{enumerate}
+    \item ideales Elektronengas: Keine WW zwischen den Elektronen
+    \item Elektronen kollidieren nur mit Atomrümpfen, nicht untereinander
+    \item Die Geschwindigkeit der Elektronen nach einem Stoß entspricht der Temperatur und sind damit vom herrschenden thermodynamischen Gleichgewicht abhängig
+    \item Die mittlere freie Weglänge liegt in der Größenordnung der Atomabstände
+\end{enumerate}
 
 \question{Diskutiere die Einstein- und Debye-Näherung der Wärmekapazität.}
 \label{q:57}

@@ -52,14 +52,14 @@
 - [ ] Frage 49 --- __________
 - [ ] Frage 50 --- __________
 - [ ] Frage 51 --- __________
-- [ ] Frage 52 --- __________
-- [ ] Frage 53 --- __________
-- [ ] Frage 54 --- __________
-- [ ] Frage 55 --- __________
-- [ ] Frage 56 --- __________
-- [ ] Frage 57 --- __________
-- [ ] Frage 58 --- __________
-- [ ] Frage 59 --- __________
+- [x] Frage 52 --- Matthias
+- [x] Frage 53 --- Matthias
+- [x] Frage 54 --- Matthias
+- [x] Frage 55 --- Matthias
+- [x] Frage 56 --- Matthias
+- [x] Frage 57 --- Matthias
+- [x] Frage 58 --- Matthias
+- [x] Frage 59 --- Matthias
 - [ ] Frage 60 --- __________
 - [ ] Frage 61 --- __________
 - [ ] Frage 62 --- __________
