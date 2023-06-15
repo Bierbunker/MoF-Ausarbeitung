@@ -229,6 +229,38 @@ Siehe \aqref{4}.
 \question{Skizzieren der wesentlichen Elemente der Born-Oppenheimer Näherung.}
 \label{q:21}
 
+Da die Atomkerne eine wesentlich größere Masse als die Elektronen haben und sich dadurch viel langsamer bewegen, ist es mit der Born-Oppenheimer
+Näherung möglich die Positionen der Kerne zu fixieren. Somit lässt sich die molekulare Schrödingergleichung in eine für die Kerne und eine
+für die Elektronen aufteilen.
+
+\begin{itemize}
+    \item Für die Elektronen stehen die Kerne still, wodurch ihre Lage als Parameter in das anziehende und abstoßende Potential eingeht.
+        Somit hängen die elektronischen Eigenzustände und Energien nur von der Lage der Kerne ab und nicht von der Geschwindigkeit.\\
+            Die Schrödingergleichung für die Elektronen lautet somit:
+            
+        \begin{align}
+            \hat{H}_e * \Phi_h(\vec{r},\vec{R}) = E_h(\vec{R}) *  \Phi_h(\vec{r},\vec{R})
+        \end{align}
+
+        Dabei ist $\vec{r}$ die Position der Elektronen und $\vec{R}$ die der Kerne. Der Hamiton besteht aus $\hat{H}_e = \hat{T}_e + \hat{V}_{ee} + \hat{V}_{eN}$, 
+        also der kinetischen Energie der Elektronen + der Abstoßung zwischen den Elektronen + der Anziehung zwischen Kernen und Elektronen.
+
+        \begin{figure}[H]
+            \includegraphics[width=0.8\linewidth]{resources/09-05-2012/born_op.PNG}
+            \caption{Elektronischer Hamiton}
+        \end{figure}
+
+    \item Die Kernbewegeung ist von den Elektronen nahezu unbeeinflusst, jedoch bewegen sie sich im Potential der elektrischen Zustände. 
+        Die Kern-Wellenfunktion $\eta_{hk}(\vec{R})$ hängt nur von der Kernkoordinate $\vec{R}$ ab.\\
+        Die Schrödingergleichung lautet: 
+
+        \begin{align}
+            (\hat{T}_n + \hat{V}_{NN} + E_h(\vec{R})) * \eta_{hk}(\vec{R}) = E_{hk} * \eta_{hk}(\vec{R})
+        \end{align}
+\end{itemize}
+
+
+
 \question{Welche Informationen über molekulare Kerngrößen können aus Rotations-Schwingungsspektren von Molekülen erhalten werden?}
 \label{q:22}
 
