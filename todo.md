@@ -8,19 +8,19 @@
 - [ ] Frage 5 --- __________
 - [ ] Frage 6 --- __________
 - [ ] Frage 7 --- __________
-- [ ] Frage 8 --- __________
-- [ ] Frage 9 --- __________
+- [ ] Frage 8 --- Nadine
+- [ ] Frage 9 --- Nadine
 - [ ] Frage 10 --- __________
 - [ ] Frage 11 --- __________
 - [x] Frage 12 --- siehe Frage 1
 - [ ] Frage 13 --- __________
 - [ ] Frage 14 --- __________
 - [x] Frage 15 --- siehe Frage 4
-- [ ] Frage 16 --- __________
+- [ ] Frage 16 --- Nadine
 - [ ] Frage 17 --- __________
 - [ ] Frage 18 --- __________
 - [ ] Frage 19 --- __________
-- [ ] Frage 20 --- __________
+- [ ] Frage 20 --- siehe Frage 9
 - [x] Frage 21 --- Christine
 - [ ] Frage 22 --- __________
 - [ ] Frage 23 --- __________
@@ -87,7 +87,7 @@
 - [ ] Frage 84 --- __________
 - [x] Frage 85 --- siehe Frage 4
 - [ ] Frage 86 --- __________
-- [ ] Frage 87 --- __________
+- [ ] Frage 87 --- siehe Frage 8
 - [ ] Frage 88 --- __________
 
 
