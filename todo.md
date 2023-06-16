@@ -21,7 +21,7 @@
 - [ ] Frage 18 --- __________
 - [ ] Frage 19 --- __________
 - [ ] Frage 20 --- __________
-- [ ] Frage 21 --- Christine
+- [x] Frage 21 --- Christine
 - [ ] Frage 22 --- __________
 - [ ] Frage 23 --- __________
 - [ ] Frage 24 --- __________
@@ -29,9 +29,9 @@
 - [ ] Frage 26 --- __________
 - [ ] Frage 27 --- __________
 - [ ] Frage 28 --- __________
-- [ ] Frage 29 --- Christine
+- [x] Frage 29 --- Christine
 - [ ] Frage 30 --- __________
-- [ ] Frage 31 --- Christine
+- [x] Frage 31 --- Christine
 - [ ] Frage 32 --- __________
 - [ ] Frage 33 --- __________
 - [ ] Frage 34 --- __________
@@ -61,8 +61,8 @@
 - [ ] Frage 58 --- Matthias
 - [ ] Frage 59 --- Matthias
 - [ ] Frage 60 --- __________
-- [ ] Frage 61 --- Christine
-- [ ] Frage 62 --- Christine
+- [x] Frage 61 --- Christine
+- [x] Frage 62 --- Christine
 - [ ] Frage 63 --- __________
 - [ ] Frage 64 --- __________
 - [ ] Frage 65 --- __________
