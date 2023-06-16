@@ -15,6 +15,7 @@ def count_x_in_brackets(file_path):
                 in_brackets = False
             elif char == 'x' and in_brackets:
                 count += 1
+        print(f'Number of x\'s in brackets: {count} - relative progress: {count/100:.2f}')
         return count
 
 def visualize_progress(count, max_count=100):
