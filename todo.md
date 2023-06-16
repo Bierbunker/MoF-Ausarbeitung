@@ -71,14 +71,14 @@
 - [ ] Frage 68 --- __________
 - [ ] Frage 69 --- __________
 - [x] Frage 70 --- siehe Frage 52
-- [ ] Frage 71 --- __________
-- [ ] Frage 72 --- __________
+- [x] Frage 71 --- siehe Frage 61
+- [x] Frage 72 --- siehe Frage 62
 - [ ] Frage 73 --- __________
 - [ ] Frage 74 --- siehe Frage 26
 - [ ] Frage 75 --- __________
 - [ ] Frage 76 --- __________
 - [ ] Frage 77 --- __________
-- [ ] Frage 78 --- __________
+- [x] Frage 78 --- Christine
 - [ ] Frage 79 --- __________
 - [x] Frage 80 --- siehe Frage 1
 - [x] Frage 81 --- siehe Frage 2
