@@ -19,24 +19,24 @@
 - [ ] Frage 16 --- __________
 - [ ] Frage 17 --- __________
 - [ ] Frage 18 --- __________
-- [ ] Frage 19 --- __________
+- [ ] Frage 19 --- Nadine
 - [ ] Frage 20 --- siehe Frage 9
 - [x] Frage 21 --- Christine
 - [ ] Frage 22 --- __________
 - [ ] Frage 23 --- __________
 - [ ] Frage 24 --- __________
 - [ ] Frage 25 --- __________
-- [ ] Frage 26 --- __________
-- [ ] Frage 27 --- __________
+- [ ] Frage 26 --- Nadine
+- [ ] Frage 27 --- Nadine
 - [ ] Frage 28 --- __________
 - [x] Frage 29 --- Christine
 - [ ] Frage 30 --- __________
 - [x] Frage 31 --- Christine
-- [ ] Frage 32 --- __________
+- [ ] Frage 32 --- Nadine
 - [ ] Frage 33 --- __________
 - [ ] Frage 34 --- __________
 - [ ] Frage 35 --- __________
-- [ ] Frage 36 --- __________
+- [ ] Frage 36 --- siehe Frage 27
 - [ ] Frage 37 --- __________
 - [x] Frage 38 --- siehe Frage 4
 - [ ] Frage 39 --- __________
@@ -47,7 +47,7 @@
 - [ ] Frage 44 --- __________
 - [ ] Frage 45 --- __________
 - [ ] Frage 46 --- __________
-- [ ] Frage 47 --- __________
+- [ ] Frage 47 --- siehe Frage 27
 - [ ] Frage 48 --- __________
 - [ ] Frage 49 --- __________
 - [ ] Frage 50 --- __________
@@ -63,7 +63,7 @@
 - [ ] Frage 60 --- __________
 - [x] Frage 61 --- Christine
 - [x] Frage 62 --- Christine
-- [ ] Frage 63 --- __________
+- [ ] Frage 63 --- siehe Frage 26
 - [ ] Frage 64 --- __________
 - [ ] Frage 65 --- __________
 - [ ] Frage 66 --- __________
@@ -74,7 +74,7 @@
 - [ ] Frage 71 --- __________
 - [ ] Frage 72 --- __________
 - [ ] Frage 73 --- __________
-- [ ] Frage 74 --- __________
+- [ ] Frage 74 --- siehe Frage 26
 - [ ] Frage 75 --- __________
 - [ ] Frage 76 --- __________
 - [ ] Frage 77 --- __________
