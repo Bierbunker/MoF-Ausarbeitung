@@ -5,7 +5,7 @@
 - [x] Frage 2 --- Elias
 - [x] Frage 3 --- Elias
 - [x] Frage 4 --- Elias
-- [ ] Frage 5 --- __________
+- [ ] Frage 5 --- Christine
 - [ ] Frage 6 --- __________
 - [ ] Frage 7 --- __________
 - [ ] Frage 8 --- Nadine
@@ -34,8 +34,8 @@
 - [x] Frage 31 --- Christine
 - [ ] Frage 32 --- Nadine
 - [ ] Frage 33 --- __________
-- [ ] Frage 34 --- __________
-- [ ] Frage 35 --- __________
+- [ ] Frage 34 --- siehe Frage 62
+- [ ] Frage 35 --- siehe Frage 57
 - [ ] Frage 36 --- siehe Frage 27
 - [ ] Frage 37 --- __________
 - [x] Frage 38 --- siehe Frage 4
@@ -66,19 +66,19 @@
 - [ ] Frage 63 --- siehe Frage 26
 - [ ] Frage 64 --- __________
 - [ ] Frage 65 --- __________
-- [ ] Frage 66 --- __________
+- [x] Frage 66 --- siehe Frage 57
 - [ ] Frage 67 --- __________
 - [ ] Frage 68 --- __________
-- [ ] Frage 69 --- __________
+- [ ] Frage 69 --- Christine
 - [x] Frage 70 --- siehe Frage 52
 - [x] Frage 71 --- siehe Frage 61
 - [x] Frage 72 --- siehe Frage 62
-- [ ] Frage 73 --- __________
-- [ ] Frage 74 --- siehe Frage 26
+- [ ] Frage 73 --- Christine
+- [x] Frage 74 --- siehe Frage 26
 - [ ] Frage 75 --- __________
 - [ ] Frage 76 --- __________
 - [ ] Frage 77 --- __________
-- [x] Frage 78 --- Christine
+- [x] Frage 78 --- siehe Frage 57
 - [ ] Frage 79 --- __________
 - [x] Frage 80 --- siehe Frage 1
 - [x] Frage 81 --- siehe Frage 2
