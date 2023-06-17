@@ -20,7 +20,7 @@
 - [ ] Frage 17 --- __________
 - [ ] Frage 18 --- __________
 - [ ] Frage 19 --- Nadine
-- [ ] Frage 20 --- siehe Frage 9
+- [x] Frage 20 --- siehe Frage 9
 - [x] Frage 21 --- Christine
 - [ ] Frage 22 --- __________
 - [ ] Frage 23 --- __________
@@ -34,9 +34,9 @@
 - [x] Frage 31 --- Christine
 - [ ] Frage 32 --- Nadine
 - [ ] Frage 33 --- __________
-- [ ] Frage 34 --- siehe Frage 62
-- [ ] Frage 35 --- siehe Frage 57
-- [ ] Frage 36 --- siehe Frage 27
+- [x] Frage 34 --- siehe Frage 62
+- [x] Frage 35 --- siehe Frage 57
+- [x] Frage 36 --- siehe Frage 27
 - [ ] Frage 37 --- __________
 - [x] Frage 38 --- siehe Frage 4
 - [ ] Frage 39 --- __________
@@ -47,7 +47,7 @@
 - [ ] Frage 44 --- __________
 - [ ] Frage 45 --- __________
 - [ ] Frage 46 --- __________
-- [ ] Frage 47 --- siehe Frage 27
+- [x] Frage 47 --- siehe Frage 27
 - [ ] Frage 48 --- __________
 - [ ] Frage 49 --- __________
 - [ ] Frage 50 --- __________
@@ -63,17 +63,17 @@
 - [ ] Frage 60 --- __________
 - [x] Frage 61 --- Christine
 - [x] Frage 62 --- Christine
-- [ ] Frage 63 --- siehe Frage 26
+- [x] Frage 63 --- siehe Frage 26
 - [ ] Frage 64 --- __________
 - [ ] Frage 65 --- __________
 - [x] Frage 66 --- siehe Frage 57
 - [ ] Frage 67 --- __________
 - [ ] Frage 68 --- __________
-- [ ] Frage 69 --- Christine
+- [x] Frage 69 --- Christine
 - [x] Frage 70 --- siehe Frage 52
 - [x] Frage 71 --- siehe Frage 61
 - [x] Frage 72 --- siehe Frage 62
-- [ ] Frage 73 --- Christine
+- [x] Frage 73 --- Christine
 - [x] Frage 74 --- siehe Frage 26
 - [ ] Frage 75 --- __________
 - [ ] Frage 76 --- __________
@@ -87,7 +87,7 @@
 - [ ] Frage 84 --- __________
 - [x] Frage 85 --- siehe Frage 4
 - [ ] Frage 86 --- __________
-- [ ] Frage 87 --- siehe Frage 8
+- [x] Frage 87 --- siehe Frage 8
 - [ ] Frage 88 --- __________
 
 
