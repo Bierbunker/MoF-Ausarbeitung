@@ -11,9 +11,9 @@
 - [ ] Frage 8 --- Nadine
 - [ ] Frage 9 --- Nadine
 - [ ] Frage 10 --- Felix
-- [ ] Frage 11 --- Felix
+- [x] Frage 11 --- Felix
 - [x] Frage 12 --- siehe Frage 1
-- [ ] Frage 13 --- Felix
+- [x] Frage 13 --- Felix
 - [ ] Frage 14 --- Felix
 - [x] Frage 15 --- siehe Frage 4
 - [ ] Frage 16 --- __________
