@@ -16,7 +16,7 @@
 - [x] Frage 13 --- Felix
 - [x] Frage 14 --- Felix
 - [x] Frage 15 --- siehe Frage 4
-- [ ] Frage 16 --- Felix
+- [x] Frage 16 --- Felix
 - [x] Frage 17 --- Felix
 - [ ] Frage 18 --- __________
 - [ ] Frage 19 --- Nadine
