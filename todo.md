@@ -22,10 +22,10 @@
 - [ ] Frage 19 --- Nadine
 - [x] Frage 20 --- siehe Frage 9
 - [x] Frage 21 --- Christine
-- [ ] Frage 22 --- __________
-- [ ] Frage 23 --- __________
-- [ ] Frage 24 --- __________
-- [ ] Frage 25 --- __________
+- [ ] Frage 22 --- schwechblechlover
+- [ ] Frage 23 --- schwechblechlover
+- [ ] Frage 24 --- schwechblechlover
+- [ ] Frage 25 --- schwechblechlover
 - [ ] Frage 26 --- Nadine
 - [ ] Frage 27 --- Nadine
 - [ ] Frage 28 --- __________
