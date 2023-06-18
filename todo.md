@@ -40,11 +40,11 @@
 - [ ] Frage 37 --- __________
 - [x] Frage 38 --- siehe Frage 4
 - [ ] Frage 39 --- __________
-- [ ] Frage 40 --- __________
-- [ ] Frage 41 --- __________
-- [ ] Frage 42 --- __________
-- [ ] Frage 43 --- __________
-- [ ] Frage 44 --- __________
+- [ ] Frage 40 ---Kathi
+- [ ] Frage 41 ---Kathi
+- [ ] Frage 42 ---Kathi
+- [ ] Frage 43 ---Kathi
+- [ ] Frage 44 ---Kathi
 - [ ] Frage 45 --- __________
 - [ ] Frage 46 --- __________
 - [x] Frage 47 --- siehe Frage 27
