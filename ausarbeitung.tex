@@ -244,8 +244,53 @@ Siehe \aqref{4}.
 \question{Diskutieren Sie die Wärmekapazität des Gitters im Rahmen des klassischen und der Quantenmechanik.}
 \label{q:16}
 
+\textbf{Klassische Mechanik}:\\
+\begin{itemize}
+    \item Keine Translations- und Rotationsfreiheitsgrade
+    \item Jedes Atom kann in 3 voneinander unabhängigen Raumrichtungen schwingen:
+    \begin{itemize}
+        \item 3 Schwingungsfreiheitsgrade der kinetischen Energie
+        \item 3 Schwingungsfreiheitsgrade der potentiellen Energie
+    \end{itemize}
+\end{itemize}
+Gesetzt von Dulong-Petit:
+\begin{equation}
+    f = 6 \qquad c_\nu ^m = 3N_Ak_B = 3R = \SI{24.9}{\frac{J}{K mol}}
+\end{equation}
+
+\textbf{Quantenmechanik}
+Quantisierung der Gitterschwingungen entscheidend für die innere Energie und
+die spezifische Wärme des Kristallgitters.\\
+Bei niedrigen Temperaturen ($k_BT<<\hbar\omega$) kommt es zu einem Ausfrieren der Schwingungsfreiheitsgrade:
+\begin{equation}
+    c_\nu^m \rightarrow 0
+\end{equation}
+Bei hohen Temperaturen ($k_BT>>\hbar\omega$):
+\begin{equation}
+    c_\nu^m \rightarrow 3R \qquad \text{gleich wie beim Gesetzt von Dulong-Petit}
+\end{equation}
+
+
 \question{Wie ermittelt man experimentell eine Phononendispersionskurve?}
 \label{q:17}
+Durch Streuung von Photonen, Neutronen oder Elektronen am Kristallgitter. 
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics{resources/05-05-2015/Frage_17.png}
+    \caption{Inelastische  Streuung an Phononen}
+    \label{fig:enter-label}
+\end{figure}
+Die Dispersionsrelation ergibt sich dann zu:
+\begin{equation}
+    \omega_s(\Vec{k_s})=\omega_s(\Vec{k'}-\Vec{k})
+\end{equation}
+Am besten durch Streuung von Neutronen: 
+\begin{itemize}
+    \item Energie und Impuls von Neutronen im selben Bereich wie Phononen
+    \item Neutronen werden nur an Atomkernen gestreut und regen Gitterschwingungen an
+\end{itemize}
+
 
 \question{Erklären Sie das Zustandekommen von Energiebändern in Festkörper im Rahmen der Theorie der fast-freien Elektronen.}
 \label{q:18}
