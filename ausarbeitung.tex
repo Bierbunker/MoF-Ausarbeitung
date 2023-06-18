@@ -193,6 +193,15 @@ Somit ist die Länge des reziproken Gittervektors $\vec{G_{hkl}}$ indirekt propo
 \question{Skizzieren Sie den Verlauf der Potentialkurve für ein homöopolares Molekül. Erklären Sie sie qualitativ.}
 \label{q:11}
 
+Homöopolare Moleküle sind Moleküle, die aus Atomen desselben Elements bestehen. Sie entstehen durch kovalente Bindungen. In Abbildung \ref{fig:Frage_11} ist die Potentialkurve einer kovalten Bindung dargestellt welche mit einem Lennard-Jones-Potential angenähert werden kann. Für kleine Abstände dominiert der Faktor $\frac{a}{R^12}$ (Abstoßung der Elektronen durch Pauli Prinzip) bei größeren Abständen der Faktor $-\frac{b}{R^6}$ (Columbsche Anziehung). Die Bindungsernergie $E_B$ befindet sich beim globalen Minimum. 
+\begin{figure}[h!]
+    \centering
+    \includegraphics{resources/05-05-2015/Frage_11.png}
+    \caption{Potentialkurve homöopolare Molekül}
+    \label{fig:Frage_11}
+\end{figure}
+
+
 \question{Erklären Sie die Herkunft der 'Austauschenergie' in H2. Wann ist sie groß, wann klein? Warum ist sie entscheidend für die chemische Bindung?}
 \label{q:12}
 
@@ -201,8 +210,17 @@ Siehe \aqref{1}
 \question{Welche Informationen über molekulare Kenngrößen können aus Rotations-Schwingungsspektren von Molekülen erhalten werden?}
 \label{q:13}
 
+Es können folgende Kenngrößen bestimmt werden:
+\begin{itemize}
+\item Gleichgewichtsabstand $R_e$
+\item Rotationskonstanten $B_e$ und $\alpha_e$
+\item Form der Potentialkurve
+\end{itemize}
+
 \question{Diskutiere einen elektronischen Übergang in einem 2-Atomigen Molekül und die daraus resultierenden Schwingungsbanden im Spektrum.}
 \label{q:14}
+
+
 
 \question{Diskutiere den Zusammenhang zwischen Gitterebene im Kristall und Vektoren des reziproken Gitters.}
 \label{q:15}
@@ -333,11 +351,9 @@ $B_2$ = $1\sigma_g^2 ~ 1\sigma_u^{*2} ~ 2\sigma_g^2 ~ 2\sigma_u^{*2} ~ 1\pi_u^2$
 
 \question{Sp sp2 sp3 Bindungen von mehratomigen Molekülen}
 \label{q:34}
-Siehe \qref{q:62}
 
 \question{Debye-Petit (oder so, irgendwas mit spezifischer Wärme von Elektronen)}
 \label{q:35}
-Siehe \qref{q:57}
 
 \question{Atom/Struktur Faktor}
 \label{q:36}
@@ -575,8 +591,6 @@ Dabei gibt es die sp-, die sp2- und die sp3-Hybridisierung:
 \question{Vergleichen Sie die Einstein- und Debye-Modelle der spezifischen Wärme. Welche Annahmen sind in beiden Modellen zu einfach?}
 \label{q:66}
 
-Siehe \qref{q:57}
-
 \question{Diskutieren Sie das Auftreten einer Energiebandlücke mit Hilfe des Modells der fast freien Elektronen.}
 \label{q:67}
 
@@ -585,23 +599,6 @@ Siehe \qref{q:57}
 
 \question{Erklären Sie die chemische Bindung von $O_2$ (O; $Z=8$).}
 \label{q:69}
-
-Elektronenkonfiguration O$_2$: $1\sigma_g^2 ~ 1\sigma_u^{*2} ~ 2\sigma_g^2 ~ 2\sigma_u^{*2} ~ 1\pi_u^4 ~ 3\sigma_g^2 ~ 1\pi_u^4 ~ 1\pi_g^2$ \\
-
-Da beide Sauerstoffatome je zwei freie Elektronenpaare haben, kommt es zu einer Doppelbindung.
-
-\begin{figure}[H]
-    \begin{minipage}[b]{0.5\linewidth} 
-       \includegraphics[width=0.8\linewidth]{resources/28-11-2018/O2.PNG}
-       \caption{Elektronenkonfiguration von $O_2$}
-    \end{minipage}
-    \hspace{0.01\linewidth}
-    \begin{minipage}[b]{0.5\linewidth} 
-       \includegraphics[width=0.8\linewidth]{resources/28-11-2018/o2_bindung.PNG}
-       \caption{Chemische Bindung zweier Sauerstoffatome}
-    \end{minipage}
- \end{figure}
-
 
 \newpage
 \section{31. Oktober 2013}
@@ -619,22 +616,6 @@ Siehe \qref{52}.
 \question{Lennard-Jones Potential und Van der Waals Bindung.}
 \label{q:73}
 
-Van der Waals Kräfte sind die relativ schwachen nicht weitreichende Wechselwirkungen zwischen Atomen oder Molekülen. Sie können ideale Gas Atome zusammenhalten, obwohl diese aufgrund ihrer neutralität keine Coulomb Anziehung zwischen sich haben.
-Normalerweise ist das Dipolmoment eines solchen Atoms 0, jedoch kann durch Schwankungen der Ladung um ihre Durchschnittliche Position kurzzeitig eines entstehen. 
-Das Nachbaratom reagiert auf dieses und es kommt zu einer anziehenden Kraft zwischen ihnen. Der Durchschnitt der Kräfte zwischen den Atomen ist die Van-der-Waals-Kraft. Diese Bindungen sind sehr schwach und die Bindungsenergie beträgt nur wenige meV.
-Das Van-der-Waals Bindungspotential ist oft durch das Lennard-Jones-Potential angenähert. Dieses beschreibt in der Atom- und Molekülphysik die Bindungsenergie. Es nähert die Wechselwirkung zwischen ungeladenen, nicht chemisch aneinander gebundenen Atomen an.
-
-\begin{align}
-    U(R) = 4\epsilon[(\frac{\sigma}{R})^{12} - (\frac{\sigma}{R})^6]
-\end{align}
-
-Dabei entspricht $\epsilon$ der Tiefe der Potentialmulde, $\sigma$ dem Teilchenabstand an der Nullstelle und $R$ dem variierendem Abstand der Teilchen.\\
-
-\begin{figure}[H]
-    \includegraphics[width=0.8\linewidth]{resources/31-10-2013/lennard.PNG}
-    \caption{Beispielhafter Plot des Lennard-Jones-Potentials}
-\end{figure}
-
 \question{Diskutieren Sie die Laue'sche Beugungsbedingung.\
 \label{q:74}
 \qquad \qquad a) Anhand der Ewald-Konstruktion.\
@@ -651,8 +632,6 @@ Dabei entspricht $\epsilon$ der Tiefe der Potentialmulde, $\sigma$ dem Teilchena
 
 \question{Vergleichen Sie das Einstein- und Debye-Modell der spezifischen Wärme. Welche Annahme ist in BEIDEN Modellen zu einfach?}
 \label{q:78}
-
-Siehe \qref{q:57}
 
 \newpage
 \section{Juli 2017}
