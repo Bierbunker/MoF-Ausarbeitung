@@ -6,7 +6,7 @@
 - [x] Frage 3 --- Elias
 - [x] Frage 4 --- Elias
 - [x] Frage 5 --- Christine
-- [ ] Frage 6 --- __________
+- [x] Frage 6 --- David
 - [ ] Frage 7 --- __________
 - [ ] Frage 8 --- Nadine
 - [ ] Frage 9 --- Nadine
