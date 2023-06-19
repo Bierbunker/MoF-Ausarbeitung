@@ -86,7 +86,7 @@
 - [ ] Frage 83 --- __________
 - [ ] Frage 84 --- __________
 - [x] Frage 85 --- siehe Frage 4
-- [ ] Frage 86 --- __________
+- [x] Frage 86 --- siehe Frage 5
 - [x] Frage 87 --- siehe Frage 8
 - [ ] Frage 88 --- __________
 
