@@ -458,16 +458,74 @@ Siehe \aqref{4}.
 
 \question{Einstein-Debye Unterschiede und falsche Annahmen}
 \label{q:40}
+\textbf{Einstein-Näherung} 
+\begin{itemize}
+    \item Annahme: alle Atome im Kristall schwingen mit der gleichen Frequenz $\omega$ = $\omega_E$, wobei $\omega_E$ die Frequenz der optischen Moden darstellt. 
+    \item lässt sich nur auf optische Moden anwenden (nicht auf akkustische!)
+    \item funktioniert gut bei hoher Dichte der optischen Phononen und liefert richtiges 
+    Hochtermperaturlimit nach Dulong-Petit-Gesetz
+    \item funktioniert schlecht bei tiefen Temperaturen und liefert ungenaues Limit für niedrige Temperaturen
+    \item Falsche Annahme: akkustische Moden werden nicht berücksichtigt und alle harmonischen Oszillatoren im Festkörper würden mit einheitlicher Frequenz schwingen.
+\end{itemize}
 
+\textbf{Debye-Näherung} 
+\begin{itemize}
+    \item Annahme: 
+        \begin{itemize}
+            \item Vielzahl möglicher Frequenzen und Ausbreitungsgeschwindigkeit $v_i$ von Wellen/Phononen. 
+            \item Lineare Dispersion $\omega_i=v_ik$ 
+        \end{itemize}
+    \item berücksichtigt nur akkustische Moden
+    \item funktioniert gut bei niedrigen Temperaturen, da niederenergetische (akkustische) Phononen besser dargestellt sind 
+    \item liefert korrektes Limit für hohe und tiefe Temperaturen
+    \item Falsche Annahme: optische Phononen werden nicht berücksichtigt und Effekte nahe der Brillouinzonengrenze werden nicht richtig beschrieben
+\end{itemize}
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=0.6\textwidth]{resources/15-06-2015/Einstein_Debye.jpeg}
+ \caption{Einstein- vs. Debye-Modell}
+ %\label{}
+\end{figure}
 \newpage
 \section{16. März 2012}
 
 \question{Diskutieren der unterschiedlichen Überlegungen in der Valenzbindugsnäherung (VB) und in der Molekularorbitalnäherung (MO) zur Beschreibung der Molekülbindung in einem 2-atomigen Molekül}
 \label{q:41}
+\textbf{VB-Näherung}
+\begin{itemize}
+   
+    \item erklärt Paarung von Elektronen durch Überlappung von Orbitale und Pi- und Sigma-Bindungen
+    \item erklärt Hybridorbitale, aber liefert KEINE Details über Molekülorbitale
+    \item im Grundzustand können zwei Elektronen mit $\uparrow \downarrow$ Spins untergebracht werden
+    \item zwei lokalisierte Elektronen um Kerne A und B
+    \item beide Elektronen werden betrachtet, sodass für beide Wahrscheinlichkeitsamplituden $\Psi_1$ und $\Psi_2$ ein Produktansatz der Atomorbitale notwendig ist 
+    \item Besetzung des Molekülorbitals wird mit Linearkombination von $\Psi_1$ und $\Psi_2$ durch Pauli-Prinzip erzwungen
+\end{itemize}
 
+
+\noindent
+\textbf{MO-Näherung}
+\begin{itemize}
+    \item basiert auf bindenden und antibindenden Molekülorbitalen
+    \item erklärt nicht die Hybridisierung des Orbitale
+    \item ein Elektron betrachtet, dass sich in $\Phi_A$ als auch in $\Phi_B$ aufhalten kann, sodass für dieses Molekülorbital-Ansatz notwendig ist (wobei $\Phi_A$ und $\Phi_B$ atomare Wellenfunktionen)
+    \item für Besetzung des Molekülorbitals mit zwei Elektronen wird Produktansatz verwendet
+\end{itemize}
 \question{Skizzieren der bindenden und antibindenden Wellenfunktionen in einem homonuklearen 2-atomigen Molekül}
 \label{q:42}
-
+\begin{figure}[H]
+    \centering
+   \begin{minipage}[b]{.4\linewidth} % [b] => Ausrichtung an \caption
+      \includegraphics[width=\linewidth]{resources/16-03-2012/sym_und_antisymm_Wellenfunktion.jpeg}
+      \caption{\textbf{Wellenfunktionen} symmetrische (bindend, grün) und antisymmetrische (antibindende, rot) Wellenfunktion}
+   \end{minipage}
+   \hspace{.1\linewidth}% Abstand zwischen Bilder
+   \begin{minipage}[b]{.4\linewidth} % [b] => Ausrichtung an \caption
+      \includegraphics[width=\linewidth]{resources/16-03-2012/Wahrscheinlichkeitsdichten.jpeg}
+      \caption{Wahrscheinlichkeitsdichten der symmetrischen (bindend, grün) und antisymmetrischen (antibindende, rot) Wellenfunktion}
+   \end{minipage}
+\end{figure}
 \question{Diskutieren des Schwigungs-Rotations Spektrums eines 2-atomigen Moleküls}
 \label{q:43}
 
