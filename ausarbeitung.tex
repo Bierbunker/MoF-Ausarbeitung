@@ -1,6 +1,6 @@
 \documentclass[a4paper, 11pt, ngerman, parskip=half-]{scrartcl}
 
-\title{MoF - Fragenkatalog}
+\title{MoF -- Fragenkatalog}
 \subtitle{\href{https://github.com/Bierbunker/MoF-Ausarbeitung}{\underline{Aktuelle Version (Link)}}}
 \date{\today}
 
@@ -172,18 +172,31 @@ Somit ist die Länge des reziproken Gittervektors $\vec{G_{hkl}}$ indirekt propo
 \question{Erklären Sie das Auftreten von Energiebandlücken mit Hilfe des Models der fast freien Elektronen.}
 \label{q:5}
 
+Als Bandlücke, wird der energetische Abstand zwischen Valenzband und Leitungsband eines Festkörpers bezeichnet. Dessen elektrische und optische Eigenschaften werden wesentlich durch die Größe der Bandlücke bestimmt.
+Nach dem Bändermodell sind gebundene Zustände der Elektronen nur auf bestimmten Intervallen der Energieskala zugelassen, den Bändern. Zwischen den Bändern können energetisch verbotene Bereiche liegen. Jeder dieser Bereiche stellt eine Lücke zwischen den Bändern dar, jedoch ist für die physikalischen Eigenschaften eines Festkörpers nur die eventuelle Lücke zwischen dem höchsten noch vollständig mit Elektronen besetzten Band und dem nächsthöheren von entscheidender Bedeutung. Daher ist mit der Bandlücke immer diejenige zwischen Valenz- und Leitungsband gemeint.
+Das Auftreten einer solchen lücke lässt sich durch das Modell der quasifreien Elektronen beschreiben. Dabei wird das Modell freier Elektronen, welches das erhalten der Valenzelektronen in einer kristallinen Struktur eines festen Metalls darstellt, durch ein elektrostatisches periodisches Potential
+erweitert. Dadurch kommt es zu einer näherungsweisen Beschreibung der positive geladenen Atomrümpfe im Kristallgitter. Man setzt dabei zunächst die Periodizität der Energiebänder im reziproken Raum an, welche bei Berücksichtigung eines kleinen Gitterpotentials an den Zonengrenzen eine Bandlücke aufweisen. 
+Diese Methode erlaubt eine theoretische Vorhersage der Bandlücke und damit eine Einteilung der Festkörper in elektrische Leiter, Halbleiter und Isolatoren.
+Hierbei gilt als Faustregel:
+
+\begin{itemize}
+    \item Leiter: keine Bandlücke.
+    \item Halbleiter: Bandlücke im Bereich von 0,1 bis ca. 3 eV.
+    \item Nichtleiter: Bandlücke größer als 3 eV.
+\end{itemize}
+
 \question{Wie kann experimentell die Dispersionsrelationskurve von Phononen ermittelt werden?}
 \label{q:6}
 
 \begin{figure}[H]  
     \centering
-    \includegraphics[width=.6\textwidth]{resources/05-01-2015/Frage6_1.png}
+    \includegraphics[width=.8\textwidth]{resources/05-01-2015/Frage6_1.png}
     \caption{Inelastische Streuung an Phononen}
 \end{figure}
 
 \begin{figure}[H]  
     \centering
-    \includegraphics[width=.6\textwidth]{resources/05-01-2015/Frage6_2.png}
+    \includegraphics[width=.8\textwidth]{resources/05-01-2015/Frage6_2.png}
     \caption{Dispersionsrelation Phononen in einem Experiment}
 \end{figure}
 
@@ -193,16 +206,18 @@ Somit ist die Länge des reziproken Gittervektors $\vec{G_{hkl}}$ indirekt propo
 In der der klassischen Physik wird angenommen, dass die Energieauf- und abnahme eines Materials 
 kontinuerlich ist bzw. die Energieniveaus von Molekülen und Atomen eines Materials kontinuierlich 
 variieren können. \\
-In der Quantenmechanik können die Energieniveaus nur diskrete Werte annehmen, wodurch die 
+In den quantenmechanischen Modellen können die Energieniveaus nur diskrete Werte annehmen, wodurch die 
 Wärmekapazität eines Materials bei niedrigen Temperaturen diskrete Schritte 
 aufweist, die durch die Energieniveaus der quantenmechanischen Zustände bestimmt sind (Einstein, Debye).
+(Die Quantisierung der Gitterschwingungen ist entscheidend für die innere Energie und
+die spezifische Wärme des Kristallgitters.)
 \\
 Bei hohen Temperaturen nähert sich die klassische Wärmekapazität der quantenmechanischen Wärmekapazität 
 an (Abstände zwischen Energieniveaus wird kleiner).
 
 \begin{figure}[H]  
     \centering
-    \includegraphics[width=.6\textwidth]{resources/05-01-2015/Frage7.png}
+    \includegraphics[width=.8\textwidth]{resources/05-01-2015/Frage7.png}
     \caption{Vergleich zwischen Einstein- und Debye-Modell.}
 \end{figure}
 
@@ -223,7 +238,7 @@ Siehe Frage \ref{q:11}
 \question{Skizzieren Sie den Verlauf der Potentialkurve für ein homöopolares Molekül. Erklären Sie sie qualitativ.}
 \label{q:11}
 
-Homöopolare Moleküle sind Moleküle, die aus Atomen desselben Elements bestehen. Sie entstehen durch kovalente Bindungen. In Abbildung \ref{fig:Frage_11} ist die Potentialkurve einer kovalten Bindung dargestellt welche mit einem Lennard-Jones-Potential angenähert werden kann. Für kleine Abstände dominiert der Faktor $\frac{a}{R^12}$ (Abstoßung der Elektronen durch Pauli Prinzip) bei größeren Abständen der Faktor $-\frac{b}{R^6}$ (Columbsche Anziehung). Die Bindungsernergie $E_B$ befindet sich beim globalen Minimum. 
+Homöopolare Moleküle sind Moleküle, die aus Atomen desselben Elements bestehen. Sie entstehen durch kovalente Bindungen. In Abbildung \ref{fig:Frage_11} ist die Potentialkurve einer kovalten Bindung dargestellt welche mit einem Lennard-Jones-Potential angenähert werden kann. Für kleine Abstände dominiert der Faktor $\frac{a}{R^12}$ (Abstoßung der Elektronen durch Pauli Prinzip) bei größeren Abständen der Faktor $-\frac{b}{R^6}$ (Van der Waals). Die Bindungsernergie $E_B$ befindet sich beim globalen Minimum. 
 \begin{figure}[h!]
     \centering
     \includegraphics[width = 0.4\textwidth]{resources/05-05-2015/Frage_11.png}
@@ -323,6 +338,8 @@ Am besten durch Streuung von Neutronen:
 \question{Erklären Sie das Zustandekommen von Energiebändern in Festkörper im Rahmen der Theorie der fast-freien Elektronen.}
 \label{q:18}
 
+siehe \aqref{5}
+
 \question{Erklären Sie das Bloch'sche Theorem für Elektronen im periodischen Potential.}
 \label{q:19}
 
@@ -384,8 +401,24 @@ für die Elektronen aufteilen.
 \question{Erläutere den Atomfaktor und den Strukturfaktor bei der Röntgenbeugung.}
 \label{q:27}
 
-\question{Skizziere die 1. Brillouin Zone eines ebenen ParaRechteckgitters.}
+\question{Skizziere die 1. Brillouin Zone eines ebenen Rechteckgitters.}
 \label{q:28}
+
+\begin{figure}[H]
+    \centering
+    \begin{samepage}
+        \includegraphics[width=0.4\linewidth]{resources/09-05-2012/BZ1.pdf}
+        \caption[1. BZ Rechteckgitter]{1. Brillouin-Zone eines Rechteckgitters}
+        \label{fig:BZ1_rechteckgitter}
+    \end{samepage}
+\end{figure}
+\begin{enumerate}
+    \item Reziprokes Gitter aufzeichen
+    \item Zellenmittelpunkt wählen
+    \item Vom Mittelpunkt in beide Dimensionen den nächstgelegenen Gitterpunkt finden
+    \item Mittelpunkt mit diesen Punkten verbinden
+    \item Auf den Mittelpunkt der Verbindenden eine Orthogonale zeichnen
+\end{enumerate}
 
 \question{Wodurch unterscheiden sich akustische von optischen Phononen?}
 \label{q:29}
@@ -414,8 +447,17 @@ $3N$ mögliche Schwingungsmoden:
 
 
 
-\question{Vergleiche die Einstein- und Debye-Modelle der spez. Wärme. Welche Annahme ist im Einstein Modell zu einfach?}
+\question{Vergleiche die Einstein- und Debye-Modelle der spez. Wärme. Welche Annahme ist im 
+Einstein Modell zu einfach?}
 \label{q:30}
+
+\begin{figure}[H]  
+    \centering
+    \includegraphics[width=.8\textwidth]{resources/09-05-2012/q30.png}
+    \caption{Vergleich zwischen Einstein- und Debye-Modell.}
+\end{figure}
+
+Das Einsteinmodell nimmt an, dass alle Atome im Kristall mit der gleichen Frequenz schwingen, zudem werden keine akustischen Phononen berücksichtigt.
 
 \newpage
 \section{15. Juni 2015}
@@ -433,8 +475,23 @@ $B_2$ = $1\sigma_g^2 ~ 1\sigma_u^{*2} ~ 2\sigma_g^2 ~ 2\sigma_u^{*2} ~ 1\pi_u^2$
 \question{Arten von Para-Diamagnetismus}
 \label{q:32}
 
-\question{Konzept von Bravais Wiener-Seitz Zelle}
+\question{Konzept von Bravais Wigner-Seitz Zelle}
 \label{q:33}
+
+Die Bravais Wigner-Seitz Zelle ist definiert als die Zelle im Raum, die jedem Gitterpunkt am nächsten 
+liegt. Sie hat die folgenden Eigenschaften:
+\begin{enumerate}
+    \item Symmetrie: Die Zelle ist symmetrisch um den Gitterpunkt, von dem aus sie konstruiert wurde, sie weist alles Symmetrieoperationen, welche im gesamten Gitter vorkommen, auf. 
+    \item Ein Gitterpunkt pro Zelle: Die Zelle enthält genau einen Gitterpunkt im Inneren der Zelle. Alle anderen Gitterpunkte des Gitters liegen auf den Seitenflächen der Zelle.
+    \item Nächste Nachbarn: Die Zelle teilt den Raum so auf, dass jeder Gitterpunkt seinem nächstgelegenen Nachbarn am nächsten ist.
+\end{enumerate}
+
+Konstruktion:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{resources/15-06-2015/q33.png}
+    \caption{Konstruktion der Wigner-Seitz Zelle}
+\end{figure}
 
 \question{Sp sp2 sp3 Bindungen von mehratomigen Molekülen}
 \label{q:34}
@@ -614,23 +671,44 @@ Somit sind die Molekülorbitale ($1\sigma_g)^2$ ($1\sigma_u)^2$ ($2\sigma_g)^2$ 
 Da das ($2\sigma_g)$ Orbital besetzt ist, handelt es sich um eine stabile Bindung. 
 Es gibt ein bindendes Elektronenpaar und daher handelt es sich um eine kovalente Bindung.
 
-\question{Was versteht man unter dem Franck-Condon Prinzip? Diskutiere die Intensität von Schwingungsbänden in einem Molekülspektrum bei einem elektronischen Übergang an Hand des Franck-Condon Prinzips.}
+\question{Was versteht man unter dem Franck-Condon-Prinzip? Diskutiere die Intensität von Schwingungsbänden in einem Molekülspektrum bei einem elektronischen Übergang anhand des Franck-Condon-Prinzips.}
 \label{q:45}
 
 \question{Wodurch unterscheidet sich ein fcc Gitter von einem hcp?}
 \label{q:46}
 
+fcc- face centered cubic, hcp - hexagonal close packed
+
+\begin{enumerate}
+    \item Anordnung der Atome: Im fcc-Gitter sind die Atome auf den Eckpunkten eines Würfels sowie in den Zentren der sechs Flächen platziert. Im hcp-Gitter sind die Atome hexagonal angeordnet.
+    \item Einheitszelle: Im fcc-Gitter ist die Einheitszelle ein Würfel, jeder Eckpunkt enthält ein Atom. Im hcp-Gitter ein hexagonales Prisma, jede Basiseben enthält ein Atom.
+    \item Schichstruktur: Im fcc-Gitter gibt es keine klaren Schichten, da die Atome gleichmäßig im Raum verteilt sind. Im hcp-Gitter sind die Schichten klar definiert.
+    \item Komprimierung: Im fcc-Gitter beträgt a:c : $\sqrt{2}:1$. Im hcp-Gitter beträgt a:c : $\sqrt{3}:2$.
+\end{enumerate}
+
 \question{Erläutere den Atomfaktor und den Strukturfaktor bei der Röntgenbeugung.}
 \label{q:47}
 
-\question{Skizziere die 1. Brillouin Zone eines ebenen Parallelogrammgitters.}
+\question{Skizziere die 1. Brillouin-Zone eines ebenen Parallelogrammgitters.}
 \label{q:48}
+
+Zur Erklärung der Konstruktion siehe \autoref{q:28}.
+\begin{figure}[H]
+    \centering
+    \begin{samepage}
+        \includegraphics[width=0.4\linewidth]{resources/16-03-2012/BZ1.png}
+        \caption[BZ1 Parallelogrammgitter]{1. Brillouin-Zone eines ebenen Parallelogrammgitters}
+        \label{fig:BZ1_Parallelogrammgitter}
+    \end{samepage}
+\end{figure}
 
 \question{Wodurch unterscheidet sich die Dispersionsrelation der Phononen eines primitiven kubischen Gitters von jener eines CsCl-Gitters.}
 \label{q:49}
 
 \question{Vergleiche die Einstein- und Debye-Modelle der spez. Wärme. Welche Annahme ist im Einstein Modell zu einfach?}
 \label{q:50}
+
+siehe \aqref{40}
 
 \newpage
 \section{24. März 2015}
@@ -812,6 +890,8 @@ Dabei gibt es die sp-, die sp2- und die sp3-Hybridisierung:
 \question{Wodurch unterscheiden sich ein fcc-Gitter von einer hcp-Struktur?}
 \label{q:64}
 
+siehe \aqref{46}
+
 \question{Diskutieren Sie die Gitterenergie der Ionenkristalle.}
 \label{q:65}
 
@@ -821,11 +901,29 @@ Dabei gibt es die sp-, die sp2- und die sp3-Hybridisierung:
 \question{Diskutieren Sie das Auftreten einer Energiebandlücke mit Hilfe des Modells der fast freien Elektronen.}
 \label{q:67}
 
+siehe \aqref{5}
+
 \question{Wodurch unterscheidet sich die Dispersionsrelation der Phononen eines primitiven kubischen Gitters von jenem eines CsCl-Gitters.}
 \label{q:68}
 
 \question{Erklären Sie die chemische Bindung von $O_2$ (O; $Z=8$).}
 \label{q:69}
+
+Elektronenkonfiguration O$_2$: $1\sigma_g^2 ~ 1\sigma_u^{*2} ~ 2\sigma_g^2 ~ 2\sigma_u^{*2} ~ 1\pi_u^4 ~ 3\sigma_g^2 ~ 1\pi_u^4 ~ 1\pi_g^2$ \\
+
+Da beide Sauerstoffatome je zwei freie Elektronenpaare haben, kommt es zu einer Doppelbindung.
+
+\begin{figure}[H]
+    \begin{minipage}[b]{0.5\linewidth} 
+       \includegraphics[width=0.8\linewidth]{resources/28-11-2018/O2.PNG}
+       \caption{Elektronenkonfiguration von $O_2$}
+    \end{minipage}
+    \hspace{0.01\linewidth}
+    \begin{minipage}[b]{0.5\linewidth} 
+       \includegraphics[width=0.8\linewidth]{resources/28-11-2018/o2_bindung.PNG}
+       \caption{Chemische Bindung zweier Sauerstoffatome}
+    \end{minipage}
+ \end{figure}
 
 \newpage
 \section{31. Oktober 2013}
@@ -842,6 +940,22 @@ Siehe \qref{52}.
 
 \question{Lennard-Jones Potential und Van der Waals Bindung.}
 \label{q:73}
+
+Van der Waals Kräfte sind die relativ schwachen nicht weitreichende Wechselwirkungen zwischen Atomen oder Molekülen. Sie können ideale Gas Atome zusammenhalten, obwohl diese aufgrund ihrer neutralität keine Coulomb Anziehung zwischen sich haben.
+Normalerweise ist das Dipolmoment eines solchen Atoms 0, jedoch kann durch Schwankungen der Ladung um ihre Durchschnittliche Position kurzzeitig eines entstehen. 
+Das Nachbaratom reagiert auf dieses und es kommt zu einer anziehenden Kraft zwischen ihnen. Der Durchschnitt der Kräfte zwischen den Atomen ist die Van-der-Waals-Kraft. Diese Bindungen sind sehr schwach und die Bindungsenergie beträgt nur wenige meV.
+Das Van-der-Waals Bindungspotential ist oft durch das Lennard-Jones-Potential angenähert. Dieses beschreibt in der Atom- und Molekülphysik die Bindungsenergie. Es nähert die Wechselwirkung zwischen ungeladenen, nicht chemisch aneinander gebundenen Atomen an.
+
+\begin{align}
+    U(R) = 4\epsilon[(\frac{\sigma}{R})^{12} - (\frac{\sigma}{R})^6]
+\end{align}
+
+Dabei entspricht $\epsilon$ der Tiefe der Potentialmulde, $\sigma$ dem Teilchenabstand an der Nullstelle und $R$ dem variierendem Abstand der Teilchen.\\
+
+\begin{figure}[H]
+    \includegraphics[width=0.8\linewidth]{resources/31-10-2013/lennard.PNG}
+    \caption{Beispielhafter Plot des Lennard-Jones-Potentials}
+\end{figure}
 
 \question{Diskutieren Sie die Laue'sche Beugungsbedingung.\
 \label{q:74}
