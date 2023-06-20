@@ -1,15 +1,15 @@
 # Überblick über offene Fragen und Zettel: 
 
-### Fragen  ---  Arbeitet aus
-- [x] Frage 1 --- Elias
-- [x] Frage 2 --- Elias
-- [x] Frage 3 --- Elias
-- [x] Frage 4 --- Elias
-- [x] Frage 5 --- Christine
-- [x] Frage 6 --- David
-- [x] Frage 7 --- David
-- [ ] Frage 8 --- Nadine
-- [ ] Frage 9 --- Nadine
+### Fragen ------- arbeitet aus
+- [x] Frage 01 --- Elias
+- [x] Frage 02 --- Elias
+- [x] Frage 03 --- Elias
+- [x] Frage 04 --- Elias
+- [x] Frage 05 --- Christine
+- [x] Frage 06 --- David
+- [x] Frage 07 --- David
+- [ ] Frage 08 --- Nadine
+- [ ] Frage 09 --- Nadine
 - [x] Frage 10 --- Felix
 - [x] Frage 11 --- Felix
 - [x] Frage 12 --- siehe Frage 1
@@ -28,7 +28,7 @@
 - [ ] Frage 25 --- schwechblechlover
 - [ ] Frage 26 --- Nadine
 - [ ] Frage 27 --- Nadine
-- [ ] Frage 28 --- __________
+- [x] Frage 28 --- Andreas
 - [x] Frage 29 --- Christine
 - [x] Frage 30 --- David
 - [x] Frage 31 --- Christine
