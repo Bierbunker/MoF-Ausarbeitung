@@ -172,6 +172,19 @@ Somit ist die Länge des reziproken Gittervektors $\vec{G_{hkl}}$ indirekt propo
 \question{Erklären Sie das Auftreten von Energiebandlücken mit Hilfe des Models der fast freien Elektronen.}
 \label{q:5}
 
+Als Bandlücke, wird der energetische Abstand zwischen Valenzband und Leitungsband eines Festkörpers bezeichnet. Dessen elektrische und optische Eigenschaften werden wesentlich durch die Größe der Bandlücke bestimmt.
+Nach dem Bändermodell sind gebundene Zustände der Elektronen nur auf bestimmten Intervallen der Energieskala zugelassen, den Bändern. Zwischen den Bändern können energetisch verbotene Bereiche liegen. Jeder dieser Bereiche stellt eine Lücke zwischen den Bändern dar, jedoch ist für die physikalischen Eigenschaften eines Festkörpers nur die eventuelle Lücke zwischen dem höchsten noch vollständig mit Elektronen besetzten Band und dem nächsthöheren von entscheidender Bedeutung. Daher ist mit der Bandlücke immer diejenige zwischen Valenz- und Leitungsband gemeint.
+Das Auftreten einer solchen lücke lässt sich durch das Modell der quasifreien Elektronen beschreiben. Dabei wird das Modell freier Elektronen, welches das erhalten der Valenzelektronen in einer kristallinen Struktur eines festen Metalls darstellt, durch ein elektrostatisches periodisches Potential
+erweitert. Dadurch kommt es zu einer näherungsweisen Beschreibung der positive geladenen Atomrümpfe im Kristallgitter. Man setzt dabei zunächst die Periodizität der Energiebänder im reziproken Raum an, welche bei Berücksichtigung eines kleinen Gitterpotentials an den Zonengrenzen eine Bandlücke aufweisen. 
+Diese Methode erlaubt eine theoretische Vorhersage der Bandlücke und damit eine Einteilung der Festkörper in elektrische Leiter, Halbleiter und Isolatoren.
+Hierbei gilt als Faustregel:
+
+\begin{itemize}
+    \item Leiter: keine Bandlücke.
+    \item Halbleiter: Bandlücke im Bereich von 0,1 bis ca. 3 eV.
+    \item Nichtleiter: Bandlücke größer als 3 eV.
+\end{itemize}
+
 \question{Wie kann experimentell die Dispersionsrelationskurve von Phononen ermittelt werden?}
 \label{q:6}
 
@@ -324,6 +337,8 @@ Am besten durch Streuung von Neutronen:
 
 \question{Erklären Sie das Zustandekommen von Energiebändern in Festkörper im Rahmen der Theorie der fast-freien Elektronen.}
 \label{q:18}
+
+siehe \aqref{5}
 
 \question{Erklären Sie das Bloch'sche Theorem für Elektronen im periodischen Potential.}
 \label{q:19}
@@ -585,6 +600,8 @@ fcc- face centered cubic, hcp - hexagonal close packed
 \question{Vergleiche die Einstein- und Debye-Modelle der spez. Wärme. Welche Annahme ist im Einstein Modell zu einfach?}
 \label{q:50}
 
+siehe \aqref{40}
+
 \newpage
 \section{24. März 2015}
 
@@ -765,6 +782,8 @@ Dabei gibt es die sp-, die sp2- und die sp3-Hybridisierung:
 \question{Wodurch unterscheiden sich ein fcc-Gitter von einer hcp-Struktur?}
 \label{q:64}
 
+siehe \aqref{46}
+
 \question{Diskutieren Sie die Gitterenergie der Ionenkristalle.}
 \label{q:65}
 
@@ -774,11 +793,29 @@ Dabei gibt es die sp-, die sp2- und die sp3-Hybridisierung:
 \question{Diskutieren Sie das Auftreten einer Energiebandlücke mit Hilfe des Modells der fast freien Elektronen.}
 \label{q:67}
 
+siehe \aqref{5}
+
 \question{Wodurch unterscheidet sich die Dispersionsrelation der Phononen eines primitiven kubischen Gitters von jenem eines CsCl-Gitters.}
 \label{q:68}
 
 \question{Erklären Sie die chemische Bindung von $O_2$ (O; $Z=8$).}
 \label{q:69}
+
+Elektronenkonfiguration O$_2$: $1\sigma_g^2 ~ 1\sigma_u^{*2} ~ 2\sigma_g^2 ~ 2\sigma_u^{*2} ~ 1\pi_u^4 ~ 3\sigma_g^2 ~ 1\pi_u^4 ~ 1\pi_g^2$ \\
+
+Da beide Sauerstoffatome je zwei freie Elektronenpaare haben, kommt es zu einer Doppelbindung.
+
+\begin{figure}[H]
+    \begin{minipage}[b]{0.5\linewidth} 
+       \includegraphics[width=0.8\linewidth]{resources/28-11-2018/O2.PNG}
+       \caption{Elektronenkonfiguration von $O_2$}
+    \end{minipage}
+    \hspace{0.01\linewidth}
+    \begin{minipage}[b]{0.5\linewidth} 
+       \includegraphics[width=0.8\linewidth]{resources/28-11-2018/o2_bindung.PNG}
+       \caption{Chemische Bindung zweier Sauerstoffatome}
+    \end{minipage}
+ \end{figure}
 
 \newpage
 \section{31. Oktober 2013}
@@ -795,6 +832,22 @@ Siehe \qref{52}.
 
 \question{Lennard-Jones Potential und Van der Waals Bindung.}
 \label{q:73}
+
+Van der Waals Kräfte sind die relativ schwachen nicht weitreichende Wechselwirkungen zwischen Atomen oder Molekülen. Sie können ideale Gas Atome zusammenhalten, obwohl diese aufgrund ihrer neutralität keine Coulomb Anziehung zwischen sich haben.
+Normalerweise ist das Dipolmoment eines solchen Atoms 0, jedoch kann durch Schwankungen der Ladung um ihre Durchschnittliche Position kurzzeitig eines entstehen. 
+Das Nachbaratom reagiert auf dieses und es kommt zu einer anziehenden Kraft zwischen ihnen. Der Durchschnitt der Kräfte zwischen den Atomen ist die Van-der-Waals-Kraft. Diese Bindungen sind sehr schwach und die Bindungsenergie beträgt nur wenige meV.
+Das Van-der-Waals Bindungspotential ist oft durch das Lennard-Jones-Potential angenähert. Dieses beschreibt in der Atom- und Molekülphysik die Bindungsenergie. Es nähert die Wechselwirkung zwischen ungeladenen, nicht chemisch aneinander gebundenen Atomen an.
+
+\begin{align}
+    U(R) = 4\epsilon[(\frac{\sigma}{R})^{12} - (\frac{\sigma}{R})^6]
+\end{align}
+
+Dabei entspricht $\epsilon$ der Tiefe der Potentialmulde, $\sigma$ dem Teilchenabstand an der Nullstelle und $R$ dem variierendem Abstand der Teilchen.\\
+
+\begin{figure}[H]
+    \includegraphics[width=0.8\linewidth]{resources/31-10-2013/lennard.PNG}
+    \caption{Beispielhafter Plot des Lennard-Jones-Potentials}
+\end{figure}
 
 \question{Diskutieren Sie die Laue'sche Beugungsbedingung.\
 \label{q:74}

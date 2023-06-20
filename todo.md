@@ -18,7 +18,7 @@
 - [x] Frage 15 --- siehe Frage 4
 - [x] Frage 16 --- Felix
 - [x] Frage 17 --- Felix
-- [ ] Frage 18 --- __________
+- [x] Frage 18 --- siehe Frage 5
 - [ ] Frage 19 --- Nadine
 - [x] Frage 20 --- siehe Frage 9
 - [x] Frage 21 --- Christine
@@ -50,7 +50,7 @@
 - [x] Frage 47 --- siehe Frage 27
 - [ ] Frage 48 --- __________
 - [ ] Frage 49 --- __________
-- [ ] Frage 50 --- __________
+- [x] Frage 50 --- siehe Frage 40
 - [ ] Frage 51 --- __________
 - [x] Frage 52 --- Matthias
 - [x] Frage 53 --- Matthias
@@ -64,10 +64,10 @@
 - [x] Frage 61 --- Christine
 - [x] Frage 62 --- Christine
 - [x] Frage 63 --- siehe Frage 26
-- [ ] Frage 64 --- __________
+- [x] Frage 64 --- siehe Frage 46
 - [ ] Frage 65 --- __________
 - [x] Frage 66 --- siehe Frage 57
-- [ ] Frage 67 --- __________
+- [x] Frage 67 --- siehe Frage 5
 - [ ] Frage 68 --- __________
 - [x] Frage 69 --- Christine
 - [x] Frage 70 --- siehe Frage 52
