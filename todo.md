@@ -1,15 +1,15 @@
 # Überblick über offene Fragen und Zettel: 
 
-### Fragen  ---  Arbeitet aus
-- [x] Frage 1 --- Elias
-- [x] Frage 2 --- Elias
-- [x] Frage 3 --- Elias
-- [x] Frage 4 --- Elias
-- [x] Frage 5 --- Christine
-- [x] Frage 6 --- David
-- [x] Frage 7 --- David
-- [ ] Frage 8 --- Nadine
-- [ ] Frage 9 --- Nadine
+### Fragen ------- arbeitet aus
+- [x] Frage 01 --- Elias
+- [x] Frage 02 --- Elias
+- [x] Frage 03 --- Elias
+- [x] Frage 04 --- Elias
+- [x] Frage 05 --- Christine
+- [x] Frage 06 --- David
+- [x] Frage 07 --- David
+- [ ] Frage 08 --- Nadine
+- [ ] Frage 09 --- Nadine
 - [x] Frage 10 --- Felix
 - [x] Frage 11 --- Felix
 - [x] Frage 12 --- siehe Frage 1
@@ -18,7 +18,7 @@
 - [x] Frage 15 --- siehe Frage 4
 - [x] Frage 16 --- Felix
 - [x] Frage 17 --- Felix
-- [ ] Frage 18 --- __________
+- [x] Frage 18 --- siehe Frage 5
 - [ ] Frage 19 --- Nadine
 - [x] Frage 20 --- siehe Frage 9
 - [x] Frage 21 --- Christine
@@ -28,29 +28,29 @@
 - [ ] Frage 25 --- schwechblechlover
 - [ ] Frage 26 --- Nadine
 - [ ] Frage 27 --- Nadine
-- [ ] Frage 28 --- __________
+- [x] Frage 28 --- Andreas
 - [x] Frage 29 --- Christine
-- [ ] Frage 30 --- __________
+- [x] Frage 30 --- David
 - [x] Frage 31 --- Christine
 - [ ] Frage 32 --- Nadine
-- [ ] Frage 33 --- __________
+- [x] Frage 33 --- David
 - [x] Frage 34 --- siehe Frage 62
 - [x] Frage 35 --- siehe Frage 57
 - [x] Frage 36 --- siehe Frage 27
 - [ ] Frage 37 --- __________
 - [x] Frage 38 --- siehe Frage 4
 - [ ] Frage 39 --- __________
-- [ ] Frage 40 ---Kathi
-- [ ] Frage 41 ---Kathi
-- [ ] Frage 42 ---Kathi
-- [ ] Frage 43 ---Kathi
-- [ ] Frage 44 ---Kathi
+- [x] Frage 40 ---Kathi
+- [x] Frage 41 ---Kathi
+- [x] Frage 42 ---Kathi
+- [x] Frage 43 ---Kathi
+- [x] Frage 44 ---Kathi
 - [ ] Frage 45 --- __________
-- [ ] Frage 46 --- __________
+- [x] Frage 46 --- David
 - [x] Frage 47 --- siehe Frage 27
-- [ ] Frage 48 --- __________
+- [x] Frage 48 --- Andreas
 - [ ] Frage 49 --- __________
-- [ ] Frage 50 --- __________
+- [x] Frage 50 --- siehe Frage 40
 - [ ] Frage 51 --- __________
 - [x] Frage 52 --- Matthias
 - [x] Frage 53 --- Matthias
@@ -64,10 +64,10 @@
 - [x] Frage 61 --- Christine
 - [x] Frage 62 --- Christine
 - [x] Frage 63 --- siehe Frage 26
-- [ ] Frage 64 --- __________
+- [x] Frage 64 --- siehe Frage 46
 - [ ] Frage 65 --- __________
 - [x] Frage 66 --- siehe Frage 57
-- [ ] Frage 67 --- __________
+- [x] Frage 67 --- siehe Frage 5
 - [ ] Frage 68 --- __________
 - [x] Frage 69 --- Christine
 - [x] Frage 70 --- siehe Frage 52

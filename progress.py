@@ -15,10 +15,10 @@ def count_x_in_brackets(file_path):
                 in_brackets = False
             elif char == 'x' and in_brackets:
                 count += 1
-        print(f'Number of x\'s in brackets: {count} - relative progress: {count/100:.2f}')
+        print(f'Number of x\'s in brackets: {count} - relative progress: {count/88:.2f}')
         return count
 
-def visualize_progress(count, max_count=100):
+def visualize_progress(count, max_count=88):
     fig, ax = plt.subplots(figsize=(12, 2)) 
 
     # Load the image
@@ -44,6 +44,7 @@ def visualize_progress(count, max_count=100):
     # Adding a title and percentage inside the progress bar
     title = "Progress MoF-Ausarbeitung"
     percentage = (count/max_count) * 100
+    
     percentage_text = f'{percentage:.2f}%'
 
     plt.title(title, fontsize=16, fontweight='bold', color='black')
