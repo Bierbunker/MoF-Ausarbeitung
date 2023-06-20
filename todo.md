@@ -30,10 +30,10 @@
 - [ ] Frage 27 --- Nadine
 - [ ] Frage 28 --- __________
 - [x] Frage 29 --- Christine
-- [ ] Frage 30 --- __________
+- [x] Frage 30 --- David
 - [x] Frage 31 --- Christine
 - [ ] Frage 32 --- Nadine
-- [ ] Frage 33 --- __________
+- [x] Frage 33 --- David
 - [x] Frage 34 --- siehe Frage 62
 - [x] Frage 35 --- siehe Frage 57
 - [x] Frage 36 --- siehe Frage 27
