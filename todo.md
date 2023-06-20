@@ -48,7 +48,7 @@
 - [ ] Frage 45 --- __________
 - [x] Frage 46 --- David
 - [x] Frage 47 --- siehe Frage 27
-- [ ] Frage 48 --- __________
+- [x] Frage 48 --- Andreas
 - [ ] Frage 49 --- __________
 - [x] Frage 50 --- siehe Frage 40
 - [ ] Frage 51 --- __________
