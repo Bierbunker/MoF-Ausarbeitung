@@ -46,7 +46,7 @@
 - [ ] Frage 43 ---Kathi
 - [ ] Frage 44 ---Kathi
 - [ ] Frage 45 --- __________
-- [ ] Frage 46 --- __________
+- [x] Frage 46 --- David
 - [x] Frage 47 --- siehe Frage 27
 - [ ] Frage 48 --- __________
 - [ ] Frage 49 --- __________
