@@ -102,6 +102,60 @@ einfallenden Strahls an der Grenze einer Brillouin Zone liegt. Die geometrische 
 \question{Erläutere den Atomfaktor und den Strukturfaktor bei der Röntgenbeugung.}
 \label{q:27}
 
+Der Strukturfaktor ist die Fourier-Transofmierte $n_{\Vec{G}}$ der Elektronendichte $ n(\vec{r})$ über eine Einheitszelle. 
+\begin{align}
+n_{\vec{G}} = \int _{EZ} n(\vec{r}) e^{-i \vec{G} \vec{r}} d\vec{r} 
+\end{align}
+\begin{align}
+S_{\vec{G}} = V n_{\vec{G}} 
+\end{align} \medskip
+
+
+\textit{(andere Definition, nicht in Surnev-Folien)} \\
+Der Strukturfaktor wird aus den Formfaktoren $f_J(G)$ berechnet werden, welche ebenfalls mit Fourier-Transformation berechnet werden:
+\begin{align}
+f_J(G) = \int n_J(\vec{r}) e^{i \vec{G} \vec{r}} d\vec{r}
+\end{align}
+\begin{align}
+S_{\vec{G}} = \sum_j f_j (G) e^{i \vec{G} \vec{r}_j} = \sum_j f_j e^{-2 \pi i (hx_j + ky_j + l z_j)}
+\end{align}
+wobei $\vec{G}_{hkl} = h\vec{b}_1+k\vec{b}_2+l\vec{b}_3$ der reziproke Gittervektor ist. \\
+
+
+
+
+Der Strukturfaktor ist auch die Streuamplitude pro Einheitszelle:
+\begin{align}
+S_{h,k,l} = \frac{F_{h,k,l}}{N}
+\end{align}
+mit der Anzahl an Einheitszellen $N$ und der Streuamplitude:
+\begin{align}
+    F_{h,k,l} = \int n(\vec{r}) e^{-i \phi(\vec{r})} dV = \int n(\vec{r}) e^{-i \Delta \vec{k} \vec{r}} dV
+\end{align}
+Für diese Beschreibungen des Strukturfaktors muss die Laue-Bedingung $\vec{G} = \Delta \vec{k} = \vec{k'}-\vec{k}$ erfüllt sein. \bigskip \\
+
+Der \textbf{Atomfaktor} (auch Streufaktor genannt) beschreibt die Beiträge eines einzelnen Atoms zur Streuung von Röntgenstrahlen bzw. das Streuvermögen der einzelnen Basisatome. Er hängt von der Atomart, der Position des Atoms im Kristallgitter und der Wellenlänge der Röntgenstrahlung ab. Der Atomfaktor ist komplex und enthält Informationen über die Elektronendichteverteilung im Atom.
+
+Der Atomfaktor für ein Atom $j$ kann  wie folgt definiert werden:
+
+\begin{align}
+f_j = \int n_j (\vec{\rho}) e^{-i \vec{G} \vec{\rho}}
+\end{align}
+
+Mit kugelsymmetrischen $n(\vec{\rho})$ und $\vec{G} \vec{\rho} = G \rho \cos{\alpha}$ erhält man die Formel
+\begin{align}
+f = 4 \pi \int_0 ^{\inf} \rho^2 n(\vec{\rho}) \frac{\sin{G \rho}}{G \rho} d\rho
+\end{align}
+
+Für eine punktförmige Ladung mit $\vec{\rho} = 0$:
+\begin{align}
+\frac{\sin{G \rho}}{G \rho} \approx 1 \hspace{1cm} n = \frac{Z}{V} \Rightarrow f = Z
+\end{align}
+Für kleine Streuwinkel mit $G \approx 0$:
+\begin{align}
+f = Z
+\end{align}
+
 \question{Skizziere die 1. Brillouin Zone eines ebenen Rechteckgitters.}
 \label{q:28}
 
