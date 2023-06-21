@@ -37,19 +37,19 @@
 - [x] Frage 34 --- siehe Frage 62
 - [x] Frage 35 --- siehe Frage 57
 - [x] Frage 36 --- siehe Frage 27
-- [ ] Frage 37 --- __________
+- [ ] Frage 37 --- Jax Most
 - [x] Frage 38 --- siehe Frage 4
-- [ ] Frage 39 --- __________
+- [ ] Frage 39 --- Jax Most
 - [x] Frage 40 ---Kathi
 - [x] Frage 41 ---Kathi
 - [x] Frage 42 ---Kathi
 - [x] Frage 43 ---Kathi
 - [x] Frage 44 ---Kathi
-- [ ] Frage 45 --- __________
+- [ ] Frage 45 --- Jax Most
 - [x] Frage 46 --- David
 - [x] Frage 47 --- siehe Frage 27
 - [x] Frage 48 --- Andreas
-- [ ] Frage 49 --- __________
+- [ ] Frage 49 --- Jax Most
 - [x] Frage 50 --- siehe Frage 40
 - [ ] Frage 51 --- __________
 - [x] Frage 52 --- Matthias
