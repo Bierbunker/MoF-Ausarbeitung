@@ -57,9 +57,9 @@
 - [x] Frage 54 --- Matthias
 - [x] Frage 55 --- Matthias
 - [x] Frage 56 --- Matthias
-- [ ] Frage 57 --- Matthias
-- [ ] Frage 58 --- Matthias
-- [ ] Frage 59 --- Matthias
+- [x] Frage 57 --- Matthias
+- [x] Frage 58 --- Matthias
+- [x] Frage 59 --- Matthias
 - [ ] Frage 60 --- __________
 - [x] Frage 61 --- Christine
 - [x] Frage 62 --- Christine
