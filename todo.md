@@ -8,7 +8,7 @@
 - [x] Frage 05 --- Christine
 - [x] Frage 06 --- David
 - [x] Frage 07 --- David
-- [ ] Frage 08 --- Nadine
+- [X] Frage 08 --- Nadine
 - [ ] Frage 09 --- Nadine
 - [x] Frage 10 --- Felix
 - [x] Frage 11 --- Felix
@@ -19,15 +19,15 @@
 - [x] Frage 16 --- Felix
 - [x] Frage 17 --- Felix
 - [x] Frage 18 --- siehe Frage 5
-- [ ] Frage 19 --- Nadine
+- [X] Frage 19 --- Nadine
 - [x] Frage 20 --- siehe Frage 9
 - [x] Frage 21 --- Christine
 - [ ] Frage 22 --- schwechblechlover
 - [ ] Frage 23 --- schwechblechlover
 - [ ] Frage 24 --- schwechblechlover
 - [ ] Frage 25 --- schwechblechlover
-- [ ] Frage 26 --- Nadine
-- [ ] Frage 27 --- Nadine
+- [X] Frage 26 --- Nadine
+- [X] Frage 27 --- Nadine
 - [x] Frage 28 --- Andreas
 - [x] Frage 29 --- Christine
 - [x] Frage 30 --- David
