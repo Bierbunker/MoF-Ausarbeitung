@@ -103,6 +103,59 @@ an (Abstände zwischen Energieniveaus wird kleiner).
 
 \question{Beschreiben Sie das Bloch-Theorem eines Elektrons im harmonischen Potential.}
 \label{q:8}
+Das Bloch-Theorem beschreibt das Verhalten eines Elektrons in einem periodischen Potential. Dabei nimmt das Elektron eine spezielle Wellenfunktion an, die als Bloch-Funktion bezeichnet wird. Diese Bloch-Funktion hat die Form einer ebene Welle, multipliziert mit einer periodischen Funktion, die die Symmetrie des Potentials widerspiegelt. \\
+
+Im Fall eines harmonischen Potentials ergibt sich die Schrödinger-Gleichung für ein Elektron zu:
+\begin{align}
+ ((- \frac{\hbar^2}{2m }) \nabla ^2  + V(x)) \Psi (x) = E \Psi (x)
+\end{align}
+
+Hierbei ist $\hbar$ das reduzierte Planck'sche Wirkungsquantum, $m$ die Masse des Elektrons, $\nabla$ der Laplace-Operator, $\Psi (x)$ die Wellenfunktion des Elektrons, $V(x)$ das harmonische Potential und $E$ die Energie des Elektrons.
+Für das Potential $V(\vec{r})$ gilt die \textbf{Translations-Invarianz}:
+\begin{align}
+    V(\vec{r}) = V(\vec{r} + \vec{R})
+\end{align}
+mit einem beliebigen Translationsvektor $\vec{R}$ im dreidimensionalen periodischen Gitter, welche aus einem Vielfachen der Basisvektoren besteht. \\
+
+Allgemein ist das Potential $V(\vec{r})$ gitterperiodisch und lässt sich als Sume von harmonischen Funktionen in Abhängigkeit des Gittervektors $\vec{G}$ schreiben:
+
+\begin{align}
+    V(\vec{r}) = \sum_{\vec{G}} V_{\vec{G}} e^{i \vec{G} \vec{r}} \hspace{1cm} \mbox{mit} \hspace{1cm} V_{-G} = V_G*
+\end{align}
+
+Für die Lösung der Schrödingergleichung ist der Ansatz:
+\begin{align}
+    \Psi(\vec{r}) = \sum_{\vec{G}}  C_{\vec{k}} e^{i \vec{k} \vec{r}}
+\end{align}
+Der Ansatz erfüllt die periodischen Randbedingungen, wobei $\vec{k}$ ein Punkt im reziproken Raum ist. \\
+
+Die Lösungen dieser Gleichung sind \textbf{Bloch-Funktionen}, die gegeben sind durch:
+\begin{align}
+    \Psi (\vec{r})) = \exp{(ik\vec{r})} u(\vec{r})
+\end{align}
+
+Hierbei ist k der Wellenvektor des Elektrons und $u(\vec{r})$ eine periodische Funktion mit derselben Periodizität wie das harmonische Potential. Die periodische Funktion $u(\vec{r})$ erfüllt die Gleichung:
+\begin{align}
+    u(\vec{r}) = u(\vec{r}+\vec{R})
+\end{align}
+wobei $\vec{R} $ der Gittervektor ist und so die Translations-Invarianz sowie die Periodizität des Potentials dargestellt wird. \\
+
+Die Bloch-Funktionen sind ebenfalls symmetrisch bei Verschiebung um einen Vektor $\vec{G'}$:
+\begin{align}
+    \Psi _{\vec{k} + \vec{G'}} &= \Psi _{\vec{k}} (\vec{r}) \\
+    E(\vec{k} + \vec{G'}) &= E(\vec{k})
+\end{align}
+
+Das Bloch-Theorem besagt, dass die Bloch-Funktionen eine vollständige Basis des Lösungsraums der Schrödinger-Gleichung im harmonischen Potential darstellen. Das bedeutet, dass jede Wellenfunktion $\Psi(x)$ eines Elektrons in diesem Potential als Linearkombination der Bloch-Funktionen dargestellt werden kann. \\
+
+
+Das Bloch-Theorem ist von entscheidender Bedeutung für das Verständnis des elektronischen Verhaltens in Festkörpern, da es erklärt, warum Elektronen bestimmte \textbf{Energiebänder} bilden und sich diese Bänder wiederum in isolierende, leitende und halbleitende Eigenschaften des Materials manifestieren.
+
+\begin{figure}
+    \centering
+    \includegraphics{xxx}
+    \caption{Darstellung der Elektronischen Bandstruktur.}
+\end{figure}
 
 \question{Beschreiben Sie den Paulschen Paramagnetismus.}
 \label{q:9}
