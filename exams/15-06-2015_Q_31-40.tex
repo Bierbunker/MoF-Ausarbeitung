@@ -43,6 +43,45 @@ Konstruktion:
 \question{Zustandekommen von Energiebändern und Bandlöchern}
 \label{q:37}
 
+\textbf{TL;DR} Braggreflexion ist die Ursache für Energiebandlücken, da bei Braggreflexion keine Wellenartigen Lösungen der Schrödingergleichung existieren.
+Energiebänder sind die Resultate der Energiebandlücken.
+
+\textbf{TS;WR} Freie $e^-$ mit kontinuierlichen Energien besitzen Wellenfunktionen von der Form $\psi_{k}(\vec{r}) = exp(i\vec{k}\vec{r})$
+
+Man nehme einen eindimensionalen Kristall mit Gitterkonstante $a$.
+Die Braggbedingung\\$\left(\vec{k} + \vec{G}\right)^2 = k^2$ für Beugung eines Wellenvektors $\vec{k}$ ergibt sich in 1D zu
+\begin{equation}
+    k = \frac{\pm G}{2} = \frac{\pm n \pi}{a}
+\end{equation}
+wobei $G = 2\pi n/a$ ein reziproker Gittervektor ist und $n \in \mathbb{N}$.
+
+Bei solchen $k$ (hier mit $n=1$) überlagert sich die Wellenfunktion $exp(\pm i \pi x / a)$ eines Wandernden $e^-$ mit seiner Bragg Reflektierten.
+Mit $exp(\pm i \pi x / a) = cos(\pi x/a) \pm i sin(\pi x/a)$ erhält man eine symmetrische stehende Welle
+\begin{equation}
+    \psi(+) = exp( i \pi x / a) + exp(- i \pi x / a) = 2cos(\pi x/a)
+\end{equation}
+und eine antisymmetrische
+\begin{equation}
+    \psi(-) = exp( i \pi x / a) - exp(- i \pi x / a) = 2 i sin(\pi x/a)
+\end{equation}
+ähnlich wie in den Hybridisierungsorbitalen einer Doppelbindung.
+Die Aufenthaltswahrscheinlichkeiten $\left|\psi(\pm)\right|^2$ in Kombination mit den Potentialen der Atomkerne (Abb.a)) zeigen, dass die symmetrische Wellenfunktion $\psi(+)$ mehr negative Ladung an die positiven Ionen zieht und dadurch geringere potentielle Energie besitzt, als eine laufende Welle und $\psi(-)$ eine höhere potentielle Energie als eine laufende Welle besitzt.
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[c]{0.4\textwidth}
+        \includegraphics[width=\linewidth]{resources/15-06-2015/q37a.png}
+        \caption{}
+    \end{subfigure}%
+    \begin{subfigure}[c]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{resources/15-06-2015/q37b.png}
+        \caption{}
+    \end{subfigure}% 
+    \caption{
+        a) Aufenthaltswahrscheinlichkeiten $\left|\psi(\pm)\right|^2$ und für laufende Wellen zusammen mit der Potentiellen Energie einer negativen Ladung um die Kerne.
+        b) Energie plot mit Bandlücke.
+        }
+\end{figure}
+
 \question{Zusammenhang zwischen Gitterebene und Vektoren im reziproken Gitter}
 \label{q:38}
 
