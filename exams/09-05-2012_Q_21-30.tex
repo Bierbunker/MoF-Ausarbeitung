@@ -13,23 +13,23 @@ für die Elektronen aufteilen.
             Die Schrödingergleichung für die Elektronen lautet somit:
             
         \begin{align}
-            \hat{H}_e * \Phi_h(\vec{r},\vec{R}) = E_h(\vec{R}) *  \Phi_h(\vec{r},\vec{R})
+            \hat{H}_e \cdot \Phi_h(\vec{r},\vec{R}) = E_h(\vec{R}) \cdot \Phi_h(\vec{r},\vec{R})
         \end{align}
 
-        Dabei ist $\vec{r}$ die Position der Elektronen und $\vec{R}$ die der Kerne. Der Hamiton besteht aus $\hat{H}_e = \hat{T}_e + \hat{V}_{ee} + \hat{V}_{eN}$, 
+        Dabei ist $\vec{r}$ die Position der Elektronen und $\vec{R}$ die der Kerne. Der Hamilton-Operator besteht aus $\hat{H}_e = \hat{T}_e + \hat{V}_{ee} + \hat{V}_{eN}$, 
         also der kinetischen Energie der Elektronen + der Abstoßung zwischen den Elektronen + der Anziehung zwischen Kernen und Elektronen.
 
-        \begin{figure}[H]
-            \includegraphics[width=0.8\linewidth]{resources/09-05-2012/born_op.PNG}
-            \caption{Elektronischer Hamiton}
-        \end{figure}
+        \begin{equation}
+            \label{eq:electronic_hamiltonian}
+            H_{\text{elec}} = - \sum_i \frac{\hbar^2}{2m_e} \nabla^2_i - \sum_{a,i} \frac{Z_a e^2}{4 \pi \epsilon_0 |\vec{r}_i-\vec{r}_a| }  + \sum_{i<j} \frac{e^2}{4 \pi \epsilon_0 |\vec{r}_i-\vec{r}_j| }
+        \end{equation}
 
     \item Die Kernbewegeung ist von den Elektronen nahezu unbeeinflusst, jedoch bewegen sie sich im Potential der elektrischen Zustände. 
         Die Kern-Wellenfunktion $\eta_{hk}(\vec{R})$ hängt nur von der Kernkoordinate $\vec{R}$ ab.\\
         Die Schrödingergleichung lautet: 
 
         \begin{align}
-            (\hat{T}_n + \hat{V}_{NN} + E_h(\vec{R})) * \eta_{hk}(\vec{R}) = E_{hk} * \eta_{hk}(\vec{R})
+            (\hat{T}_n + \hat{V}_{NN} + E_h(\vec{R})) \cdot \eta_{hk}(\vec{R}) = E_{hk} \cdot \eta_{hk}(\vec{R})
         \end{align}
 \end{itemize}
 
@@ -93,7 +93,7 @@ einfallenden Strahls an der Grenze einer Brillouin Zone liegt. Die geometrische 
 
 \begin{figure}
     \centering
-    \includegraphics{}
+% \includegraphics{}
     \caption{Ewald Konstruktion}
 \end{figure}
     Die Laue-Bedingung ist hierbei nur für die Gitterpunkte erfüllt, die an der Kugeloberfläche liegen. 
@@ -168,7 +168,7 @@ f = Z
     \end{samepage}
 \end{figure}
 \begin{enumerate}
-    \item Reziprokes Gitter aufzeichen
+    \item Reziprokes Gitter aufzeichnen
     \item Zellenmittelpunkt wählen
     \item Vom Mittelpunkt in beide Dimensionen den nächstgelegenen Gitterpunkt finden
     \item Mittelpunkt mit diesen Punkten verbinden
@@ -187,17 +187,27 @@ $3N$ mögliche Schwingungsmoden:
           Alle Quanten bewegen sich hier in einer Einheitszelle in Phase und haben 3 akustische Moden, wovon eine longitudinal und zwei transversal sind.
 
           \begin{figure}[H]
-            \includegraphics[width=0.8\linewidth]{resources/09-05-2012/akust.PNG}
-            \caption{Darstellung von akustischen Transversalwellen von Phononen}
+            \centering
+            \begin{samepage}
+                \includegraphics[width=0.8\linewidth]{resources/09-05-2012/akust.PNG}
+                \caption[Akustische Transversalwellen Phononen]{Darstellung von akustischen Transversalwellen von Phononen}
+                \label{fig:akustische_transversalwellen_phononen}
+            \end{samepage}
           \end{figure}
-    \item Optische Phononen: Diese Phononen bewegen sich in einer Basisgegenphasig, wodurch es Schwingungsmodi gibt, bei denen entgegengesetzt geladene Untergitter gegeneinander schwingen. 
+
+    \item Optische Phononen: Diese Phononen bewegen sich in einer Basis gegenphasig, wodurch es Schwingungsmodi gibt, bei denen entgegengesetzt geladene Untergitter gegeneinander schwingen. 
           Die dabei oszillierenden Dipolmomente können mit Photonen wechselwirken. Oft kommen solche Kopplungen im Infrarotbereich, also der Wärmebewegung in Festkörpern vor.
           Beispiele für solche infrarot-aktiven Gitter sind Ionengitter wie Natriumchloridkristalle.
 
-          \begin{figure}[H]
-            \includegraphics[width=0.8\linewidth]{resources/09-05-2012/opt.PNG}
-            \caption{Darstellung von optischen Phononen}
-          \end{figure}
+         \begin{figure}[H]
+             \centering
+             \begin{samepage}
+                 \includegraphics[width=0.8\linewidth]{resources/09-05-2012/opt.PNG}
+                 \caption[Optische Wellen Phononen]{Darstellung von optischen Phononen}
+                 \label{fig:optische_wellen_phononen}
+             \end{samepage}
+         \end{figure}
+
 \end{itemize}
 
 

@@ -3,35 +3,7 @@
 \question{Skizzieren Sie die wesentlichen Elemente der Born-Oppenheimer Näherung.}
 \label{q:61}
 
-Da die Atomkerne eine wesentlich größere Masse als die Elektronen haben und sich dadurch viel langsamer bewegen, ist es mit der Born-Oppenheimer
-Näherung möglich die Positionen der Kerne zu fixieren. Somit lässt sich die molekulare Schrödingergleichung in eine für die Kerne und eine
-für die Elektronen aufteilen.
-
-\begin{itemize}
-    \item Für die Elektronen stehen die Kerne still, wodurch ihre Lage als Parameter in das anziehende und abstoßende Potential eingeht.
-        Somit hängen die elektronischen Eigenzustände und Energien nur von der Lage der Kerne ab und nicht von der Geschwindigkeit.\\
-            Die Schrödingergleichung für die Elektronen lautet somit:
-            
-        \begin{align}
-            \hat{H}_e * \Phi_h(\vec{r},\vec{R}) = E_h(\vec{R}) *  \Phi_h(\vec{r},\vec{R})
-        \end{align}
-
-        Dabei ist $\vec{r}$ die Position der Elektronen und $\vec{R}$ die der Kerne. Der Hamiton besteht aus $\hat{H}_e = \hat{T}_e + \hat{V}_{ee} + \hat{V}_{eN}$, 
-        also der kinetischen Energie der Elektronen + der Abstoßung zwischen den Elektronen + der Anziehung zwischen Kernen und Elektronen.
-
-        \begin{figure}[H]
-            \includegraphics[width=0.8\linewidth]{resources/09-05-2012/born_op.PNG}
-            \caption{Elektronischer Hamiton}
-        \end{figure}
-
-    \item Die Kernbewegeung ist von den Elektronen nahezu unbeeinflusst, jedoch bewegen sie sich im Potential der elektrischen Zustände. 
-        Die Kern-Wellenfunktion $\eta_{hk}(\vec{R})$ hängt nur von der Kernkoordinate $\vec{R}$ ab.\\
-        Die Schrödingergleichung lautet: 
-
-        \begin{align}
-            (\hat{T}_n + \hat{V}_{NN} + E_h(\vec{R})) * \eta_{hk}(\vec{R}) = E_{hk} * \eta_{hk}(\vec{R})
-        \end{align}
-\end{itemize}
+Siehe \aqref{21}.
 
 
 \question{Diskutieren Sie die sp-, sp2-, sp3-Hybridisierung in mehratomigen Molekülen.}
@@ -112,23 +84,30 @@ siehe \aqref{5}
 \question{Wodurch unterscheidet sich die Dispersionsrelation der Phononen eines primitiven kubischen Gitters von jenem eines CsCl-Gitters.}
 \label{q:68}
 
-\question{Erklären Sie die chemische Bindung von $O_2$ (O; $Z=8$).}
+\question{Erklären Sie die chemische Bindung von \ch{O2} ($Z=8$).}
 \label{q:69}
 
-Elektronenkonfiguration O$_2$: $1\sigma_g^2 ~ 1\sigma_u^{*2} ~ 2\sigma_g^2 ~ 2\sigma_u^{*2} ~ 1\pi_u^4 ~ 3\sigma_g^2 ~ 1\pi_u^4 ~ 1\pi_g^2$ \\
+\[\ch{O2} : (1\sigma_g)^2 ~ (1\sigma_u^*)^2 ~ (2\sigma_g)^2 ~ (2\sigma_u^*)^2 ~ (3\sigma_g)^2 ~ (1\pi_g)^4 ~ (1\pi_u^*)^2\]
 
-Da beide Sauerstoffatome je zwei freie Elektronenpaare haben, kommt es zu einer Doppelbindung.
+Da beide Sauerstoffatome je zwei freie Valenzelektronen haben, kommt es zu einer Doppelbindung.
 
+\setcapindent{0pt}
 \begin{figure}[H]
-    \begin{minipage}[b]{0.5\linewidth} 
-       \includegraphics[width=0.8\linewidth]{resources/28-11-2018/O2.PNG}
-       \caption{Elektronenkonfiguration von $O_2$}
-    \end{minipage}
-    \hspace{0.01\linewidth}
-    \begin{minipage}[b]{0.5\linewidth} 
-       \includegraphics[width=0.8\linewidth]{resources/28-11-2018/o2_bindung.PNG}
-       \caption{Chemische Bindung zweier Sauerstoffatome}
-    \end{minipage}
- \end{figure}
+   \centering
+   \begin{minipage}[t]{0.475\linewidth}
+      \centering
+      \includegraphics[width=\linewidth]{resources/28-11-2018/O2.PNG}
+      \caption{Elektronenkonfiguration von \ch{O2}}
+      \label{fig:Elektronenkonfiguration_O2}
+   \end{minipage}%
+   \hspace*{\fill}
+   \begin{minipage}[t]{0.475\linewidth}
+      \centering
+      \includegraphics[width=\linewidth]{resources/28-11-2018/o2_bindung.PNG}
+      \caption{Chemische Bindung zweier Sauerstoffatome}
+      \label{fig:chemische_Bindung_O2}
+   \end{minipage}
+\end{figure}
+\setcaphanging
 
 \newpage
