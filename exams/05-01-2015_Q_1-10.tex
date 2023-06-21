@@ -1,0 +1,115 @@
+\section{01. Mai 2015}
+\question{Austauschenergie beim H2 Molekül? Wann ist es groß/klein? Wieso ist es für die Bindung wichtig?}
+\label{q:1}
+
+Die Austauschenergie oder oft auch \textbf{Austauschwechselwirkung} spielt bei der chemischen Bindung eine bedeutende Rolle. \\
+Sie ist groß, falls sich die Atomorbitale stark überlappen---sprich symmetrisch sind---und kleiner falls sie sich weniger überlappen (=anti-symmetrisch). \\
+Wie man in der Abbildung erkennen kann, ergibt sich eine Bindung nur, wenn die Orbitale sich überlappen (im symmetrischen Fall $U_S$). \\
+\begin{figure}[H]  
+    \centering
+    \includegraphics[width=.4\textwidth]{resources/05-01-2015/Frage1.png}
+    \caption{siehe \href{http://hyperphysics.phy-astr.gsu.edu/hbase/molecule/hmol.html}{LINK}}
+\end{figure}
+
+\question{Was kann man aus dem Rotations-Schwingungsspektrum für molekulare Größen bestimmen?}
+\label{q:2}
+
+Unter Annahme, dass die beiden Atome ihren Abstand bei Rotation nicht ändern kann man den \textbf{Bindungsabstand} $R_e$ bestimmen. \\
+Weiter lässt sich die \textbf{Rotationskonstante} $B_e$ bzw. deren anharmonischer Anteil $\alpha_e$, die \textbf{Schwingungsfrequenz} $\omega$ und das \textbf{Trägheitsmoment} $I$ bestimmen. \\
+
+\[B_e = \frac{\hbar}{4 \pi c M R_e^2}\text{\quad [cm$^{-1}$]}\]
+\[E_{rot} = \frac{\hbar^2}{2 I} \cdot J(J+1)\text{\quad [J]}\]
+\[E_{rot} = B_e \cdot h\cdot c\]
+$J$ ist dabei die Quantenzahl der Rotation und $M$ die reduzierte Masse (damit $M * R_e^2$ eben $I$ entspricht; gilt freilich nur für 2-Atom Systeme). \\
+
+\[\Delta E_{rot} = \frac{(J+1)\hbar^2}{M\cdot {R_e}^2}\]
+\[\Delta E_{vib} = \hbar \cdot \omega\]
+
+\question{Diskutieren Sie elektrische Rotations-Schwingungsübergänge und die Entstehung von Schwingungsbanden.}
+\label{q:3}
+
+Übergänge zwischen Schwingungs-Rotations-Niveaus ($f_i$,$J_i$) $\rightarrow$ ($f_j$,$J_j$) innerhaltb desselben elektronischen Zustandes bilden für $f_i \neq f_j$ ein Schwingungs-Rotations-Spektrum. \\
+
+\textbf{WICHTIG:} nur Moleküle welche ein permanentes Dipolmoment besitzen können solche Übergänge durchführen (z.B.: \ce{CO2}, \ce{H2O} aber \underline{nicht} \ce{O2}, andere homonuklearen, \dots etc.). \\
+
+Wird Energie (Photon) von außen zugeführt oder abgegeben, so kann ein Übergang zwischen den Niveaus stattfinden - Auswahlregel $\Delta J = \pm 1$. Sprich Rotations-Schwingungsübergänge spielen sich zwischen benachbarten Niveaus ab.\\
+
+\textbf{Schwingungsbanden} bezeichnen nun alle Rotationslinien welche zu einem Schwingungsübergang gehören. \\
+
+
+\question{Was für ein Zusammenhang besteht zwischen der Gitterebene und einem Vektor im reziproken Raum?}
+\label{q:4}
+
+Der Abstand zweier Gitterebenen $d_{hkl}$ ist gegeben durch:
+\[d_{hkl} = \frac{a}{\sqrt{h^2 + k^2 + l^2}}\]
+und hängt mit dem reziproken Gittervektor $\vec{G_{hkl}}$ 
+\[\vec{G_{hkl}} = h\vec{b_1} + k\vec{b_2} + l\vec{b_3}\]
+wie folgt zusammen:
+\[d_{hkl} = \frac{2\pi}{|\vec{G_{hkl}}|}\]
+
+Somit ist die Länge des reziproken Gittervektors $\vec{G_{hkl}}$ indirekt proportional zum Abstand der Gitterebenen $d_{hkl}$.
+
+\question{Erklären Sie das Auftreten von Energiebandlücken mit Hilfe des Models der fast freien Elektronen.}
+\label{q:5}
+
+Als Bandlücke, wird der energetische Abstand zwischen Valenzband und Leitungsband eines Festkörpers bezeichnet. Dessen elektrische und optische Eigenschaften werden wesentlich durch die Größe der Bandlücke bestimmt.
+Nach dem Bändermodell sind gebundene Zustände der Elektronen nur auf bestimmten Intervallen der Energieskala zugelassen, den Bändern. Zwischen den Bändern können energetisch verbotene Bereiche liegen. Jeder dieser Bereiche stellt eine Lücke zwischen den Bändern dar, jedoch ist für die physikalischen Eigenschaften eines Festkörpers nur die eventuelle Lücke zwischen dem höchsten noch vollständig mit Elektronen besetzten Band und dem nächsthöheren von entscheidender Bedeutung. Daher ist mit der Bandlücke immer diejenige zwischen Valenz- und Leitungsband gemeint.
+Das Auftreten einer solchen lücke lässt sich durch das Modell der quasifreien Elektronen beschreiben. Dabei wird das Modell freier Elektronen, welches das erhalten der Valenzelektronen in einer kristallinen Struktur eines festen Metalls darstellt, durch ein elektrostatisches periodisches Potential
+erweitert. Dadurch kommt es zu einer näherungsweisen Beschreibung der positive geladenen Atomrümpfe im Kristallgitter. Man setzt dabei zunächst die Periodizität der Energiebänder im reziproken Raum an, welche bei Berücksichtigung eines kleinen Gitterpotentials an den Zonengrenzen eine Bandlücke aufweisen. 
+Diese Methode erlaubt eine theoretische Vorhersage der Bandlücke und damit eine Einteilung der Festkörper in elektrische Leiter, Halbleiter und Isolatoren.
+Hierbei gilt als Faustregel:
+
+\begin{itemize}
+    \item Leiter: keine Bandlücke.
+    \item Halbleiter: Bandlücke im Bereich von 0,1 bis ca. 3 eV.
+    \item Nichtleiter: Bandlücke größer als 3 eV.
+\end{itemize}
+
+\question{Wie kann experimentell die Dispersionsrelationskurve von Phononen ermittelt werden?}
+\label{q:6}
+
+\begin{figure}[H]  
+    \centering
+    \includegraphics[width=.8\textwidth]{resources/05-01-2015/Frage6_1.png}
+    \caption{Inelastische Streuung an Phononen}
+\end{figure}
+
+\begin{figure}[H]  
+    \centering
+    \includegraphics[width=.8\textwidth]{resources/05-01-2015/Frage6_2.png}
+    \caption{Dispersionsrelation Phononen in einem Experiment}
+\end{figure}
+
+\question{Diskutieren Sie die Wärmekapazität sowohl in der klassischen als auch in der quantenmechanischen Betrachtung.}
+\label{q:7}
+
+In der der klassischen Physik wird angenommen, dass die Energieauf- und abnahme eines Materials 
+kontinuerlich ist bzw. die Energieniveaus von Molekülen und Atomen eines Materials kontinuierlich 
+variieren können. \\
+In den quantenmechanischen Modellen können die Energieniveaus nur diskrete Werte annehmen, wodurch die 
+Wärmekapazität eines Materials bei niedrigen Temperaturen diskrete Schritte 
+aufweist, die durch die Energieniveaus der quantenmechanischen Zustände bestimmt sind (Einstein, Debye).
+(Die Quantisierung der Gitterschwingungen ist entscheidend für die innere Energie und
+die spezifische Wärme des Kristallgitters.)
+\\
+Bei hohen Temperaturen nähert sich die klassische Wärmekapazität der quantenmechanischen Wärmekapazität 
+an (Abstände zwischen Energieniveaus wird kleiner).
+
+\begin{figure}[H]  
+    \centering
+    \includegraphics[width=.8\textwidth]{resources/05-01-2015/Frage7.png}
+    \caption{Vergleich zwischen Einstein- und Debye-Modell.}
+\end{figure}
+
+\question{Beschreiben Sie das Bloch-Theorem eines Elektrons im harmonischen Potential.}
+\label{q:8}
+
+\question{Beschreiben Sie den Paulschen Paramagnetismus.}
+\label{q:9}
+
+\question{Potentiat-Bindung im homöopolaren Molekül?}
+\label{q:10}
+Siehe Frage \ref{q:11}
+
+
+\newpage

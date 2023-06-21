@@ -1,56 +1,56 @@
 # Überblick über offene Fragen und Zettel: 
 
-### Fragen  ---  Arbeitet aus
-- [x] Frage 1 --- Elias
-- [x] Frage 2 --- Elias
-- [x] Frage 3 --- Elias
-- [x] Frage 4 --- Elias
-- [ ] Frage 5 --- __________
-- [ ] Frage 6 --- __________
-- [ ] Frage 7 --- __________
-- [ ] Frage 8 --- __________
-- [ ] Frage 9 --- __________
-- [ ] Frage 10 --- __________
-- [ ] Frage 11 --- __________
+### Fragen ------- arbeitet aus
+- [x] Frage 01 --- Elias
+- [x] Frage 02 --- Elias
+- [x] Frage 03 --- Elias
+- [x] Frage 04 --- Elias
+- [x] Frage 05 --- Christine
+- [x] Frage 06 --- David
+- [x] Frage 07 --- David
+- [ ] Frage 08 --- Nadine
+- [ ] Frage 09 --- Nadine
+- [x] Frage 10 --- Felix
+- [x] Frage 11 --- Felix
 - [x] Frage 12 --- siehe Frage 1
-- [ ] Frage 13 --- __________
-- [ ] Frage 14 --- __________
+- [x] Frage 13 --- Felix
+- [x] Frage 14 --- Felix
 - [x] Frage 15 --- siehe Frage 4
-- [ ] Frage 16 --- __________
-- [ ] Frage 17 --- __________
-- [ ] Frage 18 --- __________
-- [ ] Frage 19 --- __________
-- [ ] Frage 20 --- __________
-- [ ] Frage 21 --- __________
-- [ ] Frage 22 --- __________
-- [ ] Frage 23 --- __________
-- [ ] Frage 24 --- __________
-- [ ] Frage 25 --- __________
-- [ ] Frage 26 --- __________
-- [ ] Frage 27 --- __________
-- [ ] Frage 28 --- __________
-- [ ] Frage 29 --- __________
-- [ ] Frage 30 --- __________
-- [ ] Frage 31 --- __________
-- [ ] Frage 32 --- __________
-- [ ] Frage 33 --- __________
-- [ ] Frage 34 --- __________
-- [ ] Frage 35 --- __________
-- [ ] Frage 36 --- __________
+- [x] Frage 16 --- Felix
+- [x] Frage 17 --- Felix
+- [x] Frage 18 --- siehe Frage 5
+- [ ] Frage 19 --- Nadine
+- [x] Frage 20 --- siehe Frage 9
+- [x] Frage 21 --- Christine
+- [ ] Frage 22 --- schwechblechlover
+- [ ] Frage 23 --- schwechblechlover
+- [ ] Frage 24 --- schwechblechlover
+- [ ] Frage 25 --- schwechblechlover
+- [ ] Frage 26 --- Nadine
+- [ ] Frage 27 --- Nadine
+- [x] Frage 28 --- Andreas
+- [x] Frage 29 --- Christine
+- [x] Frage 30 --- David
+- [x] Frage 31 --- Christine
+- [ ] Frage 32 --- Nadine
+- [x] Frage 33 --- David
+- [x] Frage 34 --- siehe Frage 62
+- [x] Frage 35 --- siehe Frage 57
+- [x] Frage 36 --- siehe Frage 27
 - [ ] Frage 37 --- __________
 - [x] Frage 38 --- siehe Frage 4
 - [ ] Frage 39 --- __________
-- [ ] Frage 40 --- __________
-- [ ] Frage 41 --- __________
-- [ ] Frage 42 --- __________
-- [ ] Frage 43 --- __________
-- [ ] Frage 44 --- __________
+- [x] Frage 40 ---Kathi
+- [x] Frage 41 ---Kathi
+- [x] Frage 42 ---Kathi
+- [x] Frage 43 ---Kathi
+- [x] Frage 44 ---Kathi
 - [ ] Frage 45 --- __________
-- [ ] Frage 46 --- __________
-- [ ] Frage 47 --- __________
-- [ ] Frage 48 --- __________
+- [x] Frage 46 --- David
+- [x] Frage 47 --- siehe Frage 27
+- [x] Frage 48 --- Andreas
 - [ ] Frage 49 --- __________
-- [ ] Frage 50 --- __________
+- [x] Frage 50 --- siehe Frage 40
 - [ ] Frage 51 --- __________
 - [x] Frage 52 --- Matthias
 - [x] Frage 53 --- Matthias
@@ -61,24 +61,24 @@
 - [ ] Frage 58 --- Matthias
 - [ ] Frage 59 --- Matthias
 - [ ] Frage 60 --- __________
-- [ ] Frage 61 --- __________
-- [ ] Frage 62 --- __________
-- [ ] Frage 63 --- __________
-- [ ] Frage 64 --- __________
+- [x] Frage 61 --- Christine
+- [x] Frage 62 --- Christine
+- [x] Frage 63 --- siehe Frage 26
+- [x] Frage 64 --- siehe Frage 46
 - [ ] Frage 65 --- __________
-- [ ] Frage 66 --- __________
-- [ ] Frage 67 --- __________
+- [x] Frage 66 --- siehe Frage 57
+- [x] Frage 67 --- siehe Frage 5
 - [ ] Frage 68 --- __________
-- [ ] Frage 69 --- __________
+- [x] Frage 69 --- Christine
 - [x] Frage 70 --- siehe Frage 52
-- [ ] Frage 71 --- __________
-- [ ] Frage 72 --- __________
-- [ ] Frage 73 --- __________
-- [ ] Frage 74 --- __________
+- [x] Frage 71 --- siehe Frage 61
+- [x] Frage 72 --- siehe Frage 62
+- [x] Frage 73 --- Christine
+- [x] Frage 74 --- siehe Frage 26
 - [ ] Frage 75 --- __________
 - [ ] Frage 76 --- __________
 - [ ] Frage 77 --- __________
-- [ ] Frage 78 --- __________
+- [x] Frage 78 --- siehe Frage 57
 - [ ] Frage 79 --- __________
 - [x] Frage 80 --- siehe Frage 1
 - [x] Frage 81 --- siehe Frage 2
@@ -86,8 +86,8 @@
 - [ ] Frage 83 --- __________
 - [ ] Frage 84 --- __________
 - [x] Frage 85 --- siehe Frage 4
-- [ ] Frage 86 --- __________
-- [ ] Frage 87 --- __________
+- [x] Frage 86 --- siehe Frage 5
+- [x] Frage 87 --- siehe Frage 8
 - [ ] Frage 88 --- __________
 
 
