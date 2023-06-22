@@ -65,7 +65,7 @@
 - [x] Frage 62 --- Christine
 - [x] Frage 63 --- siehe Frage 26
 - [x] Frage 64 --- siehe Frage 46
-- [ ] Frage 65 --- Elias
+- [x] Frage 65 --- Elias
 - [x] Frage 66 --- siehe Frage 57
 - [x] Frage 67 --- siehe Frage 5
 - [ ] Frage 68 --- siehe Frage 49
@@ -76,7 +76,7 @@
 - [x] Frage 73 --- Christine
 - [x] Frage 74 --- siehe Frage 26
 - [ ] Frage 75 --- __________
-- [ ] Frage 76 --- siehe Frage 65
+- [x] Frage 76 --- siehe Frage 65
 - [ ] Frage 77 --- __________
 - [x] Frage 78 --- siehe Frage 57
 - [x] Frage 79 --- siehe Frage 11

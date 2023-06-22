@@ -73,6 +73,31 @@ Siehe \aqref{46}.
 \question{Diskutieren Sie die Gitterenergie der Ionenkristalle.}
 \label{q:65}
 
+Für die Berechnung der Gitterenergie in Ionenkristallen sind auch entferntere Nachbarn (nicht nur nächste) relevant. 
+Die gesamte Bindungsenergie (Gitterenergie) $E_G$ ergibt sich zu: 
+\[E_G = -\frac{N\cdot \alpha \cdot q^2}{4\pi\epsilon_0 R_0}(1-\nicefrac{\varrho}{R_0})\]
+Sie hängt also von der Molekühlanzahl $N$, einem Abstoßungsparameter $\varrho$ und der Madelungkonstante $\alpha$ ab. $q$ wie gewohnt die Ladung und $R_0$ der Gleichgewichtsabstand zwischen Ionen. 
+
+Zur Herleitung: (siehe auch Demtröder 3 S. 395-396)
+
+Für \ch{Na+}--\ch{Cl-} folgt aus dem Experiment $R$(\ch{Na+}--\ch{Cl-}) = \SI{2.81}{\angstrom} und $E_{B,experimentell} = \SI{8.2}{\electronvolt}$.
+Rechnet man über die Coulombenergie mit: 
+\[E_{pot} = \frac{e^2}{4\pi\epsilon_0 R} = \SI{5.1}{eV}\]
+erhält man einen wesentlich kleineren Wert $\rightarrow$ weitere nächste Nachbarn müssen berücksichtigt werden.
+Nun kann man das Potential zwischen zwei Ionen beschreiben als: 
+\[E_{pot}^{(i,j)} = C \cdot e^{-r_{ij}/\varrho}\pm \frac{q^2}{4\pi\epsilon_0 r_{ij}} \rightarrow E_{pot}^{(i)} = \sum_{i \ne j} \left( C \cdot e^{-r_{ij}/\varrho}\pm \frac{q_i q_j}{4\pi\epsilon_0 r_{ij}} \right)\]
+wobei $C$ eine Konstante ist, $r_{ij}$ der Abstand zwischen den Ionen $i$ und $j$ und $\varrho$ ein Abstoßungsparameter welcher den Abstand an der Stelle wo die Abstoßungsenergie auf 1/e abgefallen ist beschreibt. Die Exponentialfunktion beschreibt den abstoßenden Teil des Potentials bei Überlappung der innereren Elektronenschalen. \\
+Nun werden für die Exponentialfunktion nur die nächsten Nachbarn betrachtet: 
+\[E_{pot}^{(i)} = Z_{nN} \cdot C \cdot e^{-R_{nN}/\varrho}+\frac{q^2}{4\pi\epsilon_0} \sum_j\frac{\pm 1}{p_{ij}R_{nN}} = Z_{nN} \cdot C \cdot e^{-R_{nN}/\varrho}+\frac{\alpha q^2}{4\pi\epsilon_0 R_{nN}}\]
+Hier ist $r_{ij} = p_{ij} \cdot R_{nN}$ wobei $R_{nN}$ der Abstand zu den nächsten Nachbarn ist. Letztlich wurde die \textbf{Madelungkonstante}: 
+\[\alpha = \sum_j \frac{\mp 1}{p_{ij}}\]
+eingesetzt. Letztendlich folgt also für $N$ Molekühle: \\
+
+\[E_G = N \cdot E_{pot}^{(i)}\]
+was bei $R_0$ sich nicht ändern darf: sprich $\left(\frac{d E_{pot}^{(i)}}{d R}\right)_{R_0} = 0$ ableiten und umformen ergibt obige Gleichung. 
+
+Der Hauptanteil der Bindungsenergie von Ionenkristallen ist die Coulomb-Energie. 
+
 \question{Vergleichen Sie die Einstein- und Debye-Modelle der spezifischen Wärme. Welche Annahmen sind in beiden Modellen zu einfach?}
 \label{q:66}
 
