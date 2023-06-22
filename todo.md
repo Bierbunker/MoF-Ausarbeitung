@@ -22,9 +22,9 @@
 - [X] Frage 19 --- Nadine
 - [x] Frage 20 --- siehe Frage 9
 - [x] Frage 21 --- Christine
-- [ ] Frage 22 --- schwechblechlover
-- [ ] Frage 23 --- schwechblechlover
-- [ ] Frage 24 --- schwechblechlover
+- [x] Frage 22 --- schwechblechlover
+- [x] Frage 23 --- siehe Frage 43
+- [x] Frage 24 --- schwechblechlover
 - [x] Frage 25 --- Elias
 - [X] Frage 26 --- Nadine
 - [X] Frage 27 --- Nadine
@@ -45,13 +45,13 @@
 - [x] Frage 42 --- Kathi
 - [x] Frage 43 --- Kathi
 - [x] Frage 44 --- Kathi
-- [x] Frage 45 --- Elias
+- [x] Frage 45 --- siehe Frage 25
 - [x] Frage 46 --- David
 - [x] Frage 47 --- siehe Frage 27
 - [x] Frage 48 --- Andreas
 - [ ] Frage 49 --- Jax Most
 - [x] Frage 50 --- siehe Frage 40
-- [x] Frage 51 --- Elias
+- [x] Frage 51 --- siehe Frage 25
 - [x] Frage 52 --- Matthias
 - [x] Frage 53 --- Matthias
 - [x] Frage 54 --- Matthias
@@ -60,15 +60,15 @@
 - [x] Frage 57 --- Matthias
 - [x] Frage 58 --- Matthias
 - [x] Frage 59 --- Matthias
-- [ ] Frage 60 --- __________
+- [ ] Frage 60 --- siehe Frage 32
 - [x] Frage 61 --- siehe Frage 21
 - [x] Frage 62 --- Christine
 - [x] Frage 63 --- siehe Frage 26
 - [x] Frage 64 --- siehe Frage 46
-- [ ] Frage 65 --- __________
+- [ ] Frage 65 --- Elias
 - [x] Frage 66 --- siehe Frage 57
 - [x] Frage 67 --- siehe Frage 5
-- [ ] Frage 68 --- __________
+- [ ] Frage 68 --- siehe Frage 49
 - [x] Frage 69 --- Christine
 - [x] Frage 70 --- siehe Frage 52
 - [x] Frage 71 --- siehe Frage 21
@@ -76,15 +76,15 @@
 - [x] Frage 73 --- Christine
 - [x] Frage 74 --- siehe Frage 26
 - [ ] Frage 75 --- __________
-- [ ] Frage 76 --- __________
+- [ ] Frage 76 --- siehe Frage 65
 - [ ] Frage 77 --- __________
 - [x] Frage 78 --- siehe Frage 57
-- [ ] Frage 79 --- __________
+- [x] Frage 79 --- siehe Frage 11
 - [x] Frage 80 --- siehe Frage 1
 - [x] Frage 81 --- siehe Frage 2
 - [x] Frage 82 --- siehe Frage 3
-- [ ] Frage 83 --- __________
-- [ ] Frage 84 --- __________
+- [x] Frage 83 --- siehe Frage 6
+- [x] Frage 84 --- siehe Frage 7
 - [x] Frage 85 --- siehe Frage 4
 - [x] Frage 86 --- siehe Frage 5
 - [x] Frage 87 --- siehe Frage 8
