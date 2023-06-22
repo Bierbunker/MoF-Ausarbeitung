@@ -25,7 +25,7 @@
 - [ ] Frage 22 --- schwechblechlover
 - [ ] Frage 23 --- schwechblechlover
 - [ ] Frage 24 --- schwechblechlover
-- [ ] Frage 25 --- schwechblechlover
+- [x] Frage 25 --- Elias
 - [X] Frage 26 --- Nadine
 - [X] Frage 27 --- Nadine
 - [x] Frage 28 --- Andreas
@@ -45,13 +45,13 @@
 - [x] Frage 42 --- Kathi
 - [x] Frage 43 --- Kathi
 - [x] Frage 44 --- Kathi
-- [ ] Frage 45 --- Jax Most
+- [x] Frage 45 --- Elias
 - [x] Frage 46 --- David
 - [x] Frage 47 --- siehe Frage 27
 - [x] Frage 48 --- Andreas
 - [ ] Frage 49 --- Jax Most
 - [x] Frage 50 --- siehe Frage 40
-- [ ] Frage 51 --- Elias
+- [x] Frage 51 --- Elias
 - [x] Frage 52 --- Matthias
 - [x] Frage 53 --- Matthias
 - [x] Frage 54 --- Matthias
