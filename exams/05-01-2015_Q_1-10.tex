@@ -25,7 +25,7 @@ Weiter lässt sich die \textbf{Rotationskonstante} $B_e$ bzw. deren anharmonisch
 \[E_{rot} = B_e \cdot h\cdot c\]
 $J$ ist dabei die Quantenzahl der Rotation und $M$ die reduzierte Masse (damit $M * R_e^2$ eben $I$ entspricht; gilt freilich nur für 2-Atom Systeme). \\
 
-\[\Delta E_{rot} = \frac{(J+1)\hbar^2}{M\cdot {R_e}^2}\]  %TODO: 2B(J+1)
+\[\Delta E_{rot} = \frac{\hbar^2}{M R_e^2}(J+1) = 2B(J+1)\]
 \[\Delta E_{vib} = \hbar \cdot \omega\]
 
 \question{Diskutieren Sie elektrische Rotations-Schwingungsübergänge und die Entstehung von Schwingungsbanden.}
@@ -52,22 +52,45 @@ wie folgt zusammen:
 
 Somit ist die Länge des reziproken Gittervektors $\vec{G_{hkl}}$ indirekt proportional zum Abstand der Gitterebenen $d_{hkl}$.
 
-\question{Erklären Sie das Auftreten von Energiebandlücken mit Hilfe des Models der fast freien Elektronen.}
+\question{Erklären Sie das Auftreten von Energiebandlücken mithilfe des Models der fast freien Elektronen.}
 \label{q:5}
 
-Als Bandlücke, wird der energetische Abstand zwischen Valenzband und Leitungsband eines Festkörpers bezeichnet. Dessen elektrische und optische Eigenschaften werden wesentlich durch die Größe der Bandlücke bestimmt.
-Nach dem Bändermodell sind gebundene Zustände der Elektronen nur auf bestimmten Intervallen der Energieskala zugelassen, den Bändern. Zwischen den Bändern können energetisch verbotene Bereiche liegen. Jeder dieser Bereiche stellt eine Lücke zwischen den Bändern dar, jedoch ist für die physikalischen Eigenschaften eines Festkörpers nur die eventuelle Lücke zwischen dem höchsten noch vollständig mit Elektronen besetzten Band und dem nächsthöheren von entscheidender Bedeutung.
+Als Bandlücke wird der energetische Abstand zwischen Valenzband und Leitungsband eines Festkörpers bezeichnet. Dessen elektrische und optische Eigenschaften werden wesentlich durch die Größe der Bandlücke bestimmt.
+Nach dem Bändermodell sind gebundene Zustände der Elektronen nur auf bestimmten Intervallen der Energieskala zugelassen: den Bändern. Zwischen den Bändern können energetisch verbotene Bereiche liegen. Jeder dieser Bereiche stellt eine Lücke zwischen den Bändern dar, jedoch ist für die physikalischen Eigenschaften eines Festkörpers nur die eventuelle Lücke zwischen dem höchsten noch vollständig mit Elektronen besetzten Band und dem nächsthöheren von entscheidender Bedeutung.
 
 Daher ist mit der Bandlücke immer diejenige zwischen Valenz- und Leitungsband gemeint.
 Das Auftreten einer solchen Lücke lässt sich durch das Modell der quasifreien Elektronen beschreiben. Dabei wird das Modell freier Elektronen, welches das Verhalten der Valenzelektronen in einer kristallinen Struktur eines festen Metalls darstellt, durch ein elektrostatisches periodisches Potential
-erweitert. Dadurch kommt es zu einer näherungsweisen Beschreibung der positive geladenen Atomrümpfe im Kristallgitter. Man setzt dabei zunächst die Periodizität der Energiebänder im reziproken Raum an, welche bei Berücksichtigung eines kleinen Gitterpotentials an den Zonengrenzen eine Bandlücke aufweisen. 
+erweitert.
+\begin{equation}
+    \label{eq:coulomb_potential}
+    V_0(r) = \frac{1}{4\pi\epsilon_0}\frac{q}{r}
+\end{equation}
+Die freien Elektronen werden durch diese anziehende Coulomb-Wechselwirkung jedoch nur wenig gestört, da zusätzlich zu dieser anziehenden eine abstoßende Wechselwirkung aufgrund des Pauli-Prinzips auftritt. Beide WW sind im Bereich der Atomrümpfe am stärksten.
+
+Zusätzlich wird die anziehende Wechselwirkung der Atomrümpfe durch die freien Elektronen des Elektronengases abgeschirmt. Diese abschirmende Wirkung wird durch einen Korrekturterm im Coulomb-Potential beschrieben.
+\begin{equation}
+    \label{eq:}
+    V(r) = \frac{1}{4\pi\epsilon_0}\frac{q}{r}e^{-r/r_{\text{TF}}}
+\end{equation}
+Dabei beschreibt $r_{\text{TF}}$ den Thomas-Fermi-Radius, welcher den Abstand beschreibt, ab dem die anziehende Wechselwirkung stark nachlässt.
+\begin{equation}
+    \label{eq:Thomas-Fermi-Radius}
+    r_{\text{TF}} = \frac{a_0}{2}\left(\frac{\pi}{\sqrt{3}}n\right)^{\frac{1}{6}},
+\end{equation}
+mit $a_0$ als den Bohr-Radius.
+
+\begin{figure}[H]
+    \centering
+    \begin{samepage}
+        \includegraphics[width=0.6\linewidth]{resources/05-01-2015/coulomb_potential_screened.png}
+        \caption{Coulomb-Potential und abgeschirmtes Coulomb-Potential im quasifreien Teilchenmodell}
+        \label{fig:coulomb_potential_with_and_without_screening}
+    \end{samepage}
+\end{figure}
+
+Dadurch kommt es zu einer näherungsweisen Beschreibung der positive geladenen Atomrümpfe im Kristallgitter. Man setzt dabei zunächst die Periodizität der Energiebänder im reziproken Raum an, welche bei Berücksichtigung eines kleinen Gitterpotentials an den Zonengrenzen eine Bandlücke aufweisen. 
 Diese Methode erlaubt eine theoretische Vorhersage der Bandlücke und damit eine Einteilung der Festkörper in elektrische Leiter, Halbleiter und Isolatoren.
 Hierbei gilt als Faustregel:
-
-% TODO: nur in Größenordnung von Thomas-Fermi-Radius (Abschirmradius) relevant, Bild einfügen
-% TODO: Anziehende Coulomb-WW weitgehend durch abstoßende Pauli-WW kompensiert
-% TODO: Formel für Coulomb-Potential mit exponentiellem Abfall, Kapitel 12
-% TODO: S. 414!!
 
 \begin{itemize}
     \item \textbf{Leiter:} keine Bandlücke.

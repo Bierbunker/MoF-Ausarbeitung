@@ -75,8 +75,8 @@
 - [x] Frage 72 --- siehe Frage 62
 - [x] Frage 73 --- Christine
 - [x] Frage 74 --- siehe Frage 26
-- [ ] Frage 75 --- __________
-- [x] Frage 76 --- siehe Frage 65
+- [ ] Frage 75 --- Andreas
+- [ ] Frage 76 --- siehe Frage 65
 - [ ] Frage 77 --- __________
 - [x] Frage 78 --- siehe Frage 57
 - [x] Frage 79 --- siehe Frage 11

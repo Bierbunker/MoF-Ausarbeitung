@@ -6,8 +6,11 @@
 \[\ch{B_2} : (1\sigma_g)^2 ~ (1\sigma_u^*)^2 ~ (2\sigma_g)^2 ~ (2\sigma_u^*)^2 ~ (1\pi_u)^2\]
 
 \begin{figure}[H]
-    \includegraphics[width=0.8\linewidth]{resources/15-06-2015/b2.PNG}
-    \caption{Elektronenkonfiguration von \ch{B2}}
+    \centering
+    \begin{samepage}
+        \includegraphics[width=0.8\linewidth]{resources/15-06-2015/b2.PNG}
+        \caption{Elektronenkonfiguration von \ch{B2}}
+    \end{samepage}
 \end{figure}
 
 \question{Arten von Para-Diamagnetismus}
@@ -21,14 +24,16 @@ liegt. Sie hat die folgenden Eigenschaften:
 \begin{enumerate}
     \item Symmetrie: Die Zelle ist symmetrisch um den Gitterpunkt, von dem aus sie konstruiert wurde, sie weist alles Symmetrieoperationen, welche im gesamten Gitter vorkommen, auf. 
     \item Ein Gitterpunkt pro Zelle: Die Zelle enthält genau einen Gitterpunkt im Inneren der Zelle. Alle anderen Gitterpunkte des Gitters liegen auf den Seitenflächen der Zelle.
-    \item Nächste Nachbarn: Die Zelle teilt den Raum so auf, dass jeder Gitterpunkt seinem nächstgelegenen Nachbarn am nächsten ist.
+    \item Nächste Nachbarn: Die Zelle teilt den Raum so auf, dass jeder Gitterpunkt seinem nächstgelegenen Nachbarn am nächsten ist. %TODO: Zirkelschluss auflösen
 \end{enumerate}
+Wigner-Seitz-Zelle im reziproken Raum = 1. Brillouin-Zone.
 
-Konstruktion:
+Konstruktion siehe \autoref{fig:wigner-seitz}.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\linewidth]{resources/15-06-2015/q33.png}
     \caption{Konstruktion der Wigner-Seitz Zelle}
+    \label{fig:wigner-seitz}
 \end{figure}
 
 \question{Sp sp2 sp3 Bindungen von mehratomigen Molekülen}
@@ -37,16 +42,16 @@ Konstruktion:
 \question{Debye-Petit (oder so, irgendwas mit spezifischer Wärme von Elektronen)}
 \label{q:35}
 
-\question{Atom/Struktur Faktor}
+\question{Atom-/Struktur-Faktor}
 \label{q:36}
 
 \question{Zustandekommen von Energiebändern und Bandlöchern}
 \label{q:37}
 
-\textbf{TL;DR} Braggreflexion ist die Ursache für Energiebandlücken, da bei Braggreflexion keine Wellenartigen Lösungen der Schrödingergleichung existieren.
+\textbf{TL;DR} Braggreflexion ist die Ursache für Energiebandlücken, da bei Braggreflexion keine wellenartigen Lösungen der Schrödingergleichung existieren.
 Energiebänder sind die Resultate der Energiebandlücken.
 
-\textbf{TS;WR} Freie $e^-$ mit kontinuierlichen Energien besitzen Wellenfunktionen von der Form $\psi_{k}(\vec{r}) = exp(i\vec{k}\vec{r})$
+\textbf{TS;WR} Freie $e^-$ mit kontinuierlichen Energien besitzen Wellenfunktionen von der Form $\psi_{k}(\vec{r}) = \exp(i\vec{k}\vec{r})$ (ebene Welle).
 
 Man nehme einen eindimensionalen Kristall mit Gitterkonstante $a$.
 Die Braggbedingung\\$\left(\vec{k} + \vec{G}\right)^2 = k^2$ für Beugung eines Wellenvektors $\vec{k}$ ergibt sich in 1D zu
@@ -55,7 +60,7 @@ Die Braggbedingung\\$\left(\vec{k} + \vec{G}\right)^2 = k^2$ für Beugung eines 
 \end{equation}
 wobei $G = 2\pi n/a$ ein reziproker Gittervektor ist und $n \in \mathbb{N}$.
 
-Bei solchen $k$ (hier mit $n=1$) überlagert sich die Wellenfunktion $exp(\pm i \pi x / a)$ eines Wandernden $e^-$ mit seiner Bragg Reflektierten.
+Bei solchen $k$ (hier mit $n=1$) überlagert sich die Wellenfunktion $exp(\pm i \pi x / a)$ eines Wandernden $e^-$ mit seiner Bragg-Reflektierten.
 Mit $exp(\pm i \pi x / a) = cos(\pi x/a) \pm i sin(\pi x/a)$ erhält man eine symmetrische stehende Welle
 \begin{equation}
     \psi(+) = exp( i \pi x / a) + exp(- i \pi x / a) = 2cos(\pi x/a)
@@ -92,10 +97,11 @@ Siehe \aqref{4}.
 
 \question{Einstein-Debye Unterschiede und falsche Annahmen}
 \label{q:40}
-\textbf{Einstein-Näherung} 
+
+\textbf{Einstein-Näherung:} 
 \begin{itemize}
     \item Annahme: alle Atome im Kristall schwingen mit der gleichen Frequenz $\omega$ = $\omega_E$, wobei $\omega_E$ die Frequenz der optischen Moden darstellt. 
-    \item lässt sich nur auf optische Moden anwenden (nicht auf akkustische!)
+    \item lässt sich nur auf optische Moden anwenden (nicht auf akustische!)
     \item funktioniert gut bei hoher Dichte der optischen Phononen und liefert richtiges 
     Hochtermperaturlimit nach Dulong-Petit-Gesetz
     \item funktioniert schlecht bei tiefen Temperaturen und liefert ungenaues Limit für niedrige Temperaturen
