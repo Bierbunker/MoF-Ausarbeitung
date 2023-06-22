@@ -51,7 +51,7 @@
 - [x] Frage 48 --- Andreas
 - [ ] Frage 49 --- Jax Most
 - [x] Frage 50 --- siehe Frage 40
-- [ ] Frage 51 --- __________
+- [ ] Frage 51 --- Elias
 - [x] Frage 52 --- Matthias
 - [x] Frage 53 --- Matthias
 - [x] Frage 54 --- Matthias
