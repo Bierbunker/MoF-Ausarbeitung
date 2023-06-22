@@ -1,10 +1,13 @@
 \section{01. Mai 2015}
-\question{Austauschenergie beim H2 Molekül? Wann ist es groß/klein? Wieso ist es für die Bindung wichtig?}
+\question{Austauschenergie beim \ch{H2}-Molekül? Wann ist es groß/klein? Wieso ist es für die Bindung wichtig?}
 \label{q:1}
 
-Die Austauschenergie oder oft auch \textbf{Austauschwechselwirkung} spielt bei der chemischen Bindung eine bedeutende Rolle. \\
-Sie ist groß, falls sich die Atomorbitale stark überlappen---sprich symmetrisch sind---und kleiner falls sie sich weniger überlappen (=anti-symmetrisch). \\
-Wie man in der Abbildung erkennen kann, ergibt sich eine Bindung nur, wenn die Orbitale sich überlappen (im symmetrischen Fall $U_S$). \\
+Die Austauschenergie oder oft auch \textbf{Austauschwechselwirkung} spielt bei der chemischen Bindung eine bedeutende Rolle.
+
+Sie ist groß, falls sich die Atomorbitale stark überlappen -- sprich symmetrisch sind -- und kleiner, falls sie sich weniger überlappen (=anti-symmetrisch).
+
+Wie man in der Abbildung erkennen kann, ergibt sich eine Bindung nur, wenn die Orbitale sich überlappen (im symmetrischen Fall $U_S$).
+
 \begin{figure}[H]  
     \centering
     \includegraphics[width=.4\textwidth]{resources/05-01-2015/Frage1.png}
@@ -14,7 +17,7 @@ Wie man in der Abbildung erkennen kann, ergibt sich eine Bindung nur, wenn die O
 \question{Was kann man aus dem Rotations-Schwingungsspektrum für molekulare Größen bestimmen?}
 \label{q:2}
 
-Unter Annahme, dass die beiden Atome ihren Abstand bei Rotation nicht ändern kann man den \textbf{Bindungsabstand} $R_e$ bestimmen. \\
+Unter Annahme, dass die beiden Atome ihren Abstand bei Rotation nicht ändern, kann man den \textbf{Bindungsabstand} $R_e$ bestimmen. \\
 Weiter lässt sich die \textbf{Rotationskonstante} $B_e$ bzw. deren anharmonischer Anteil $\alpha_e$, die \textbf{Schwingungsfrequenz} $\omega$ und das \textbf{Trägheitsmoment} $I$ bestimmen. \\
 
 \[B_e = \frac{\hbar}{4 \pi c M R_e^2}\text{\quad [cm$^{-1}$]}\]
@@ -22,7 +25,7 @@ Weiter lässt sich die \textbf{Rotationskonstante} $B_e$ bzw. deren anharmonisch
 \[E_{rot} = B_e \cdot h\cdot c\]
 $J$ ist dabei die Quantenzahl der Rotation und $M$ die reduzierte Masse (damit $M * R_e^2$ eben $I$ entspricht; gilt freilich nur für 2-Atom Systeme). \\
 
-\[\Delta E_{rot} = \frac{(J+1)\hbar^2}{M\cdot {R_e}^2}\]
+\[\Delta E_{rot} = \frac{(J+1)\hbar^2}{M\cdot {R_e}^2}\]  %TODO: 2B(J+1)
 \[\Delta E_{vib} = \hbar \cdot \omega\]
 
 \question{Diskutieren Sie elektrische Rotations-Schwingungsübergänge und die Entstehung von Schwingungsbanden.}
@@ -41,9 +44,9 @@ Wird Energie (Photon) von außen zugeführt oder abgegeben, so kann ein Übergan
 \label{q:4}
 
 Der Abstand zweier Gitterebenen $d_{hkl}$ ist gegeben durch:
-\[d_{hkl} = \frac{a}{\sqrt{h^2 + k^2 + l^2}}\]
+\[d_{hkl} = \frac{1}{\sqrt{\left(\frac{h}{a}\right)^2 + \left(\frac{k}{b}\right)^2 + \left(\frac{l}{c}\right)^2}}\]
 und hängt mit dem reziproken Gittervektor $\vec{G_{hkl}}$ 
-\[\vec{G_{hkl}} = h\vec{b_1} + k\vec{b_2} + l\vec{b_3}\]
+\[\vec{G}_{hkl} = h\vec{b}_1 + k\vec{b}_2 + l\vec{b}_3\]
 wie folgt zusammen:
 \[d_{hkl} = \frac{2\pi}{|\vec{G_{hkl}}|}\]
 
@@ -53,20 +56,33 @@ Somit ist die Länge des reziproken Gittervektors $\vec{G_{hkl}}$ indirekt propo
 \label{q:5}
 
 Als Bandlücke, wird der energetische Abstand zwischen Valenzband und Leitungsband eines Festkörpers bezeichnet. Dessen elektrische und optische Eigenschaften werden wesentlich durch die Größe der Bandlücke bestimmt.
-Nach dem Bändermodell sind gebundene Zustände der Elektronen nur auf bestimmten Intervallen der Energieskala zugelassen, den Bändern. Zwischen den Bändern können energetisch verbotene Bereiche liegen. Jeder dieser Bereiche stellt eine Lücke zwischen den Bändern dar, jedoch ist für die physikalischen Eigenschaften eines Festkörpers nur die eventuelle Lücke zwischen dem höchsten noch vollständig mit Elektronen besetzten Band und dem nächsthöheren von entscheidender Bedeutung. Daher ist mit der Bandlücke immer diejenige zwischen Valenz- und Leitungsband gemeint.
-Das Auftreten einer solchen lücke lässt sich durch das Modell der quasifreien Elektronen beschreiben. Dabei wird das Modell freier Elektronen, welches das erhalten der Valenzelektronen in einer kristallinen Struktur eines festen Metalls darstellt, durch ein elektrostatisches periodisches Potential
+Nach dem Bändermodell sind gebundene Zustände der Elektronen nur auf bestimmten Intervallen der Energieskala zugelassen, den Bändern. Zwischen den Bändern können energetisch verbotene Bereiche liegen. Jeder dieser Bereiche stellt eine Lücke zwischen den Bändern dar, jedoch ist für die physikalischen Eigenschaften eines Festkörpers nur die eventuelle Lücke zwischen dem höchsten noch vollständig mit Elektronen besetzten Band und dem nächsthöheren von entscheidender Bedeutung.
+
+Daher ist mit der Bandlücke immer diejenige zwischen Valenz- und Leitungsband gemeint.
+Das Auftreten einer solchen Lücke lässt sich durch das Modell der quasifreien Elektronen beschreiben. Dabei wird das Modell freier Elektronen, welches das Verhalten der Valenzelektronen in einer kristallinen Struktur eines festen Metalls darstellt, durch ein elektrostatisches periodisches Potential
 erweitert. Dadurch kommt es zu einer näherungsweisen Beschreibung der positive geladenen Atomrümpfe im Kristallgitter. Man setzt dabei zunächst die Periodizität der Energiebänder im reziproken Raum an, welche bei Berücksichtigung eines kleinen Gitterpotentials an den Zonengrenzen eine Bandlücke aufweisen. 
 Diese Methode erlaubt eine theoretische Vorhersage der Bandlücke und damit eine Einteilung der Festkörper in elektrische Leiter, Halbleiter und Isolatoren.
 Hierbei gilt als Faustregel:
 
+% TODO: nur in Größenordnung von Thomas-Fermi-Radius (Abschirmradius) relevant, Bild einfügen
+% TODO: Anziehende Coulomb-WW weitgehend durch abstoßende Pauli-WW kompensiert
+% TODO: Formel für Coulomb-Potential mit exponentiellem Abfall, Kapitel 12
+% TODO: S. 414!!
+
 \begin{itemize}
-    \item Leiter: keine Bandlücke.
-    \item Halbleiter: Bandlücke im Bereich von 0,1 bis ca. 3 eV.
-    \item Nichtleiter: Bandlücke größer als 3 eV.
+    \item \textbf{Leiter:} keine Bandlücke.
+    \item \textbf{Halbleiter:} Bandlücke im Bereich von 0,1 bis ca. 3 eV.
+    \item \textbf{Nichtleiter:} Bandlücke größer als 3 eV.
 \end{itemize}
 
 \question{Wie kann experimentell die Dispersionsrelationskurve von Phononen ermittelt werden?}
 \label{q:6}
+
+\begin{enumerate}
+    \item Neutronen auf Kristallgitter schießen
+    \item Impuls der Neutronen vorher und nachher messen
+    \item Durch Energieverlust auf Phononen schließen
+\end{enumerate}
 
 \begin{figure}[H]  
     \centering
@@ -103,14 +119,15 @@ an (Abstände zwischen Energieniveaus wird kleiner).
 
 \question{Beschreiben Sie das Bloch-Theorem eines Elektrons im harmonischen Potential.}
 \label{q:8}
-Das Bloch-Theorem beschreibt das Verhalten eines Elektrons in einem periodischen Potential. Dabei nimmt das Elektron eine spezielle Wellenfunktion an, die als Bloch-Funktion bezeichnet wird. Diese Bloch-Funktion hat die Form einer ebene Welle, multipliziert mit einer periodischen Funktion, die die Symmetrie des Potentials widerspiegelt. \\
+
+Das Bloch-Theorem beschreibt das Verhalten eines Elektrons in einem periodischen Potential. Dabei nimmt das Elektron eine spezielle Wellenfunktion an, die als Bloch-Funktion bezeichnet wird. Diese Bloch-Funktion hat die Form einer ebene Welle multipliziert mit einer periodischen Funktion, die die Symmetrie des Potentials widerspiegelt.
 
 Im Fall eines harmonischen Potentials ergibt sich die Schrödinger-Gleichung für ein Elektron zu:
 \begin{align}
- ((- \frac{\hbar^2}{2m }) \nabla ^2  + V(x)) \Psi (x) = E \Psi (x)
+ \left(-\frac{\hbar^2}{2m} \nabla ^2  + V(x)\right) \Psi (x) = E \Psi (x)
 \end{align}
 
-Hierbei ist $\hbar$ das reduzierte Planck'sche Wirkungsquantum, $m$ die Masse des Elektrons, $\nabla$ der Laplace-Operator, $\Psi (x)$ die Wellenfunktion des Elektrons, $V(x)$ das harmonische Potential und $E$ die Energie des Elektrons.
+Hierbei ist $\hbar$ das reduzierte Planck'sche Wirkungsquantum, $m$ die Masse des Elektrons, $\nabla^2$ der Laplace-Operator, $\Psi (x)$ die Wellenfunktion des Elektrons, $V(x)$ das harmonische Potential und $E$ die Energie des Elektrons.
 Für das Potential $V(\vec{r})$ gilt die \textbf{Translations-Invarianz}:
 \begin{align}
     V(\vec{r}) = V(\vec{r} + \vec{R})
@@ -131,7 +148,7 @@ Der Ansatz erfüllt die periodischen Randbedingungen, wobei $\vec{k}$ ein Punkt 
 
 Die Lösungen dieser Gleichung sind \textbf{Bloch-Funktionen}, die gegeben sind durch:
 \begin{align}
-    \Psi (\vec{r})) = \exp{(ik\vec{r})} u(\vec{r})
+    \Psi_k (\vec{r}) = e^{i\vec{k}\vec{r}} \cdot u_k(\vec{r})
 \end{align}
 
 Hierbei ist k der Wellenvektor des Elektrons und $u(\vec{r})$ eine periodische Funktion mit derselben Periodizität wie das harmonische Potential. Die periodische Funktion $u(\vec{r})$ erfüllt die Gleichung:
@@ -146,10 +163,9 @@ Die Bloch-Funktionen sind ebenfalls symmetrisch bei Verschiebung um einen Vektor
     E(\vec{k} + \vec{G'}) &= E(\vec{k})
 \end{align}
 
-Das Bloch-Theorem besagt, dass die Bloch-Funktionen eine vollständige Basis des Lösungsraums der Schrödinger-Gleichung im harmonischen Potential darstellen. Das bedeutet, dass jede Wellenfunktion $\Psi(x)$ eines Elektrons in diesem Potential als Linearkombination der Bloch-Funktionen dargestellt werden kann. \\
+Das Bloch-Theorem besagt, dass die Bloch-Funktionen eine vollständige Basis des Lösungsraums der Schrödinger-Gleichung im harmonischen Potential darstellen. Das bedeutet, dass jede Wellenfunktion $\Psi(x)$ eines Elektrons in diesem Potential als Linearkombination der Bloch-Funktionen dargestellt werden kann.
 
-
-Das Bloch-Theorem ist von entscheidender Bedeutung für das Verständnis des elektronischen Verhaltens in Festkörpern, da es erklärt, warum Elektronen bestimmte \textbf{Energiebänder} bilden und sich diese Bänder wiederum in isolierende, leitende und halbleitende Eigenschaften des Materials manifestieren.
+Das Bloch-Theorem ist von entscheidender Bedeutung für das Verständnis des elektronischen Verhaltens in Festkörpern, da es erklärt, warum Elektronen bestimmte \textbf{Energiebänder} bilden und sich diese Bänder wiederum in isolierenden, leitenden und halbleitenden Eigenschaften des Materials manifestieren.
 
 \begin{figure}
     \centering
@@ -162,7 +178,8 @@ Das Bloch-Theorem ist von entscheidender Bedeutung für das Verständnis des ele
 
 \question{Potentiat-Bindung im homöopolaren Molekül?}
 \label{q:10}
-Siehe Frage \ref{q:11}
+
+Siehe \aqref{q:11}.
 
 
 \newpage

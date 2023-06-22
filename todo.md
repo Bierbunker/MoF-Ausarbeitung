@@ -61,7 +61,7 @@
 - [x] Frage 58 --- Matthias
 - [x] Frage 59 --- Matthias
 - [ ] Frage 60 --- __________
-- [x] Frage 61 --- Christine
+- [x] Frage 61 --- siehe Frage 21
 - [x] Frage 62 --- Christine
 - [x] Frage 63 --- siehe Frage 26
 - [x] Frage 64 --- siehe Frage 46
@@ -71,7 +71,7 @@
 - [ ] Frage 68 --- __________
 - [x] Frage 69 --- Christine
 - [x] Frage 70 --- siehe Frage 52
-- [x] Frage 71 --- siehe Frage 61
+- [x] Frage 71 --- siehe Frage 21
 - [x] Frage 72 --- siehe Frage 62
 - [x] Frage 73 --- Christine
 - [x] Frage 74 --- siehe Frage 26
