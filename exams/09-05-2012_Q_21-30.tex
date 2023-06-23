@@ -98,28 +98,21 @@ Beruht auf dem Prinzip, dass Zeitskalen der Anregung $\nu_{el} \approx \SI{e15}{
 
 Die Intensität von Schwingungsbanden hängt ab vom Überlapp der Wellenfunktionen der beiden Zustände. Wie in \autoref{fig:q25} gezeigt, sind die wahrscheinlichsten Übergänge (blau und grün) jene, deren Maximum der Wellenfunktionen senkrecht übereinander liegen. Übergänge zu anderen Schwingungszuständen sind ebenfalls möglich, jedoch weniger wahrscheinlich. 
 
-\begin{figure}[H]  
-    \centering
-    \includegraphics[width=.4\textwidth]{resources/09-05-2012/Franck-Condon-Prinzip.png}
-    \caption{Schwarze Kurven: Energie eines zweiatomigen Moleküls in Abhängigkeit vom theoretisch festgehaltenen Abstand der Kerne, für zwei verschiedene Zustände der Elektronenhülle (schematisch). Die Schwingungszustände sind mit ihren Wellenfunktionen für den Kernabstand auf der Höhe der jeweiligen Energie eingezeichnet. Die beiden Pfeile stellen vibronische Übergänge dar.}
-    \label{fig:q25}
-\end{figure}
-
 \paragraph{Variante 2}
 
 Das Frank-Condon Prinzip besagt, dass elektronische Übergänge so schnell stattfinden (im Bereich von \SI{e-15}{s}), dass der Kernabstand sich effektiv nicht ändert.
 Diese hohe Geschwindigkeit des elektronischen Übergangs gegenüber der Kernbewegung wird durch die geringe Masse der Elektronen ermöglicht (analog zur Born-Oppenheimer-Näherung).
 
-Wenn ein Molekül nun von einem elektronischen Zustand in einen anderen übergeht, so ist dieser Übergang umso wahrscheinlicher, je mehr die Vibrationswellenfunktionen der beiden Zustände zueinander kompatibel sind (z. B. beim gleichen Kernabstand ein Maximum haben), siehe \autoref{fig:Condon}.
+Wenn ein Molekül nun von einem elektronischen Zustand in einen anderen übergeht, so ist dieser Übergang umso wahrscheinlicher, je mehr die Vibrationswellenfunktionen der beiden Zustände zueinander kompatibel sind (z. B. beim gleichen Kernabstand ein Maximum haben), siehe \autoref{fig:q25}.
 
-Am Beispiel der Zustände in \autoref{fig:Condon} bedeutet dies: Vom Vibrations-Grundzustand ($\nu'' = 0$) im elektronischen Grundzustand ist der wahrscheinlichste Übergang in den elektronisch angeregten Zustand derjenige, der im Vibrations-Zustand $\nu' = 2$ endet. Übergänge in andere Vibrations-Zustände können auch stattfinden, allerdings ist die Wahrscheinlichkeit dafür geringer.
+Am Beispiel der Zustände in \autoref{fig:q25} bedeutet dies: Vom Vibrations-Grundzustand ($\nu'' = 0$) im elektronischen Grundzustand ist der wahrscheinlichste Übergang in den elektronisch angeregten Zustand derjenige, der im Vibrations-Zustand $\nu' = 2$ endet. Übergänge in andere Vibrations-Zustände können auch stattfinden, allerdings ist die Wahrscheinlichkeit dafür geringer.
 
 
 \begin{figure}[H]
     \centering
     \includegraphics[width = 0.5\textwidth]{resources/09-05-2012/Franck-Condon-Prinzip}
     \caption{Schwarze Kurven Energie eines zweiatomigen Moleküls in Abhängigkeit des Abstand der Kerne, Die Pfeile symbolisieren die vibronische Übergänge.}
-    \label{fig:Condon}
+    \label{fig:q25}
 \end{figure}
 
 
@@ -127,7 +120,7 @@ Um so einen Übergang zu modellieren, wird ein Dipoloperator eingeführt:
 \begin{equation}
     \mu = \mu_{\epsilon} + \mu_K = - e \sum_{i} \vec{r_i}  + \sum_{j} Z_j \vec{R_j} 
 \end{equation}
-Die Übergangswahrscheinlichkeit zwíschen den beiden Zuständen ist gegeben durch das Skalarprodukt
+Die Übergangswahrscheinlichkeit zwischen den beiden Zuständen ist gegeben durch das Skalarprodukt
 \begin{equation}
     P = \left\langle\psi| \mu | \psi' \right\rangle   
 \end{equation}
@@ -136,7 +129,7 @@ während die Intensität I des Übergangs das Quadrat dieser Übergangswahrschei
 \begin{equation}
     I = |P|^2
 \end{equation}
-Die Wellenfunktionen der beiden Zustände siehe \ref{fig:Condon} können als Produkt der elektronischen und der Vibrationswellenfunktion ausgedrückt werden.
+Die Wellenfunktionen der beiden Zustände siehe \autoref{fig:q25} können als Produkt der elektronischen und der Vibrationswellenfunktion ausgedrückt werden.
 \begin{equation}
     \psi = \psi_{\epsilon}(\vec{r_i}) \psi_v(\vec{R_j})
 \end{equation} 
@@ -166,7 +159,7 @@ Die Intensität der Schwingungsbänder wird von der Überlappung der beiden Vibr
 \vec{G} &= \vec{k'} - \vec{k} \\
 \vec{k} \frac{1}{2} \vec{G} &= (\frac{1}{2} \vec{G})^2
 \end{align}
-mit den Wellenvektoren $\vec{k}$, dem reziproken Gittervektor $\vec{G}$ sowie dem Ebenenabstand $d$ und dem Streuwinkel $\Theta$ Die Bragg-Bedingung ist ein Speziallfall der Laue-Bedingung. Es elten folgende Relationen:
+mit den Wellenvektoren $\vec{k}$, dem reziproken Gittervektor $\vec{G}$ sowie dem Ebenenabstand $d$ und dem Streuwinkel $\Theta$ Die Bragg-Bedingung ist ein Speziallfall der Laue-Bedingung. Es gelten folgende Relationen:
 \begin{align}
     |\vec{G}_{h,k,l}| &= 2 |\vec{k}| \sin{\Theta} \\
     |\vec{k}| &= \frac{2 \pi}{\lambda} \\
