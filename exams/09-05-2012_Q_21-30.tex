@@ -37,6 +37,9 @@ für die Elektronen aufteilen.
 
 \question{Welche Informationen über molekulare Kerngrößen können aus Rotations-Schwingungsspektren von Molekülen erhalten werden?}
 \label{q:22}
+
+(siehe auch \aqref{2}.)
+
 \begin{itemize}
     \item Rotationskonstanten $B_e$ und $\alpha_e$ 
     \item Gleichgewichtsabstand $R_e$
@@ -104,19 +107,19 @@ Die Intensität von Schwingungsbanden hängt ab vom Überlapp der Wellenfunktion
 
 \paragraph{Variante 2}
 
-Das Frank-Gordon Prinzip besagt, dass elektronische Übergänge so schnell stattfinden (im Bereich von \SI{e-15}{s}), dass der Kernabstand sich effektiv nicht ändert.
+Das Frank-Condon Prinzip besagt, dass elektronische Übergänge so schnell stattfinden (im Bereich von \SI{e-15}{s}), dass der Kernabstand sich effektiv nicht ändert.
 Diese hohe Geschwindigkeit des elektronischen Übergangs gegenüber der Kernbewegung wird durch die geringe Masse der Elektronen ermöglicht (analog zur Born-Oppenheimer-Näherung).
 
-Wenn ein Molekül nun von einem elektronischen Zustand in einen anderen übergeht, so ist dieser Übergang umso wahrscheinlicher, je mehr die Vibrationswellenfunktionen der beiden Zustände zueinander kompatibel sind (z. B. beim gleichen Kernabstand ein Maximum haben), siehe \autoref{fig:gordon}.
+Wenn ein Molekül nun von einem elektronischen Zustand in einen anderen übergeht, so ist dieser Übergang umso wahrscheinlicher, je mehr die Vibrationswellenfunktionen der beiden Zustände zueinander kompatibel sind (z. B. beim gleichen Kernabstand ein Maximum haben), siehe \autoref{fig:Condon}.
 
-Am Beispiel der Zustände in \autoref{fig:gordon} bedeutet dies: Vom Vibrations-Grundzustand ($\nu'' = 0$) im elektronischen Grundzustand ist der wahrscheinlichste Übergang in den elektronisch angeregten Zustand derjenige, der im Vibrations-Zustand $\nu' = 2$ endet. Übergänge in andere Vibrations-Zustände können auch stattfinden, allerdings ist die Wahrscheinlichkeit dafür geringer.
+Am Beispiel der Zustände in \autoref{fig:Condon} bedeutet dies: Vom Vibrations-Grundzustand ($\nu'' = 0$) im elektronischen Grundzustand ist der wahrscheinlichste Übergang in den elektronisch angeregten Zustand derjenige, der im Vibrations-Zustand $\nu' = 2$ endet. Übergänge in andere Vibrations-Zustände können auch stattfinden, allerdings ist die Wahrscheinlichkeit dafür geringer.
 
 
 \begin{figure}[H]
     \centering
     \includegraphics[width = 0.5\textwidth]{resources/09-05-2012/Franck-Condon-Prinzip}
     \caption{Schwarze Kurven Energie eines zweiatomigen Moleküls in Abhängigkeit des Abstand der Kerne, Die Pfeile symbolisieren die vibronische Übergänge.}
-    \label{fig:gordon}
+    \label{fig:Condon}
 \end{figure}
 
 
@@ -133,7 +136,7 @@ während die Intensität I des Übergangs das Quadrat dieser Übergangswahrschei
 \begin{equation}
     I = |P|^2
 \end{equation}
-Die Wellenfunktionen der beiden Zustände siehe \ref{fig:gordon} können als Produkt der elektronischen und der Vibrationswellenfunktion ausgedrückt werden.
+Die Wellenfunktionen der beiden Zustände siehe \ref{fig:Condon} können als Produkt der elektronischen und der Vibrationswellenfunktion ausgedrückt werden.
 \begin{equation}
     \psi = \psi_{\epsilon}(\vec{r_i}) \psi_v(\vec{R_j})
 \end{equation} 
@@ -144,7 +147,7 @@ Führt man nun das Skalarprodukt aus:
     P = \langle \psi_v' | \psi_v \rangle \langle \psi_{\epsilon}' | \mu_{\epsilon} | \psi_{\epsilon} \rangle + \langle \psi_{\epsilon}' | \psi_{\epsilon} \rangle \langle\psi_v' | \mu_K |\psi_v \rangle
 \end{equation}
 Die zwei elektronischen Wellenfunktionen sind orthogonal aufeinander und somit ist $\langle \psi_{\epsilon}' | \psi_{\epsilon} \rangle  = 0$.
-Der erste Term quadriert $|\langle \psi_v' | \psi_v \rangle|^2$ ist der Frank Gordon Faktor und der zweite Term das Übergangsdipolmoment. 
+Der erste Term quadriert $|\langle \psi_v' | \psi_v \rangle|^2$ ist der Frank Condon Faktor und der zweite Term das Übergangsdipolmoment. 
 Die Intensität der Schwingungsbänder wird von der Überlappung der beiden Vibrationswellenfunktionen bestimmt.
 \begin{equation}
     I = |\langle \psi_v' | \psi_v \rangle \langle \psi_{\epsilon}' | \mu_{\epsilon} | \psi_{\epsilon} \rangle|^2
