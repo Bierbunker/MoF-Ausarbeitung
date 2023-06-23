@@ -8,7 +8,7 @@ Siehe \aqref{25}.
 \question{Diskutiere die Elektronenkonfiguration von \ch{N2}.}
 \label{q:52}
 
-\[\ch{N_2} : (1\sigma_g)^2 ~ (1\sigma_u^*)^2 ~ (2\sigma_g)^2 ~ (2\sigma_u^*)^2 ~ (1\pi_u^*)^4 ~ 3\sigma_g^2\]
+\[\ch{N_2} : (1\sigma_g)^2 ~ (1\sigma_u^*)^2 ~ (2\sigma_g)^2 ~ (2\sigma_u^*)^2 ~ (1\pi_u)^4 ~ (3\sigma_g)^2\]
 14 Elektronen werden auf die $\pi$- und $\sigma$-Bindungen aufgeteilt. Achtung: Die Reihenfolge der $1\pi$- und der $3\sigma$-Orbitale kann variieren. Die unterschiedliche Reihenfolge dieser Orbitale kommt durch eine Mischung der s- und p-Atomorbitale zustande: Eine solche kann vorkommen, wenn der energetische Unterschied zwischen dem 2s- und dem 2p-Orbital der Atome klein genug ist (N$_2$ bildet genau die Grenze, bis zu der die Bildung dieser Mischung möglich ist). Dadurch wird zwar das $2\sigma_g$-Orbital stärker bindend, das $3\sigma_g$ wird jedoch schwächer bindend. Dadurch ist das $1\pi_u$-Orbital energetisch günstiger als das $3\sigma_g$ (\autoref{fig:q52}). Ist der (energetische) Abstand zwischen den s- und p-Atomorbitalen groß genug, so kann die Mischung der Orbitale vernachlässigt werden.
 
 \begin{figure}[H]
@@ -34,10 +34,10 @@ Um das Potential noch besser zu beschreiben wird das empirisch ermittelte Lennar
 \begin{equation}
     E_{pot}(R) = \frac{a}{R^{12}} - \frac{b}{R^6}
 \end{equation}
-Dabei sind $a$ und $b$ Anpassungsparameter, die so gewählt werden, dass das Potenzial dem experimentell bestimmten Potenzial in möglichst guter Näherung entspricht. Durch die Kombination von anziehendem und abstoßendem Term entsteht ein Minimum des Potenzials beim Bindungsabstand mit $E_B = E_{pot}(R_e) = \frac{b^2}{2a}$.
+Dabei sind $a$ und $b$ Anpassungsparameter, die so gewählt werden, dass das Potenzial dem experimentell bestimmten Potenzial in möglichst guter Näherung entspricht. Durch die Kombination von anziehendem und abstoßendem Term entsteht ein Minimum des Potenzials beim Bindungsabstand mit $E_B = E_{pot}(R_e) = \frac{b^2}{4a}$.
 
 
-\question{Konzept des Bravaisgitters und der Wigner-Seitz Zelle.}
+\question{Konzept des Bravaisgitters und der Wigner-Seitz-Zelle.}
 \label{q:54}
 
 Ein Bravaisgitter ist ein rein mathematisches Gitter, welches die Periodizität eines Kristallgitters beschreiben soll. An die einzelnen Gitterpunkte des periodischen Bravaisgitters können im Prinzip beliebig komplizierte Kombinationen von Atomen oder Molekülen gesetzt werden, die dann als Basis bezeichnet werden. Das Bravaisgitter beschreibt also nur die Periodizität, die Basis beschreibt die konkrete Struktur des Kristalls. Wichtig: Die Anordnung und Orientierung der Punkte im Bravaisgitter müssen identisch sein, egal von welchem Punkt man es betrachtet.
@@ -53,7 +53,7 @@ Anmerkung: Konstruiert man die Wigner-Seitz-Einheitszelle im reziproken Gitter, 
 \question{Diskutiere den Unterschied zwischen der akustischen und optischen Phononendispersionsrelation bzw. longitudinaler/transversaler, akustischer und optischer Phononen.}
 \label{q:55}
 
-Betrachtet man eine eindimensionale Kette aus zwei abwechselnd aufeinander folgenden Atomen $M_1$ und $M_2$, welche durch eine Hook'sche Feder verbunden sind, und löst die zugehörige Bewegungsgleichung, so ergibt sich daraus eine quadratische Gleichung für die Frequenz $\omega$. Die beiden Lösungen dieser Gleichung sind der optische und der akustische Ast, wobei der optische Ast nur dann auftritt, wenn die Kette tatsächlich aus einer zweiatomigen Basis besteht. Bei einer einatomigen Basis gibt es nur den akustischen Ast. Der optische Ast weist außerdem eine höhere Frequenz auf. Durch die unterschiedliche räumliche Orientierung der Schwingung lassen sich der akustische und der optische Ast weiters in transversale und longitudinale Äste einteilen. Bei $s$ Atomen pro Einheitszelle ergeben sich immer $3$ akustische Freiheitsgrade und $3s-3$ optische Freiheitsgrade (also insgesamt $3s$ Schwigungsäste).
+Betrachtet man eine eindimensionale Kette aus zwei abwechselnd aufeinander folgenden Atomen $M_1$ und $M_2$, welche durch eine Hook'sche Feder verbunden sind, und löst die zugehörige Bewegungsgleichung, so ergibt sich daraus eine quadratische Gleichung für die Frequenz $\omega$. Die beiden Lösungen dieser Gleichung sind der optische und der akustische Ast, wobei der optische Ast nur dann auftritt, wenn die Kette tatsächlich aus einer zweiatomigen Basis besteht. Bei einer einatomigen Basis gibt es nur den akustischen Ast. Der optische Ast weist außerdem eine höhere Frequenz auf. Durch die unterschiedliche räumliche Orientierung der Schwingung lassen sich der akustische und der optische Ast weiters in transversale und longitudinale Äste einteilen. Bei $s$ Atomen pro Einheitszelle ergeben sich immer $3$ akustische Freiheitsgrade und $3s-3$ optische Freiheitsgrade (also insgesamt $3s$ Schwingungsäste).
 % eventuell noch ausbaufähig
 
 \question{Diskutiere das statische Verhalten des freien Elektronengases.}
@@ -113,7 +113,7 @@ Debye-Modell: 3 Annahmen
 \begin{enumerate}
     \item Lineare Dispersion $\omega_i = v_i k$
     \item Isotrope Schallgeschwindigkeit $v_1 = v_2 = v_3 = v_s$
-    \item Erste Brillouinzone hat die Form einer Kugel mit Radius $k_D$, so dass die Anzahl der Schwingungsmoden innerhalb der Kugel gleich der Anzahl der Atome im Kristall ist.     
+    \item Erste Brillouinzone hat die Form einer Kugel mit Radius $k_D$, sodass die Anzahl der Schwingungsmoden innerhalb der Kugel gleich der Anzahl der Atome im Kristall ist.     
 \end{enumerate}
 
 Für ein kontinuierliches gilt: $D(\omega) = \frac{V}{(2\pi)^3} \left( \frac{1}{v_L^3} + \frac{2}{v_T^3}\right) \omega^2$ und es ergibt sich mit den 3 Annahmen:
@@ -145,7 +145,7 @@ Das Drude-Modell (klassisches Modell, siehe \aqref{56}) versagt im Hinblick auf 
 
 \[ U(T) = \displaystyle \int_0^\infty E f_{FD}(E,T) D(E) dE \]
 
-Die resultierende Zustandsdichte ist in \autoref{fig:q58} dargestellt. Für die Wärmekapazität des freien Elektronengas ergibt sich dann \( c_v = \frac{1}{2} \pi^2 nk_B \frac{T}{T_F} = \gamma T\). 
+Die resultierende Zustandsdichte ist in \autoref{fig:q58} dargestellt. Für die Wärmekapazität des freien Elektronengases ergibt sich dann \( c_v = \frac{1}{2} \pi^2 nk_B \frac{T}{T_F} = \gamma T\). 
 
 \begin{figure}[H]
     \centering
@@ -157,7 +157,7 @@ Die resultierende Zustandsdichte ist in \autoref{fig:q58} dargestellt. Für die 
 \question{Was besagt das Bloch-Theorem bzw. die Bloch-Funktion?}
 \label{q:59}
 
-Bei einem periodischen Potential (z.B. der Überlagerung der Coloumb-Potentiale in einem Kristallgitter) können die Lösungen der Schrödinger Gleichung als Linearkombinationen von Basisfunktionen der Form
+Bei einem periodischen Potential (z.B. der Überlagerung der Coulomb-Potentiale in einem Kristallgitter) können die Lösungen der Schrödinger Gleichung als Linearkombinationen von Basisfunktionen der Form
 
 \[ \Psi_k(\vb{r}) = u_k(\vb{r}) e^{i\vb{k}\vb{r}}\]
 

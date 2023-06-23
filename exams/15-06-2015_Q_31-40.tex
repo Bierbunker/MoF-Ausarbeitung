@@ -16,7 +16,7 @@
 \question{Arten von Para-Diamagnetismus}
 \label{q:32}
 
-\question{Konzept von Bravais Wigner-Seitz Zelle}
+\question{Konzept von Bravais-Gitter und Wigner-Seitz-Zelle}
 \label{q:33}
 
 Die Bravais Wigner-Seitz Zelle ist definiert als die Zelle im Raum, die jedem Gitterpunkt am nächsten 
@@ -66,17 +66,17 @@ Die Braggbedingung\\$\left(\vec{k} + \vec{G}\right)^2 = k^2$ für Beugung eines 
 \end{equation}
 wobei $G = 2\pi n/a$ ein reziproker Gittervektor ist und $n \in \mathbb{N}$.
 
-Bei solchen $k$ (hier mit $n=1$) überlagert sich die Wellenfunktion $exp(\pm i \pi x / a)$ eines Wandernden $e^-$ mit seiner Bragg-Reflektierten.
-Mit $exp(\pm i \pi x / a) = cos(\pi x/a) \pm i sin(\pi x/a)$ erhält man eine symmetrische stehende Welle
+Bei solchen $k$ (hier mit $n=1$) überlagert sich die Wellenfunktion $\exp(\pm i \pi x / a)$ eines Wandernden $e^-$ mit seiner Bragg-Reflektierten.
+Mit $\exp(\pm i \pi x / a) = \cos(\pi x/a) \pm i \sin(\pi x/a)$ erhält man eine symmetrische stehende Welle
 \begin{equation}
-    \psi(+) = exp( i \pi x / a) + exp(- i \pi x / a) = 2cos(\pi x/a)
+    \psi(+) = \exp( i \pi x / a) + \exp(- i \pi x / a) = 2\cos(\pi x/a)
 \end{equation}
 und eine antisymmetrische
 \begin{equation}
-    \psi(-) = exp( i \pi x / a) - exp(- i \pi x / a) = 2 i sin(\pi x/a)
+    \psi(-) = \exp( i \pi x / a) - \exp(- i \pi x / a) = 2 i \sin(\pi x/a)
 \end{equation}
 ähnlich wie in den Hybridisierungsorbitalen einer Doppelbindung.
-Die Aufenthaltswahrscheinlichkeiten $\left|\psi(\pm)\right|^2$ in Kombination mit den Potentialen der Atomkerne (Abb.a)) zeigen, dass die symmetrische Wellenfunktion $\psi(+)$ mehr negative Ladung an die positiven Ionen zieht und dadurch geringere potentielle Energie besitzt, als eine laufende Welle und $\psi(-)$ eine höhere potentielle Energie als eine laufende Welle besitzt.
+Die Aufenthaltswahrscheinlichkeiten $\left|\psi(\pm)\right|^2$ in Kombination mit den Potentialen der Atomkerne (Abb. (a)) zeigen, dass die symmetrische Wellenfunktion $\psi(+)$ mehr negative Ladung an die positiven Ionen zieht und dadurch geringere potentielle Energie besitzt, als eine laufende Welle und $\psi(-)$ eine höhere potentielle Energie als eine laufende Welle besitzt.
 \begin{figure}[H]
     \centering
     \begin{subfigure}[c]{0.4\textwidth}
@@ -88,8 +88,8 @@ Die Aufenthaltswahrscheinlichkeiten $\left|\psi(\pm)\right|^2$ in Kombination mi
         \caption{}
     \end{subfigure}% 
     \caption{
-        a) Aufenthaltswahrscheinlichkeiten $\left|\psi(\pm)\right|^2$ und für laufende Wellen zusammen mit der Potentiellen Energie einer negativen Ladung um die Kerne.
-        b) Energie plot mit Bandlücke.
+        (a) Aufenthaltswahrscheinlichkeiten $\left|\psi(\pm)\right|^2$ und für laufende Wellen zusammen mit der Potentiellen Energie einer negativen Ladung um die Kerne.
+        (b) Energie plot mit Bandlücke.
         }
 \end{figure}
 
@@ -106,23 +106,23 @@ Siehe \aqref{4}.
 
 \textbf{Einstein-Näherung:} 
 \begin{itemize}
-    \item Annahme: alle Atome im Kristall schwingen mit der gleichen Frequenz $\omega$ = $\omega_E$, wobei $\omega_E$ die Frequenz der optischen Moden darstellt. 
+    \item Annahme: alle Atome im Kristall schwingen mit der gleichen Frequenz $\omega = \omega_E$, wobei $\omega_E$ die Frequenz der optischen Moden darstellt. 
     \item lässt sich nur auf optische Moden anwenden (nicht auf akustische!)
     \item funktioniert gut bei hoher Dichte der optischen Phononen und liefert richtiges 
-    Hochtermperaturlimit nach Dulong-Petit-Gesetz
+    Hochtemperaturlimit nach Dulong-Petit-Gesetz
     \item funktioniert schlecht bei tiefen Temperaturen und liefert ungenaues Limit für niedrige Temperaturen
-    \item Falsche Annahme: akkustische Moden werden nicht berücksichtigt und alle harmonischen Oszillatoren im Festkörper würden mit einheitlicher Frequenz schwingen.
+    \item Falsche Annahme: akustische Moden werden nicht berücksichtigt und alle harmonischen Oszillatoren im Festkörper würden mit einheitlicher Frequenz schwingen.
 \end{itemize}
 
-\textbf{Debye-Näherung} 
+\textbf{Debye-Näherung:} 
 \begin{itemize}
     \item Annahme: 
         \begin{itemize}
             \item Vielzahl möglicher Frequenzen und Ausbreitungsgeschwindigkeit $v_i$ von Wellen/Phononen. 
             \item Lineare Dispersion $\omega_i=v_ik$ 
         \end{itemize}
-    \item berücksichtigt nur akkustische Moden
-    \item funktioniert gut bei niedrigen Temperaturen, da niederenergetische (akkustische) Phononen besser dargestellt sind 
+    \item berücksichtigt nur akustische Moden
+    \item funktioniert gut bei niedrigen Temperaturen, da niederenergetische (akustische) Phononen besser dargestellt sind 
     \item liefert korrektes Limit für hohe und tiefe Temperaturen
     \item Falsche Annahme: optische Phononen werden nicht berücksichtigt und Effekte nahe der Brillouinzonengrenze werden nicht richtig beschrieben
 \end{itemize}

@@ -77,7 +77,7 @@
 - [x] Frage 74 --- siehe Frage 26
 - [x] Frage 75 --- Andreas
 - [x] Frage 76 --- siehe Frage 65
-- [ ] Frage 77 --- Andreas
+- [x] Frage 77 --- Andreas
 - [x] Frage 78 --- siehe Frage 57
 - [x] Frage 79 --- siehe Frage 11
 - [x] Frage 80 --- siehe Frage 1
