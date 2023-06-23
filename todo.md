@@ -60,7 +60,7 @@
 - [x] Frage 57 --- Matthias
 - [x] Frage 58 --- Matthias
 - [x] Frage 59 --- Matthias
-- [ ] Frage 60 --- siehe Frage 32
+- [x] Frage 60 --- siehe Frage 32
 - [x] Frage 61 --- siehe Frage 21
 - [x] Frage 62 --- Christine
 - [x] Frage 63 --- siehe Frage 26
@@ -68,16 +68,16 @@
 - [x] Frage 65 --- Elias
 - [x] Frage 66 --- siehe Frage 57
 - [x] Frage 67 --- siehe Frage 5
-- [ ] Frage 68 --- siehe Frage 49
+- [x] Frage 68 --- siehe Frage 49
 - [x] Frage 69 --- Christine
 - [x] Frage 70 --- siehe Frage 52
 - [x] Frage 71 --- siehe Frage 21
 - [x] Frage 72 --- siehe Frage 62
 - [x] Frage 73 --- Christine
 - [x] Frage 74 --- siehe Frage 26
-- [ ] Frage 75 --- Andreas
-- [ ] Frage 76 --- siehe Frage 65
-- [ ] Frage 77 --- __________
+- [x] Frage 75 --- Andreas
+- [x] Frage 76 --- siehe Frage 65
+- [ ] Frage 77 --- Andreas
 - [x] Frage 78 --- siehe Frage 57
 - [x] Frage 79 --- siehe Frage 11
 - [x] Frage 80 --- siehe Frage 1
