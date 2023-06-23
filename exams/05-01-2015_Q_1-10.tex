@@ -32,11 +32,11 @@ $J$ ist dabei die Quantenzahl der Rotation und $M$ die reduzierte Masse (damit $
 \question{Diskutieren Sie elektrische Rotations-Schwingungsübergänge und die Entstehung von Schwingungsbanden.}
 \label{q:3}
 
-Übergänge zwischen Schwingungs-Rotations-Niveaus ($f_i$,$J_i$) $\rightarrow$ ($f_j$,$J_j$) innerhaltb desselben elektronischen Zustandes bilden für $f_i \neq f_j$ ein Schwingungs-Rotations-Spektrum.
+Übergänge zwischen Schwingungs-Rotations-Niveaus ($f_i$,$J_i$) $\rightarrow$ ($f_j$,$J_j$) innerhalb desselben elektronischen Zustandes bilden für $f_i \neq f_j$ ein Schwingungs-Rotations-Spektrum. \\
 
 \textbf{WICHTIG:} nur Moleküle welche ein permanentes Dipolmoment besitzen können solche Übergänge durchführen (z.B.: \ce{CO2}, \ce{H2O} aber \underline{nicht} \ce{O2}, andere homonuklearen, \dots etc.).
 
-Wird Energie (Photon) von außen zugeführt oder abgegeben, so kann ein Übergang zwischen den Niveaus stattfinden - Auswahlregel $\Delta J = \pm 1$. Sprich Rotations-Schwingungsübergänge spielen sich zwischen benachbarten Niveaus ab.
+Wird Energie (Photon) von außen zugeführt oder abgegeben, so kann ein Übergang zwischen den Niveaus stattfinden - Auswahlregel $\Delta J = \pm 1$. Sprich Rotations-Schwingungsübergänge spielen sich zwischen benachbarten Niveaus ab. Für harmonische Potentiale sind $\Delta J = \pm 1$ möglich, für anharmonische Morse Potential sind auch andere Übergänge $\pm 2$, etc. erlaubt.\\
 
 \textbf{Schwingungsbanden} bezeichnen nun alle Rotationslinien, welche zu einem Schwingungsübergang gehören.
 
@@ -99,6 +99,15 @@ Hierbei gilt als Faustregel:
     \item \textbf{Nichtleiter:} Bandlücke größer als 3 eV.
 \end{itemize}
 
+Zusatz: siehe Demtröder, Experimentalphysik 3, S. 430-431:
+Ungebundene Elektronen bewegen sich im konstanten Pontential mit kleinen Störungen (Atomrümpfe): 
+\[E_{pot}(\vb{r}) = E_0 + e \cdot \phi(\vb{r})\]
+Mit Fourierkomponente: 
+\[V(G) = \frac{e}{L}\int e^{-iGr}\phi(r) \text{d}r\]
+ergibt sich (für diesen eindimensionalen Fall) näherungsweise: 
+\[E_{\pm}(k) = E_0(k) \pm \left|V(G)\right|\]
+Somit ist die Bandlücke $\Delta E = 2\left|V(G)\right|$ breit. 
+Die Bandlücke folgt also aus der Gitterperiodizität und ist größer bei kleinerer Räumlicher Periodizität. 
 \question{Wie kann experimentell die Dispersionsrelationskurve von Phononen ermittelt werden?}
 \label{q:6}
 
@@ -134,7 +143,10 @@ aufweist, die durch die Energieniveaus der quantenmechanischen Zustände bestimm
 die spezifische Wärme des Kristallgitters.)
 
 Bei hohen Temperaturen nähert sich die klassische Wärmekapazität der quantenmechanischen Wärmekapazität 
-an (Abstände zwischen Energieniveaus wird kleiner).
+an (Abstände zwischen Energieniveaus wird kleiner).\\
+
+Dulong--Petit Gesetz (klassisch):
+\[c_\nu^m = 3 N_A\cdot k_b = 3R = 24.9 \,JK^{-1} mol^{-1}\]
 
 \begin{figure}[H]  
     \centering
@@ -167,7 +179,7 @@ Allgemein ist das Potential $V(\vec{r})$ gitterperiodisch und lässt sich als Su
 
 Für die Lösung der Schrödingergleichung ist der Ansatz:
 \begin{align}
-    \Psi(\vec{r}) = \sum_{\vec{G}}  C_{\vec{k}} e^{i \vec{k} \vec{r}}
+    \Psi(\vec{r}) = \sum_{\vec{k}}  C_{\vec{k}} e^{i \vec{k} \vec{r}}
 \end{align}
 Der Ansatz erfüllt die periodischen Randbedingungen, wobei $\vec{k}$ ein Punkt im reziproken Raum ist. \\
 

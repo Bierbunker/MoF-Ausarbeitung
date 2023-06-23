@@ -54,17 +54,17 @@
 \newcommand{\NA}{\ensuremath{\mathit{NA}}}
 
 
+
+
 % Question command
 \newcounter{question}
 \newcommand{\question}[1]{\stepcounter{question}\paragraph{Frage \thequestion: #1}~}
 
 \newcommand{\qref}[1]{%
-  \phantomsection\label{q:#1}% Create a label for the question
   \textbf{\hyperref[q:#1]{#1}}% Link to the question label
 }
 
 \newcommand{\aqref}[1]{%
-  \phantomsection\label{q:#1}% Create a label for the question
   \textbf{\hyperref[q:#1]{Frage #1}}% Link to the question label
 }
 
