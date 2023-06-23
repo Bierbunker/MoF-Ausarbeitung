@@ -25,7 +25,7 @@
 - [x] Frage 22 --- schwechblechlover
 - [x] Frage 23 --- siehe Frage 43
 - [x] Frage 24 --- schwechblechlover
-- [x] Frage 25 --- Elias
+- [x] Frage 25 --- Elias/schwechblechlover
 - [X] Frage 26 --- Nadine
 - [X] Frage 27 --- Nadine
 - [x] Frage 28 --- Andreas

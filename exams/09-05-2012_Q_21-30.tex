@@ -24,10 +24,10 @@ für die Elektronen aufteilen.
             H_{\text{elec}} = - \sum_i \frac{\hbar^2}{2m_e} \nabla^2_i - \sum_{a,i} \frac{Z_a e^2}{4 \pi \epsilon_0 |\vec{r}_i-\vec{r}_a| }  + \sum_{i<j} \frac{e^2}{4 \pi \epsilon_0 |\vec{r}_i-\vec{r}_j| }
         \end{equation}
 
-    \item Die Kernbewegeung ist von den Elektronen nahezu unbeeinflusst, jedoch bewegen sie sich im Potential der elektrischen Zustände. 
-        Die Kern-Wellenfunktion $\eta_{hk}(\vec{R})$ hängt nur von der Kernkoordinate $\vec{R}$ ab.\\
-        Die Schrödingergleichung lautet: 
+    \item Die Kernbewegung ist von den Elektronen nahezu unbeeinflusst, jedoch bewegen sie sich im Potential der elektrischen Zustände. 
+        Die Kern-Wellenfunktion $\eta_{hk}(\vec{R})$ hängt nur von der Kernkoordinate $\vec{R}$ ab.
 
+        Die Schrödingergleichung lautet:
         \begin{align}
             (\hat{T}_n + \hat{V}_{NN} + E_h(\vec{R})) \cdot \eta_{hk}(\vec{R}) = E_{hk} \cdot \eta_{hk}(\vec{R})
         \end{align}
@@ -43,42 +43,73 @@ für die Elektronen aufteilen.
     \item Form der Potentialkurve
 \end{itemize}
 Die Rotationsenergieniveaus eines Moleküls sind direkt mit dessen Massenverteilung verbunden.
-Die Kenntniss der Emissionslinien bzw. Absorbtionlinien (meistens > 800 nm) ermöglicht es das Trägheitsmoment $I$ des Moleküls zu bestimmen. 
+Die Kenntnis der Emissionslinien bzw. Absorbtionslinien (meistens $>\SI{800}{nm}$) ermöglicht es das Trägheitsmoment $I$ des Moleküls zu bestimmen.
 \begin{align}
-    E_{rot} &= \frac{\vec{J}^2}{2 I } \\
-    E_{rot} &= \frac{J(J+1)\hbar^2}{2I} \hspace{0.5cm} J = 0,1,2 \hspace{0.5cm} \text{QM}\\
-    \Delta E_{rot} &= \frac{(J+1)\hbar^2}{I}
+    E_{rot} &= \frac{J^2}{2I} \\
+    E_{rot} &= \frac{\hbar^2}{2I}J(J+1) = BJ(J+1) \qquad J = 0,1,2 \qquad \text{QM} \\
+    \Delta E_{rot} &= \frac{\hbar^2}{I}(J+1) = 2B(J+1)
 \end{align}
-Meist wird die Energie in der Spektroskopie in Form von Wellenzahlen (m$^{-1}$) angegeben, dies entspricht der räumlichen Frequenz der emettierten bzw absorbierten E-Welle.
+Meist wird die Energie in der Spektroskopie in Form von Wellenzahlen (in \si{\per\meter}) angegeben, dies entspricht der räumlichen Frequenz der emittierten bzw. absorbierten E-Welle.
 So kann ein Zusammenhang zur Rotationskonstante $B_e$ hergestellt werden.
 \begin{align}
     F_{rot}(J) &= \frac{E_{rot}(J)}{h c} = B_e J(J+1) \\
     B_e &= \frac{\hbar}{4 \pi c I}
 \end{align}
-Die Schwingungsfrequenzen in einem Rotations-Schwingungsspektrum geben Informationen über die Energieniveaus der Molekülschwingungen. 
+
+Die Schwingungsfrequenzen in einem Schwingungsrotationsspektrum geben Informationen über die Energieniveaus der Molekülschwingungen. 
 Durch die Quantisierung der Schwingung kann man die Anzahl der Schwingungsmodi im Molekül bestimmen.
- Die Schwingungsfrequenzen hängen von der Steifigkeit der Bindungen und der Masse der Atome ab.
-\question{Diskutieren das Schwigungs-Rotations Spektrum eines 2-atomigen Moleküls.}
+Die Schwingungsfrequenzen hängen von der Steifigkeit der Bindungen und der Masse der Atome ab.
+
+
+\question{Diskutieren das Schwingungsrotationsspektrum eines 2-atomigen Moleküls.}
 \label{q:23}
-Siehe \ref{q:43}
+
+Siehe \aqref{43}.
+
 \question{Welche Verbesserungen des einfachen MO- oder VB-Ansatzes ermöglichen eine bessere Übereinstimmung mit den experimentellen Werten?}
 \label{q:24}
-\textbf{Elektroneninteraktion}:\\
+
+\textbf{Elektroneninteraktion}:
+
 Ein Ansatz zur Verbesserung des MO- oder VB-Ansatzes besteht darin, die Elektronenkorrelation zu berücksichtigen. 
 Der einfache Ansatz vernachlässigt die Wechselwirkungen zwischen Elektronen, was zu Fehlern bei der Berechnung der Bindungsenergien und der Geometrie führen kann. 
 Die Elektronenkorrelation kann durch Methoden wie der Konfigurationswechselwirkung (CI) oder der Dichtefunktionaltheorie (DFT) berücksichtigt werden. 
-Diese Methoden erlauben eine bessere Behandlung der Elektronenkorrelation und führen zu genaueren Ergebnissen.\\
-\textbf{Relativistische Effekte}: \\
+Diese Methoden erlauben eine bessere Behandlung der Elektronenkorrelation und führen zu genaueren Ergebnissen.
+
+\textbf{Relativistische Effekte}:
+
 Ein weiterer Ansatz besteht darin, relativistische Effekte zu berücksichtigen. 
 Insbesondere bei schweren Atomen wie den Übergangsmetallen sind relativistische Effekte wichtig, da sie die Elektronenstruktur und die Bindungsenergien beeinflussen können.
-\question{Was versteht man unter dem Franck-Condon Prinzip? Diskutiere die Intensität von Schwingungsbänden in einem Molekülspektrum bei einem elektronischen Übergang an Hand des Franck-Condon Prinzips.} \\
+
+\question{Was versteht man unter dem Franck-Condon-Prinzip? Diskutiere die Intensität von Schwingungsbanden in einem Molekülspektrum bei einem elektronischen Übergang anhand des Franck-Condon-Prinzips.}
 \label{q:25}
-Das Frank-Gordon Prinzip besagt, dass elektronische Übergänge so schnell stattfinden 10$^{-15}$ s , dass der Kernabstand sich effektiv nicht ändert.
+
+\paragraph{Variante 1}
+
+Das Franck-Condon-Prinzip besagt: 
+\begin{mdframed}[backgroundcolor=yellow!20] % Profi
+    Bei Absorption bzw. Emission eines Photons erfolgt die Änderung der Elektronenanordnung in einem Molekül vorzugsweise \enquote{so rasch} (vertikal), dass sich dabei die Lage und die Geschwindigkeit der Kerne nicht ändert.
+\end{mdframed}
+
+Beruht auf dem Prinzip, dass Zeitskalen der Anregung $\nu_{el} \approx \SI{e15}{\hertz}$ zwei bis drei Größenordnungen schneller als Kernschwingungen $\nu_{N} \approx \SI{e13}{\hertz}$ sind. 
+
+Die Intensität von Schwingungsbanden hängt ab vom Überlapp der Wellenfunktionen der beiden Zustände. Wie in \autoref{fig:q25} gezeigt, sind die wahrscheinlichsten Übergänge (blau und grün) jene, deren Maximum der Wellenfunktionen senkrecht übereinander liegen. Übergänge zu anderen Schwingungszuständen sind ebenfalls möglich, jedoch weniger wahrscheinlich. 
+
+\begin{figure}[H]  
+    \centering
+    \includegraphics[width=.4\textwidth]{resources/09-05-2012/Franck-Condon-Prinzip.png}
+    \caption{Schwarze Kurven: Energie eines zweiatomigen Moleküls in Abhängigkeit vom theoretisch festgehaltenen Abstand der Kerne, für zwei verschiedene Zustände der Elektronenhülle (schematisch). Die Schwingungszustände sind mit ihren Wellenfunktionen für den Kernabstand auf der Höhe der jeweiligen Energie eingezeichnet. Die beiden Pfeile stellen vibronische Übergänge dar.}
+    \label{fig:q25}
+\end{figure}
+
+\paragraph{Variante 2}
+
+Das Frank-Gordon Prinzip besagt, dass elektronische Übergänge so schnell stattfinden (im Bereich von \SI{e-15}{s}), dass der Kernabstand sich effektiv nicht ändert.
 Diese hohe Geschwindigkeit des elektronischen Übergangs gegenüber der Kernbewegung wird durch die geringe Masse der Elektronen ermöglicht (analog zur Born-Oppenheimer-Näherung).
 
-Wenn ein Molekül nun von einem elektronischen Zustand in einen anderen übergeht, so ist dieser Übergang umso wahrscheinlicher, je mehr die Vibrations-Wellenfunktionen der beiden Zustände zueinander kompatibel sind (z. B. beim gleichen Kernabstand ein Maximum haben) . 
-siehe Abbildung \ref{fig:gordon}.
-Am Beispiel der Zustände in Abbildung \ref{fig:gordon} bedeutet dies: Vom Vibrations-Grundzustand ( $\nu'' = 0$) im elektronischen Grundzustand ist der wahrscheinlichste Übergang in den elektronisch angeregten Zustand derjenige, der im Vibrations-Zustand $\nu' = 2 $ endet. Übergänge in andere Vibrations-Zustände können auch stattfinden, allerdings ist die Wahrscheinlichkeit dafür geringer.
+Wenn ein Molekül nun von einem elektronischen Zustand in einen anderen übergeht, so ist dieser Übergang umso wahrscheinlicher, je mehr die Vibrationswellenfunktionen der beiden Zustände zueinander kompatibel sind (z. B. beim gleichen Kernabstand ein Maximum haben), siehe \autoref{fig:gordon}.
+
+Am Beispiel der Zustände in \autoref{fig:gordon} bedeutet dies: Vom Vibrations-Grundzustand ($\nu'' = 0$) im elektronischen Grundzustand ist der wahrscheinlichste Übergang in den elektronisch angeregten Zustand derjenige, der im Vibrations-Zustand $\nu' = 2$ endet. Übergänge in andere Vibrations-Zustände können auch stattfinden, allerdings ist die Wahrscheinlichkeit dafür geringer.
 
 
 \begin{figure}[H]
@@ -89,7 +120,7 @@ Am Beispiel der Zustände in Abbildung \ref{fig:gordon} bedeutet dies: Vom Vibra
 \end{figure}
 
 
-Um so einen Übergang zu modelieren  wird ein Dipoloperator eingeführt:
+Um so einen Übergang zu modellieren, wird ein Dipoloperator eingeführt:
 \begin{equation}
     \mu = \mu_{\epsilon} + \mu_K = - e \sum_{i} \vec{r_i}  + \sum_{j} Z_j \vec{R_j} 
 \end{equation}
@@ -112,12 +143,13 @@ Führt man nun das Skalarprodukt aus:
 \begin{equation}
     P = \langle \psi_v' | \psi_v \rangle \langle \psi_{\epsilon}' | \mu_{\epsilon} | \psi_{\epsilon} \rangle + \langle \psi_{\epsilon}' | \psi_{\epsilon} \rangle \langle\psi_v' | \mu_K |\psi_v \rangle
 \end{equation}
-Die zwei elektronischen Wellenfunktionen sind orthogonal aufeinander und somit ist $\langle \psi_{\epsilon}' | \psi_{\epsilon} \rangle  = 0 $.
+Die zwei elektronischen Wellenfunktionen sind orthogonal aufeinander und somit ist $\langle \psi_{\epsilon}' | \psi_{\epsilon} \rangle  = 0$.
 Der erste Term quadriert $|\langle \psi_v' | \psi_v \rangle|^2$ ist der Frank Gordon Faktor und der zweite Term das Übergangsdipolmoment. 
 Die Intensität der Schwingungsbänder wird von der Überlappung der beiden Vibrationswellenfunktionen bestimmt.
 \begin{equation}
-    I = |\langle \psi_v' | \psi_v \rangle \langle \psi_{\epsilon}' | \mu_{\epsilon} | \psi_{\epsilon} \rangle| ^2
+    I = |\langle \psi_v' | \psi_v \rangle \langle \psi_{\epsilon}' | \mu_{\epsilon} | \psi_{\epsilon} \rangle|^2
 \end{equation}
+
 
 \question{Diskutiere die Laue'sche Beugungsbedingung: anhand Ewald Konstruktion im Rahmen der Bragg'schen Interpretation.}
 \label{q:26}
