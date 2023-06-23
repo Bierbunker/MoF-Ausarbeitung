@@ -1,6 +1,6 @@
 \section{16. März 2012}
 
-\question{Diskutieren der unterschiedlichen Überlegungen in der Valenzbindugsnäherung (VB) und in der Molekularorbitalnäherung (MO) zur Beschreibung der Molekülbindung in einem 2-atomigen Molekül}
+\question{Diskutieren der unterschiedlichen Überlegungen in der Valenzbindungsnäherung (VB) und in der Molekularorbitalnäherung (MO) zur Beschreibung der Molekülbindung in einem 2-atomigen Molekül}
 \label{q:41}
 
 \textbf{VB-Näherung}
@@ -8,20 +8,32 @@
     \item erklärt Paarung von Elektronen durch Überlappung von Orbitale und Pi- und Sigma-Bindungen
     \item erklärt Hybridorbitale, aber liefert KEINE Details über Molekülorbitale
     \item im Grundzustand können zwei Elektronen mit $\uparrow \downarrow$ Spins untergebracht werden
-    \item zwei lokalisierte Elektronen um Kerne A und B
-    \item beide Elektronen werden betrachtet, sodass für beide Wahrscheinlichkeitsamplituden $\Psi_1$ und $\Psi_2$ ein Produktansatz der Atomorbitale notwendig ist % TODO: Formel
-    \item Besetzung des Molekülorbitals wird mit Linearkombination von $\Psi_1$ und $\Psi_2$ durch Pauli-Prinzip erzwungen % TODO: Formel
+    \item zwei \textbf{lokalisierte} Elektronen um Kerne A und B
+    \item beide Elektronen werden betrachtet, sodass für beide Wahrscheinlichkeitsamplituden $\psi_1$ und $\psi_2$ ein Produktansatz der Atomorbitale notwendig ist % TODO: Formel
+    \item Besetzung des Molekülorbitals wird mit Linearkombination von $\psi_1$ und $\psi_2$ durch Pauli-Prinzip erzwungen % TODO: Formel
+    \item \textbf{$e^-$ Lokalisiert}
 \end{itemize}
-
+2 $e^-$ werden zugleich beschrieben:
+\[\psi_1(\vb{r_1},\vb{r_2}) = c_1 \phi_A(\vb{r_1}) \cdot \phi_B(\vb{r_2})\]
+\[\psi_2(\vb{r_1},\vb{r_2}) = c_2 \phi_A(\vb{r_2}) \cdot \phi_B(\vb{r_1})\]
+und danach symmetrisch / antisymmetrische kombiniert: 
+\[\psi_{sym}(\vb{r_1},\vb{r_2}) = \psi_1(\vb{r_1}) + \psi_2(\vb{r_2})\]
+\[\psi_{asym}(\vb{r_1},\vb{r_2}) = \psi_1(\vb{r_1}) - \psi_2(\vb{r_2})\]
 
 \noindent
 \textbf{MO-Näherung}
 \begin{itemize}
     \item basiert auf bindenden und antibindenden Molekülorbitalen
     \item erklärt nicht die Hybridisierung des Orbitale
-    \item ein Elektron betrachtet, dass sich in $\Phi_A$ als auch in $\Phi_B$ aufhalten kann, sodass für dieses Molekülorbital-Ansatz notwendig ist (wobei $\Phi_A$ und $\Phi_B$ atomare Wellenfunktionen)
+    \item ein Elektron betrachtet, dass sich in $\phi_A$ als auch in $\phi_B$ aufhalten kann, sodass für dieses Molekülorbital-Ansatz notwendig ist (wobei $\Phi_A$ und $\Phi_B$ atomare Wellenfunktionen)
     \item für Besetzung des Molekülorbitals mit zwei Elektronen wird Produktansatz verwendet
+    \item \textbf{$e^-$ Delokalisiert}
 \end{itemize}
+$e^-$ werden einzeln beschrieben als Linearkombination der Atomorbitale:
+\[\psi_{e_1}(\vb{r}) = c_1 \cdot \phi_A(\vb{r}) +c_2 \cdot \phi_B(\vb{r})\]
+2 $e^-$ werden mittels Produktansatz kombiniert:
+\[\psi(\vb{r}) = \psi_{e_1}(\vb{r}) \cdot \psi_{e_2}(\vb{r}) \]
+
 \question{Skizzieren der bindenden und antibindenden Wellenfunktionen in einem homonuklearen 2-atomigen Molekül}
 \label{q:42}
 \begin{figure}[H]
@@ -53,7 +65,7 @@
                 \end{equation}
 
                 \begin{equation}
-                F_{rot}(J)=B_eJ(J+1)=\frac{\hbar}{4\pi cMR_e^2}J(J+1)
+                F_{rot} =B_eJ(J+1)=\frac{\hbar}{4\pi cMR_e^2}J(J+1) \hspace{5mm} \left[cm^{-1}\right]
                 \label{Termwert_RotE}
                 \end{equation}
 
@@ -128,6 +140,8 @@ besetzt.
 Da das $(2\sigma_g)$-Orbital als höchstes besetzt ist, handelt es sich um eine stabile Bindung. 
 Es gibt ein bindendes Elektronenpaar und daher handelt es sich um eine kovalente Bindung.
 
+\textbf{Energie-Orbital-Diagram:} Am besten noch ein Energieniveau-Orbital-Diagramm zeichnen, um die Bindung zu verdeutlichen. Dann kann man argumentieren, dass die Bindung stabil ist, weil das $(2\sigma_g)$-Orbital als höchstes besetzt ist und somit die Energie des Moleküls minimiert wird.
+
 \question{Was versteht man unter dem Franck-Condon-Prinzip? Diskutiere die Intensität von Schwingungsbänden in einem Molekülspektrum bei einem elektronischen Übergang anhand des Franck-Condon-Prinzips.}
 \label{q:45}
 
@@ -141,7 +155,7 @@ fcc -- face centered cubic, hcp -- hexagonal closed pack
 \begin{enumerate}
     \item Anordnung der Atome: Im fcc-Gitter sind die Atome auf den Eckpunkten eines Würfels sowie in den Zentren der sechs Flächen platziert. Im hcp-Gitter sind die Atome hexagonal angeordnet.
     \item Einheitszelle: Im fcc-Gitter ist die Einheitszelle ein Würfel, jeder Eckpunkt enthält ein Atom. Im hcp-Gitter ist die Zelle ein hexagonales Prisma, jede Basisebene enthält ein Atom.
-    \item Schichtstruktur: Im fcc-Gitter gibt es keine klaren Schichten, da die Atome gleichmäßig im Raum verteilt sind. Im hcp-Gitter sind die Schichten klar definiert.
+    \item Schichtstruktur: Im fcc-Gitter gibt es \textbf{ABCABC}-Schichten. Im hcp-Gitter sind die Schichten \textbf{ABAB}-angeordnet.
     \item Komprimierung: Im fcc-Gitter beträgt $a:c = \sqrt{2}:1$. Im hcp-Gitter beträgt $a:c = \sqrt{3}:2$.
     \item Bepackungsdichte: In beiden Gittern beträgt die maximale Bepackungsdichte 0,74.
 \end{enumerate}
