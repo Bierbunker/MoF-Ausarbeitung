@@ -37,7 +37,7 @@
 - [x] Frage 34 --- siehe Frage 62
 - [x] Frage 35 --- siehe Frage 57
 - [x] Frage 36 --- siehe Frage 27
-- [ ] Frage 37 --- Jax Most
+- [x] Frage 37 --- Jax Most
 - [x] Frage 38 --- siehe Frage 4
 - [ ] Frage 39 --- Jax Most
 - [x] Frage 40 --- Kathi
@@ -49,7 +49,7 @@
 - [x] Frage 46 --- David
 - [x] Frage 47 --- siehe Frage 27
 - [x] Frage 48 --- Andreas
-- [ ] Frage 49 --- Jax Most
+- [x] Frage 49 --- Jax Most
 - [x] Frage 50 --- siehe Frage 40
 - [x] Frage 51 --- siehe Frage 25
 - [x] Frage 52 --- Matthias

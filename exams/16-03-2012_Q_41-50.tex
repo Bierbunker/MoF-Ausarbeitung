@@ -181,6 +181,74 @@ Zur Erklärung der Konstruktion siehe \aqref{28}.
 \question{Wodurch unterscheidet sich die Dispersionsrelation der Phononen eines primitiven kubischen Gitters von jener eines CsCl-Gitters.}
 \label{q:49}
 
+\textbf{TL;DR:} Bei primitiv kubischem Gitter haben alle Atome die gleiche Masse $M_n = M$.
+Es kommt daher nur zu einer Bewegungsgleichung und in folge nur zu einer Lösung für die Dispersionsrelation $\omega(\vec{k})$.
+Dahin gegen werden beim $CsCl$ Gitter zwei Bewegungsgleichungen benötigt, welche zwei Lösungen für die Dispersionsrelation besitzen mit unterschiedlichen Energien.
+Die Lösung mit geringerer Energie beschreibt Akkustische Phononen und die Lösung mit höherer Energie optische Phononen.
+
+\textbf{TS;WR:} Die Unterschiede können gut durch die Herleitung eines eindimensionalen Kristalls gezeigt werden:\\
+\begin{minipage}[t]{0.44\textwidth}
+    \centering
+    \begin{figure}[H]
+        \includegraphics[width=0.7\linewidth]{resources/16-03-2012/q49_same_mass.png}
+    \end{figure}
+    Ausgehend von der Auslenkung $u_n$ des Atom $n$ aus der Ruhelage $x_n$ und vom Hookschen Gesetz die Kraft $F_n$ auf Atom $n$ die aus Federverbindung mit Nachbarn resultiert:
+    \begin{align*}
+        u_n &= x - x_n\\
+        F_n &= \sum_{p} C \left(u_{n+p} - u_n\right)
+    \end{align*}
+    Die Bewegungsgleichung $F_n = M \frac{d^2 u_n}{dt^2}$ ergibt sich zu:
+    \begin{align*}
+        M \ddot{u}_n &= C\left(u_{n+1} - u_n\right) + C\left(u_{n-1} - u_n\right)\\
+        &= C\left(u_{n+1} + u_{n-1} - 2u_n\right)
+    \end{align*}
+    Als Lösungsansatz der DGL werden logischerweise Wellen verwendet:
+    \begin{align*}
+        u_n &= U_0 exp(-ikx_n)exp(-iwt)\\
+            &= U_0 exp(-ikn\cdot a)exp(-iwt)
+    \end{align*}
+    Durch einsetzen und vereinfachen ergibt sich:
+    \begin{align*}
+        -M \omega^2 u_n &= C\left[exp(ika) + exp(-ika) - 2\right] u_n\\
+        \rightarrow \omega(k) &= 2 \sqrt{\frac{C}{M}} \abs{sin\left(\frac{ka}{2}\right)}
+    \end{align*}
+    \includegraphics[width=0.9\linewidth]{resources/16-03-2012/q49_same_mass_disp.png}
+
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+    \centering
+    \begin{figure}[H]
+        \includegraphics[width=0.9\linewidth]{resources/16-03-2012/q49_diff_mass.png}
+    \end{figure}
+    Achtung $a$ ist Abstand zwischen den Ruhepositionen gleich schwerer Atome (Einheitszelle).
+    Bewegungsgleichungen:
+    \begin{align*}
+        M_1 \ddot{u}_n &= C\left(v_{n+1} + v_{n-1} - 2u_n\right)\\
+        M_2 \ddot{v}_n &= C\left(u_{n+1} + u_{n-1} - 2v_n\right)
+    \end{align*}
+    Ansätze:
+    \begin{align*}
+        u_n &= U_0 exp\left(-ikn\cdot a\right)exp(-iwt)\\
+        v_n &= V_0 exp\left(-ik\left[n-\frac{1}{2}\right]\cdot a\right)exp(-iwt)
+    \end{align*}
+    Einsetzen ergibt:
+    \begin{align*}
+        - M_1 \omega^2 U_0 &= 2CV_0 cos \left(\frac{ka}{2}\right) - 2CU_0\\
+        - M_2 \omega^2 V_0 &= 2CU_0 cos \left(\frac{ka}{2}\right) - 2CV_0
+    \end{align*}
+    Durch multiplizieren (glaub ich) der beiden Gleichungen kommt man auf:
+    \begin{align*}
+        - M_1M_2\omega^4 - 2C \left(M_1 + M_2\right) \omega^2&\\
+        + 4C^2 sin^2\left(\frac{ka}{2}\right)& = 0
+    \end{align*}
+    \begin{align*}
+        \omega^2 = &C \left(\frac{1}{M_1} + \frac{1}{M_2}\right) \pm \sqrt{\left(\frac{1}{M_1} + \frac{1}{M_2}\right)^2} \\
+        &\overline{- \frac{4}{M_1 M_2}sin^2\left(\frac{ka}{2}\right)}
+    \end{align*}
+    $\pm \rightarrow$ 2 Disp.rel. ( Herleitung $\omega_{\pm}$ in Folien 7. Dynamik des Kristallgitters S.12-16).
+    \includegraphics[width=0.7\linewidth]{resources/16-03-2012/q49_diff_mass_disp.png}
+\end{minipage}
+
 \question{Vergleiche die Einstein- und Debye-Modelle der spez. Wärme. Welche Annahme ist im Einstein Modell zu einfach?}
 \label{q:50}
 
