@@ -28,17 +28,16 @@ Induziertes magnetisches Moment:
 \begin{align}
     \mu = I A = -Z \langle \rho ^2 \rangle \frac{e^2 B}{4 m}
 \end{align}
-Mit Mittlerem Abstandquadrat des Elektrons vom Kern:
+Mit mittlerem Abstandsquadrat des Elektrons vom Kern:
 \begin{align}
     \langle r^2 \rangle &= \langle x^2 \rangle + \langle y^2 \rangle + \langle z^2 \rangle \\
-    \langle \rho ^2 \rangle  &= \langle x^2 \rangle + \langle y^2 \rangle = \langle r^2 \rangle \perb B
+    \langle \rho^2 \rangle  &= \langle x^2 \rangle + \langle y^2 \rangle = \langle r^2 \rangle \perp B
 \end{align}
-
-Mit Kugelsymmetrischer Ladungsverteilung:
+Mit kugelsymmetrischer Ladungsverteilung:
 \begin{align}
     \langle x^2 \rangle = \langle y^2 \rangle = \langle z^2 \rangle \hspace{1.5 cm} \langle \rho^2 \rangle = \frac{2}{3} \langle r^2 \rangle
 \end{align}
-Mit $M = N \mu$, wobei $N$ die Anzahl der Atome pro Volumeneinheit darstellt, ergibt sich die \textit{Langevin Formel:}
+Mit $M = N \mu$, wobei $N$ die Anzahl der Atome pro Volumeneinheit darstellt, ergibt sich die \textit{Langevin-Formel:}
 \begin{align}
     X _m = \mu_0 \frac{M}{B} = - \frac{\mu _0 N Z e^2}{6 m} \langle r^2 \rangle
 \end{align}
@@ -46,13 +45,13 @@ Mit $M = N \mu$, wobei $N$ die Anzahl der Atome pro Volumeneinheit darstellt, er
 \begin{figure}[H]
     \centering
     \includegraphics[width=6cm]{resources/05-05-2015/Frage32_Langevin.PNG}
-    \caption{Langevin Formel: Zusammenhang $- X$ und $Z_a r_a^2$}
+    \caption{Langevin-Formel: Zusammenhang $-X$ und $Z_a r_a^2$}
 \end{figure} \bigskip
 
 \textbf{Paramagnetismus:} $X _m > 0$ \\
 Kommt vor bei:
 \begin{enumerate}
-    \item Atomen, Molekülen und Gitterfehlstellen mit einer \textbf{ungeraden} Zahl von Elektronen wie freie Na Atome, gasförmiges Stickstoffoxid, F-Zentren in Alkalihaliden
+    \item Atomen, Molekülen und Gitterfehlstellen mit einer \textbf{ungeraden} Zahl von Elektronen wie freie \ch{Na}-Atome, gasförmiges Stickstoffoxid, F-Zentren in Alkalihaliden
     \item Freien Atomen und Ionen mit teilweise gefüllten inneren Schalen (Übergangselemente und isoelektronische Ionen, seltene Erden und Aktiniden)
     \item Verbindungen mit einer geraden Zahl von Elektronen wie molekularer Sauerstoff und organische Biradikale
     \item Metallen
@@ -82,8 +81,8 @@ Bei hoher Temperatur sind bzgl. der Magnetisierung beide Zustände gleich stark 
 
 \textbf{Curie-Gesetz:}
 \begin{align}
-    X_M& = \frac{C}{T} \\
-    \mbox{Curie-Konstante: }C& = \frac{N J ( J+1) g^2 \mu_B^2 \mu_0}{3 k_B}
+    X_M &= \frac{C}{T} \\
+    \mbox{Curie-Konstante: } C &= \frac{N J (J+1) g^2 \mu_B^2 \mu_0}{3 k_B}
 \end{align} \bigskip
 \begin{figure}[H]
     \centering
@@ -114,11 +113,11 @@ Mit $D(E_F) = \frac{3N}{2E_F}$, $J=S=\frac{1}{2}$ und $g=2$ folgt:
     \caption{Pauli-Paramagnetismus}
 \end{figure}
 
-$T<<T_F$\\
-Die Anzahl der Elektrnen ist nun:
+$T \ll T_F$\\
+Die Anzahl der Elektronen ist nun:
 \begin{align}
-    N_{\downarrow \downarrow} &= \frac{1}{2} \int _{-\mu_B B} ^{E_F} dE f(E) D(E+ \mu_B B) = \approx \frac{1}{2} \int_0 ^{E_F} dE f(E) D(E) + \frac{1}{2} \mu_B B D(E_F) \hspace{2cm} \mu_B B << E_F \\
-    N_{\uparrow \downarrow} &= \frac{1}{2} \int _{\mu_B B} ^{E_F} dE f(E) D(E- \mu_B B) = \approx \frac{1}{2} \int_0 ^{E_F} dE f(E) D(E) - \frac{1}{2} \mu_B B D(E_F) 
+    N_{\downarrow \downarrow} &= \frac{1}{2} \int _{-\mu_B B} ^{E_F} dE f(E) D(E+ \mu_B B) \approx \frac{1}{2} \int_0 ^{E_F} dE f(E) D(E) + \frac{1}{2} \mu_B B D(E_F) \hspace{1cm} \mu_B B \ll E_F \\
+    N_{\uparrow \downarrow} &= \frac{1}{2} \int _{\mu_B B} ^{E_F} dE f(E) D(E- \mu_B B) \approx \frac{1}{2} \int_0 ^{E_F} dE f(E) D(E) - \frac{1}{2} \mu_B B D(E_F) 
 \end{align}
 \begin{align}
     M = \mu (N_{\downarrow \downarrow} - N_{\uparrow \downarrow}) \hspace{2cm} D(E_F) = \frac{3N}{2 E_F}
