@@ -100,7 +100,28 @@ Siehe \aqref{4}.
 
 \question{Statische Abschirmung des Elektronengases}
 \label{q:39}
-
+\textit{Annahme: Es geht um Metalle und damit um die Näherung fast freier $e^-$.}\\
+Grundlage ist das Verhalten des Elektronengases um eine positive Punktladung.
+Das Coloumbpotential der Punktladung müsste normal mit $r^-1$ abfallen und weitreichende Auswirkungen auf die freien $e^-$ haben:
+\begin{equation*}
+    \Phi_0(\vec{r}) = \frac{1}{4 \pi \epsilon_0}\frac{q}{r}
+\end{equation*}
+Allerdings steigt die Elektronendichte $n(\vec{r})$ um $q$ an und schwächt somit das Coloumbpotential der positiven Punktladung ab.
+Das Ergebnis ist eine viel weniger weitreichendes Potential welches nur für $e^-$ in der Nähe der positiven Puntladung relevant ist.
+Mathematisch kann dies durch die Thomas-Fermi(für niedrige $T$) und Debye-Hückel (für hohe $T$) Approximationen realisiert werden (siehe Wikipedia Electric-Field screening).
+Dabei ergibt sich folgendes abgeschirmtes Potential:
+\begin{equation*}
+    \Phi(\vec{r}) = \frac{1}{4 \pi \epsilon_0}\frac{q}{r} e^{-r / r_{TF}}
+\end{equation*}
+Dabei ist der exponentiale Faktor die Dämpfung die durch Abschirmung entsteht und die reichweite der Coloumbwechselwirkung verringert.
+$r_{TF}$ ist der Thomas-Fermi (Abschirm-) Radius.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\linewidth]{resources/15-06-2015/q39_pot.png}
+\end{figure}
+\noindent
+Diese Abschirmung führt zusammen mit der Tatsache, dass die Coloumbwechselwirkung der positiv geladenen Ionen in einem periodischen Kristallgitter zusätzlich von der Pauliwechselwirkung abgeschwächt wird, zum Modell der fast freien $e^-$
+(PS.: Pauliwechselwirkung ist das abstoßen der $e^-$ vom Atomrumpf, weil dort schon Rumpfelektronen die verfügbaren Orbitale besetzen.)
 \question{Einstein-Debye Unterschiede und falsche Annahmen}
 \label{q:40}
 

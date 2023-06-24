@@ -39,7 +39,7 @@
 - [x] Frage 36 --- siehe Frage 27
 - [x] Frage 37 --- Jax Most
 - [x] Frage 38 --- siehe Frage 4
-- [ ] Frage 39 --- Jax Most
+- [x] Frage 39 --- Jax Most
 - [x] Frage 40 --- Kathi
 - [x] Frage 41 --- Kathi
 - [x] Frage 42 --- Kathi
