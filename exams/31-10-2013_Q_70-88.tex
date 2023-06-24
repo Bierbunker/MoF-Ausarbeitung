@@ -119,3 +119,56 @@ Siehe \aqref{8}.
 
 \question{Diskutieren Sie die Zustandsdichte in Schwingungsspektren von Festkörpern.}
 \label{q:88}
+
+Die Zustandsdichte $Z(k) = \text{const}$ im k-Raum ist die Anzahl der erlaubten Wellenvektoren pro Volumen des reziproken Raumes. Jeder Zustand nimmt also das Volumen $Z^{-1}(k)$ ein. Dieses Volumen ergibt sich aus dem Volumen der 1. Brillouinzone. In einer Dimension gilt also
+
+\begin{equation}
+    Z(k) = \left( \frac{L_{1.BZ}}{N} \right)^{-1} = \frac{N \cdot a}{2 \pi} = \frac{L}{2 \pi}
+\end{equation}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.75\textwidth]{resources/31-10-2013/real.png}
+    \caption{Eindimensionaler Festkörper.}
+    \label{fig:q88:real}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.75\textwidth]{resources/31-10-2013/k.png}
+    \caption{Eindimensionale Zustandsvolumina.}
+    \label{fig:q88:k}
+\end{figure}
+
+während sich in drei Dimensionen die Zustandsdichte folgendermaßen ergibt:
+
+\begin{equation}
+    Z(k) = \left( \frac{V_{1.BZ}}{N} \right)^{-1} = \frac{N \cdot V_{EZ}}{(2 \pi)^3} = \frac{V}{(2 \pi)^3}
+\end{equation}
+
+Im Frequenzraum gibt die Zustandsdichte $D(\omega)$ an, wieviele Zustände sich je Frequenzintervall $d \omega$ ergeben, es gilt also
+
+\begin{equation}
+    \int_{\omega_{min}}^{\omega_{max}} D(\omega) d \omega = \int_{1.BZ} Z(k) d^3 k = N
+\end{equation}
+
+Zur Berechnung der Zustandsdichte im Frequenzraum $D(\omega)$ in drei Dimensionen berechnet man am einfachsten das Volumen im k-Raum zwischen den beiden Isofrequenzflächen $\omega$ und $\omega + d \omega$, da die Zustandsdichte im k-Raum konstant ist. Der Abstand der Flächen ist
+
+\begin{equation}
+    \frac{d k}{d \omega} = \frac{1}{v_G}
+\end{equation}
+
+Es folgt damit die Zustandsdichte
+
+\begin{equation}
+    D(\omega) = \frac{V}{8 \pi^3} \int \frac{d S_{\omega}}{v_G}
+\end{equation}
+
+mit $d S_{\omega}$ dem Flächenelement und $v_G = \frac{d \omega}{d k}$ der Gruppengeschwindigkeit.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.75\textwidth]{resources/31-10-2013/dw.png}
+    \caption{Isofrequenzflächen im k-Raum.}
+    \label{fig:q88:dw}
+\end{figure}
