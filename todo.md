@@ -9,7 +9,7 @@
 - [x] Frage 06 --- David
 - [x] Frage 07 --- David
 - [X] Frage 08 --- Nadine
-- [ ] Frage 09 --- Nadine
+- [X] Frage 09 --- Nadine
 - [x] Frage 10 --- Felix
 - [x] Frage 11 --- Felix
 - [x] Frage 12 --- siehe Frage 1
@@ -32,7 +32,7 @@
 - [x] Frage 29 --- Christine
 - [x] Frage 30 --- David
 - [x] Frage 31 --- Christine
-- [ ] Frage 32 --- Nadine
+- [X] Frage 32 --- Nadine
 - [x] Frage 33 --- David
 - [x] Frage 34 --- siehe Frage 62
 - [x] Frage 35 --- siehe Frage 57
