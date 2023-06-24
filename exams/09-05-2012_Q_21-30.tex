@@ -111,7 +111,7 @@ Am Beispiel der Zustände in \autoref{fig:q25} bedeutet dies: Vom Vibrations-Gru
 \begin{figure}[H]
     \centering
     \includegraphics[width = 0.5\textwidth]{resources/09-05-2012/Franck-Condon-Prinzip}
-    \caption{Schwarze Kurven Energie eines zweiatomigen Moleküls in Abhängigkeit des Abstand der Kerne, Die Pfeile symbolisieren die vibronische Übergänge.}
+    \caption{Schwarze Kurven: Energie eines zweiatomigen Moleküls in Abhängigkeit des Abstands der Kerne. Die Pfeile symbolisieren die vibronischen Übergänge.}
     \label{fig:q25}
 \end{figure}
 
@@ -125,11 +125,11 @@ Die Übergangswahrscheinlichkeit zwischen den beiden Zuständen ist gegeben durc
     P = \left\langle\psi| \mu | \psi' \right\rangle   
 \end{equation}
 
-während die Intensität I des Übergangs das Quadrat dieser Übergangswahrscheinlichkeit ist: 
+während die Intensität $I$ des Übergangs das Quadrat dieser Übergangswahrscheinlichkeit ist: 
 \begin{equation}
     I = |P|^2
 \end{equation}
-Die Wellenfunktionen der beiden Zustände siehe \autoref{fig:q25} können als Produkt der elektronischen und der Vibrationswellenfunktion ausgedrückt werden.
+Die Wellenfunktionen der beiden Zustände (siehe \autoref{fig:q25}) können als Produkt der elektronischen und der Vibrationswellenfunktion ausgedrückt werden.
 \begin{equation}
     \psi = \psi_{\epsilon}(\vec{r_i}) \psi_v(\vec{R_j})
 \end{equation} 
@@ -140,7 +140,7 @@ Führt man nun das Skalarprodukt aus:
     P = \langle \psi_v' | \psi_v \rangle \langle \psi_{\epsilon}' | \mu_{\epsilon} | \psi_{\epsilon} \rangle + \langle \psi_{\epsilon}' | \psi_{\epsilon} \rangle \langle\psi_v' | \mu_K |\psi_v \rangle
 \end{equation}
 Die zwei elektronischen Wellenfunktionen sind orthogonal aufeinander und somit ist $\langle \psi_{\epsilon}' | \psi_{\epsilon} \rangle  = 0$.
-Der erste Term quadriert $|\langle \psi_v' | \psi_v \rangle|^2$ ist der Frank Condon Faktor und der zweite Term das Übergangsdipolmoment. 
+Der erste Term quadriert $|\langle \psi_v' | \psi_v \rangle|^2$ ist der Frank-Condon-Faktor und der zweite Term das Übergangsdipolmoment. 
 Die Intensität der Schwingungsbänder wird von der Überlappung der beiden Vibrationswellenfunktionen bestimmt.
 \begin{equation}
     I = |\langle \psi_v' | \psi_v \rangle \langle \psi_{\epsilon}' | \mu_{\epsilon} | \psi_{\epsilon} \rangle|^2
@@ -157,7 +157,7 @@ Die Intensität der Schwingungsbänder wird von der Überlappung der beiden Vibr
 \textbf{Von Laue Bedingungen:}
 \begin{align}
 \vec{G} &= \vec{k'} - \vec{k} \\
-\vec{k} \cdot \vec{G} &= \frac{1}{2} \vec{G}^2 \hspace{1cm}\dagger
+\vec{k} \cdot \vec{G} &= \frac{1}{2} \vec{G}^2 \quad (*)
 \end{align}
 mit den Wellenvektoren $\vec{k}$, dem reziproken Gittervektor $\vec{G}$ sowie dem Ebenenabstand $d$ und dem Streuwinkel $\Theta$ Die Bragg-Bedingung ist ein Speziallfall der Laue-Bedingung. Es gelten folgende Relationen:
 \begin{align}
@@ -169,7 +169,7 @@ und somit $n \lambda = 2 d_{h,k,l}  \sin{\Theta}$. \\
 Konstruktive Interferenz findet immer statt, wenn der Wellenvektor des
 einfallenden Strahls an der Grenze einer Brillouin Zone liegt. Die geometrische Darstellung mit der Ewald Konstruktion unter Berücksichtigung dieser Bedingungen ermöglicht es, den Beugungswinkel $\Theta$ und den Netzebenenabstand $d$ zu bestimmen. 
 
-$\dagger$ Herleitungsidee: man schreibt: $\vb{k}-\vb{G} = \vb{k'}$ quadriert auf beiden Seiten und setzt $k=k'$ (elastische Bedingung) ein . 
+$(*)$ Herleitungsidee: man schreibt: $\vb{k}-\vb{G} = \vb{k'}$ quadriert auf beiden Seiten und setzt $k=k'$ (elastische Bedingung) ein. 
 
 \begin{figure}[H]
     \centering
@@ -185,20 +185,17 @@ Die Laue-Bedingung ist hierbei nur für die Gitterpunkte erfüllt, die an der Ku
 \question{Erläutere den Atomfaktor und den Strukturfaktor bei der Röntgenbeugung.}
 \label{q:27}
 
-Der Strukturfaktor $S_{hkl}$ bzw. $S_G$ ist die Fourier-Transformierte $n_{\Vec{G}}$ der Elektronendichte $ n(\vec{r})$ über eine Einheitszelle. 
+Der Strukturfaktor $S_{hkl}$ bzw. $S_{\vec{G}}$ ist die Fourier-Transformierte $n_{\Vec{G}}$ der Elektronendichte $n(\vec{r})$ über eine Einheitszelle. 
 \begin{align}
-n_{\vec{G}} = \int _{EZ} n(\vec{r}) e^{-i \vec{G} \vec{r}} d\vec{r} 
+    S_{\vec{G}} = n_{\vec{G}} = \int_{\text{EZ}} n(\vec{r}) e^{i \vec{G} \vec{r}} d\vec{r} 
 \end{align}
-\begin{align}
-S_{\vec{G}} = n_{\vec{G}} 
-\end{align} \medskip
 
-
-\textit{(andere Definition, nicht in Surnev-Folien)} - Doch eigentlich schon (sihe 5. Intensität der Beugungsreflexe!) \\
+\textit{(andere Definition, nicht in Surnev-Folien)} -- Doch, eigentlich schon (siehe 5. Intensität der Beugungsreflexe!) \\
 Der Strukturfaktor wird aus den Formfaktoren $f_J(G)$ berechnet werden, welche ebenfalls mit Fourier-Transformation berechnet werden:
 \begin{align}
 f_J(G) = \int n_J(\vec{r}) e^{i \vec{G} \vec{r}} d\vec{r}
 \end{align}
+Dabei ist $n_J$ das \textit{Streuvermögen} (z.B. die Elektronendichte) des $J$-ten Atoms.
 \begin{align}
 S_{\vec{G}} = \sum_j f_j (G) e^{i \vec{G} \vec{r}_j} = \sum_j f_j e^{-2 \pi i (hx_j + ky_j + l z_j)}
 \end{align}
@@ -219,7 +216,7 @@ Für diese Beschreibungen des Strukturfaktors muss die Laue-Bedingung $\vec{G} =
 
 Der \textbf{Atomfaktor} (auch Streufaktor genannt) beschreibt die Beiträge eines einzelnen Atoms zur Streuung von Röntgenstrahlen bzw. das Streuvermögen der einzelnen Basisatome. Er hängt von der Atomart, der Position des Atoms im Kristallgitter und der Wellenlänge der Röntgenstrahlung ab. Der Atomfaktor ist komplex und enthält Informationen über die Elektronendichteverteilung im Atom.
 
-Der Atomfaktor für ein Atom $j$ kann  wie folgt definiert werden:
+Der Atomfaktor für ein Atom $j$ kann wie folgt definiert werden:
 
 \begin{align}
 f_j = \int n_j (\vec{\rho}) e^{-i \vec{G} \vec{\rho}}
