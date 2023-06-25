@@ -8,8 +8,8 @@
 - [x] Frage 05 --- Christine
 - [x] Frage 06 --- David
 - [x] Frage 07 --- David
-- [ ] Frage 08 --- Nadine
-- [ ] Frage 09 --- Nadine
+- [X] Frage 08 --- Nadine
+- [X] Frage 09 --- Nadine
 - [x] Frage 10 --- Felix
 - [x] Frage 11 --- Felix
 - [x] Frage 12 --- siehe Frage 1
@@ -19,78 +19,73 @@
 - [x] Frage 16 --- Felix
 - [x] Frage 17 --- Felix
 - [x] Frage 18 --- siehe Frage 5
-- [ ] Frage 19 --- Nadine
+- [X] Frage 19 --- Nadine
 - [x] Frage 20 --- siehe Frage 9
 - [x] Frage 21 --- Christine
-- [ ] Frage 22 --- schwechblechlover
-- [ ] Frage 23 --- schwechblechlover
-- [ ] Frage 24 --- schwechblechlover
-- [ ] Frage 25 --- schwechblechlover
-- [ ] Frage 26 --- Nadine
-- [ ] Frage 27 --- Nadine
+- [x] Frage 22 --- schwechblechlover
+- [x] Frage 23 --- siehe Frage 43
+- [x] Frage 24 --- schwechblechlover
+- [x] Frage 25 --- Elias/schwechblechlover
+- [X] Frage 26 --- Nadine
+- [X] Frage 27 --- Nadine
 - [x] Frage 28 --- Andreas
 - [x] Frage 29 --- Christine
 - [x] Frage 30 --- David
 - [x] Frage 31 --- Christine
-- [ ] Frage 32 --- Nadine
+- [X] Frage 32 --- Nadine
 - [x] Frage 33 --- David
 - [x] Frage 34 --- siehe Frage 62
 - [x] Frage 35 --- siehe Frage 57
 - [x] Frage 36 --- siehe Frage 27
-- [ ] Frage 37 --- __________
+- [x] Frage 37 --- Jax Most
 - [x] Frage 38 --- siehe Frage 4
-- [ ] Frage 39 --- __________
-- [x] Frage 40 ---Kathi
-- [x] Frage 41 ---Kathi
-- [x] Frage 42 ---Kathi
-- [x] Frage 43 ---Kathi
-- [x] Frage 44 ---Kathi
-- [ ] Frage 45 --- __________
+- [x] Frage 39 --- Jax Most
+- [x] Frage 40 --- Kathi
+- [x] Frage 41 --- Kathi
+- [x] Frage 42 --- Kathi
+- [x] Frage 43 --- Kathi
+- [x] Frage 44 --- Kathi
+- [x] Frage 45 --- siehe Frage 25
 - [x] Frage 46 --- David
 - [x] Frage 47 --- siehe Frage 27
 - [x] Frage 48 --- Andreas
-- [ ] Frage 49 --- __________
+- [x] Frage 49 --- Jax Most
 - [x] Frage 50 --- siehe Frage 40
-- [ ] Frage 51 --- __________
+- [x] Frage 51 --- siehe Frage 25
 - [x] Frage 52 --- Matthias
 - [x] Frage 53 --- Matthias
 - [x] Frage 54 --- Matthias
 - [x] Frage 55 --- Matthias
 - [x] Frage 56 --- Matthias
-- [ ] Frage 57 --- Matthias
-- [ ] Frage 58 --- Matthias
-- [ ] Frage 59 --- Matthias
-- [ ] Frage 60 --- __________
-- [x] Frage 61 --- Christine
+- [x] Frage 57 --- Matthias
+- [x] Frage 58 --- Matthias
+- [x] Frage 59 --- Matthias
+- [x] Frage 60 --- siehe Frage 32
+- [x] Frage 61 --- siehe Frage 21
 - [x] Frage 62 --- Christine
 - [x] Frage 63 --- siehe Frage 26
 - [x] Frage 64 --- siehe Frage 46
-- [ ] Frage 65 --- __________
+- [x] Frage 65 --- Elias
 - [x] Frage 66 --- siehe Frage 57
 - [x] Frage 67 --- siehe Frage 5
-- [ ] Frage 68 --- __________
+- [x] Frage 68 --- siehe Frage 49
 - [x] Frage 69 --- Christine
 - [x] Frage 70 --- siehe Frage 52
-- [x] Frage 71 --- siehe Frage 61
+- [x] Frage 71 --- siehe Frage 21
 - [x] Frage 72 --- siehe Frage 62
 - [x] Frage 73 --- Christine
 - [x] Frage 74 --- siehe Frage 26
-- [ ] Frage 75 --- __________
-- [ ] Frage 76 --- __________
-- [ ] Frage 77 --- __________
+- [x] Frage 75 --- Andreas
+- [x] Frage 76 --- siehe Frage 65
+- [x] Frage 77 --- Andreas
 - [x] Frage 78 --- siehe Frage 57
-- [ ] Frage 79 --- __________
+- [x] Frage 79 --- siehe Frage 11
 - [x] Frage 80 --- siehe Frage 1
 - [x] Frage 81 --- siehe Frage 2
 - [x] Frage 82 --- siehe Frage 3
-- [ ] Frage 83 --- __________
-- [ ] Frage 84 --- __________
+- [x] Frage 83 --- siehe Frage 6
+- [x] Frage 84 --- siehe Frage 7
 - [x] Frage 85 --- siehe Frage 4
 - [x] Frage 86 --- siehe Frage 5
 - [x] Frage 87 --- siehe Frage 8
-- [ ] Frage 88 --- __________
-
-
-#### Misc
-- [ ] Das ist ein leeres Kästchen
-- [x] Das ist ein volles Kästchen - fertig!
+- [x] Frage 88 --- Dominik

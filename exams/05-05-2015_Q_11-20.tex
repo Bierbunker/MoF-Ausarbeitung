@@ -3,7 +3,12 @@
 \question{Skizzieren Sie den Verlauf der Potentialkurve für ein homöopolares Molekül. Erklären Sie sie qualitativ.}
 \label{q:11}
 
-Homöopolare Moleküle sind Moleküle, die aus Atomen desselben Elements bestehen. Sie entstehen durch kovalente Bindungen. In Abbildung \ref{fig:Frage_11} ist die Potentialkurve einer kovalten Bindung dargestellt welche mit einem Lennard-Jones-Potential angenähert werden kann. Für kleine Abstände dominiert der Faktor $\frac{a}{R^12}$ (Abstoßung der Elektronen durch Pauli Prinzip) bei größeren Abständen der Faktor $-\frac{b}{R^6}$ (Van der Waals). Die Bindungsernergie $E_B$ befindet sich beim globalen Minimum. 
+(Siehe auch \aqref{2}.)
+
+Homöopolare Moleküle sind Moleküle, die aus Atomen desselben Elements bestehen. Sie entstehen durch kovalente Bindungen. In Abbildung \ref{fig:Frage_11} ist die Potentialkurve einer kovalenten Bindung dargestellt, welche mit einem Lennard-Jones-Potential angenähert werden kann. Für kleine Abstände dominiert der Faktor $\frac{a}{R^{12}}$ (Abstoßung der Elektronen durch Pauli-Prinzip) bei größeren Abständen der Faktor $-\frac{b}{R^6}$ (Van der Waals). Die Bindungsenergie $E_B = \frac{b^2}{4a}$ befindet sich beim globalen Minimum.
+
+\textcolor{red}{\textbf{Caveat:}} In \autoref{fig:Frage_11} ist die Bindungsenergie $E_B = \frac{b^2}{4a}$ falsch berechnet, siehe etwa \href{https://en.wikipedia.org/wiki/Lennard-Jones_potential#Alternative_notations_of_the_Lennard-Jones_potential}{Wikipedia} oder selbst händisch nachrechnen!
+
 \begin{figure}[H]
     \centering
     \includegraphics[width = 0.4\textwidth]{resources/05-05-2015/Frage_11.png}
@@ -12,13 +17,15 @@ Homöopolare Moleküle sind Moleküle, die aus Atomen desselben Elements bestehe
 \end{figure}
 
 
-\question{Erklären Sie die Herkunft der 'Austauschenergie' in H2. Wann ist sie groß, wann klein? Warum ist sie entscheidend für die chemische Bindung?}
+\question{Erklären Sie die Herkunft der \enquote{Austauschenergie} in \ch{H2}. Wann ist sie groß, wann klein? Warum ist sie entscheidend für die chemische Bindung?}
 \label{q:12}
 
-Siehe \aqref{1}
+Siehe \aqref{1}.
 
-\question{Welche Informationen über molekulare Kenngrößen können aus Rotations-Schwingungsspektren von Molekülen erhalten werden?}
+\question{Welche Informationen über molekulare Kenngrößen können aus Rotationsschwingungsspektren von Molekülen erhalten werden?}
 \label{q:13}
+
+(Siehe auch \aqref{2}.)
 
 Es können folgende Kenngrößen bestimmt werden:
 \begin{itemize}
@@ -27,20 +34,22 @@ Es können folgende Kenngrößen bestimmt werden:
     \item Form der Potentialkurve
 \end{itemize}
 
-\question{Diskutiere einen elektronischen Übergang in einem 2-Atomigen Molekül und die daraus resultierenden Schwingungsbanden im Spektrum.}
+\question{Diskutiere einen elektronischen Übergang in einem 2-atomigen Molekül und die daraus resultierenden Schwingungsbanden im Spektrum.}
 \label{q:14}
 
-Ändert sich die Schwingungsquantenzahl $\nu$ so ändert sich die Energie $E_{vib}$, bei Änderung der Rotationsquantenzahl $J$ die Energie $E_rot$ Die Gesamternergie setzt sich aus der Schwingungs- Rotations- und Potentiellenenergie zusammen:
+(Siehe auch \aqref{3}.)
+
+Ändert sich die Schwingungsquantenzahl $\nu$, so ändert sich die Energie $E_{vib}$, bei Änderung der Rotationsquantenzahl $J$ die Energie $E_{rot}$. Die Gesamtenergie setzt sich aus der Schwingungs-, Rotations- und Potentialenergie zusammen:
 \begin{equation}
     E = E_{rot} + E_{vib} + E_{pot}
 \end{equation}
-Der Abstand zwischen den einzelen Energien $E_{rot}$ ist dabei deutlich kleiner als der zwischen den einzelnen Energien $E_{vib}$.\\
-Übergänge zwischen Schwingungs-Ratationsnevaus $(\nu_i, J_i) \longleftrightarrow (\nu_k, J_k), \nu_i \neq \nu_k$: Schwingungsrotationsspektrum im infraroten Spektralbereich (2-10 $\mu$ m)\\
-Übergänge zwischen Schwingungs-Ratationsnevaus $(\nu_i, J_i) \longleftrightarrow (\nu_k, J_k), \nu_i = \nu_k$: Reines Rotationsspektrum, Mikrowellenbereich ($10^3-10^4$ $\mu$ m)
+Der Abstand zwischen den einzelnen Energien $E_{rot}$ ist dabei deutlich kleiner als der zwischen den einzelnen Energien $E_{vib}$.\\
+Übergänge zwischen Schwingungsrotationsniveaus $(\nu_i, J_i) \longleftrightarrow (\nu_k, J_k), \nu_i \neq \nu_k$: Schwingungsrotationsspektrum im infraroten Spektralbereich (\SIrange{2}{10}{\micro\meter})\\
+Übergänge zwischen Schwingungsrotationsniveaus $(\nu_i, J_i) \longleftrightarrow (\nu_k, J_k), \nu_i = \nu_k$: Reines Rotationsspektrum, Mikrowellenbereich (\SIrange{e3}{e4}{\micro\meter})
 \begin{figure}[H]
     \centering
     \includegraphics{resources/05-05-2015/Frage_14.png}
-    \caption{Übergänge zwischen Schwingungs-RotationsNiveaus}
+\caption{Übergänge zwischen Schwingungsrotationsniveaus}
     \label{fig:enter-label2}
 \end{figure}
 
@@ -52,7 +61,10 @@ Siehe \aqref{4}.
 \question{Diskutieren Sie die Wärmekapazität des Gitters im Rahmen des klassischen und der Quantenmechanik.}
 \label{q:16}
 
-\textbf{Klassische Mechanik}:\\
+(siehe auch \aqref{7}.)
+%TODO: Bissl mehr Details
+
+\textbf{Klassische Mechanik:}
 \begin{itemize}
     \item Keine Translations- und Rotationsfreiheitsgrade
     \item Jedes Atom kann in 3 voneinander unabhängigen Raumrichtungen schwingen:
@@ -61,19 +73,19 @@ Siehe \aqref{4}.
         \item 3 Schwingungsfreiheitsgrade der potentiellen Energie
     \end{itemize}
 \end{itemize}
-Gesetzt von Dulong-Petit:
+Gesetz von Dulong-Petit:
 \begin{equation}
-    f = 6 \qquad c_\nu ^m = 3N_Ak_B = 3R = 24.9 \hspace{0.2cm} \frac{J}{K mol}
+    f = 6 \qquad c_\nu^m = 3N_Ak_B = 3R = \SI{24.9}{\joule\per\mole\per\kelvin}
 \end{equation}
 
 \textbf{Quantenmechanik}
 Quantisierung der Gitterschwingungen entscheidend für die innere Energie und
 die spezifische Wärme des Kristallgitters.\\
-Bei niedrigen Temperaturen ($k_BT<<\hbar\omega$) kommt es zu einem Ausfrieren der Schwingungsfreiheitsgrade:
+Bei niedrigen Temperaturen ($k_BT \ll \hbar\omega$) kommt es zu einem Ausfrieren der Schwingungsfreiheitsgrade:
 \begin{equation}
     c_\nu^m \rightarrow 0
 \end{equation}
-Bei hohen Temperaturen ($k_BT>>\hbar\omega$):
+Bei hohen Temperaturen ($k_BT \gg \hbar\omega$):
 \begin{equation}
     c_\nu^m \rightarrow 3R \qquad \text{gleich wie beim Gesetzt von Dulong-Petit}
 \end{equation}
@@ -81,6 +93,9 @@ Bei hohen Temperaturen ($k_BT>>\hbar\omega$):
 
 \question{Wie ermittelt man experimentell eine Phononendispersionskurve?}
 \label{q:17}
+
+(siehe auch \aqref{6}.)
+
 Durch Streuung von Photonen, Neutronen oder Elektronen am Kristallgitter. 
 
 \begin{figure}[H]
@@ -103,11 +118,14 @@ Am besten durch Streuung von Neutronen:
 \question{Erklären Sie das Zustandekommen von Energiebändern in Festkörper im Rahmen der Theorie der fast-freien Elektronen.}
 \label{q:18}
 
-siehe \aqref{5}
+Siehe \aqref{5}.
 
 \question{Erklären Sie das Bloch'sche Theorem für Elektronen im periodischen Potential.}
 \label{q:19}
 
+Siehe \aqref{8}.
+
 \question{Diskutieren Sie den Paulschen Paramagnetismus.}
 \label{q:20}
+
 \newpage

@@ -1,6 +1,6 @@
 \documentclass[a4paper, 11pt, ngerman, parskip=half-]{scrartcl}
 
-\title{MoF -- Fragenkatalog}
+\title{Molekül- und Festkörperphysik\\Fragenkatalog}
 \subtitle{\href{https://github.com/Bierbunker/MoF-Ausarbeitung}{\underline{Aktuelle Version (Link)}}}
 \date{\today}
 
@@ -15,16 +15,19 @@
 
 \usepackage{amsmath, amssymb, amstext, mathtools}
 \usepackage{icomma}
-\usepackage[locale=DE]{siunitx}
+\usepackage[locale=DE, uncertainty-mode=separate]{siunitx}
 \usepackage{physics}
 \usepackage{derivative}  % overrides derivatives of package physics!
+\usepackage{nicefrac}
 
 \usepackage{pdfpages}
 \usepackage{lastpage}
 \usepackage{graphicx}
 \usepackage{float}
-\usepackage{mhchem}
+\usepackage[version=4]{mhchem}
+\usepackage{chemformula}
 \usepackage{xcolor}
+\usepackage{mdframed}
 \usepackage[hidelinks,colorlinks]{hyperref}
 %Colorlinks setup:
 \hypersetup{
@@ -36,7 +39,7 @@
 \pagestyle{scrheadings}
 \setkomafont{pageheadfoot}{\normalfont}
 \ihead{\hyperlink{Fehler}{\color{cyan}Fehlermeldungen}}
-\chead{MoF Fragenkatalog}
+\chead{MoF-Fragenkatalog}
 \ohead{\today}
 \cfoot{\pagemark{} / \pageref*{LastPage}}
 
@@ -52,19 +55,21 @@
 \newcommand{\NA}{\ensuremath{\mathit{NA}}}
 
 
+
+
 % Question command
 \newcounter{question}
 \newcommand{\question}[1]{\stepcounter{question}\paragraph{Frage \thequestion: #1}~}
 
 \newcommand{\qref}[1]{%
-  \phantomsection\label{q:#1}% Create a label for the question
   \textbf{\hyperref[q:#1]{#1}}% Link to the question label
 }
 
 \newcommand{\aqref}[1]{%
-  \phantomsection\label{q:#1}% Create a label for the question
   \textbf{\hyperref[q:#1]{Frage #1}}% Link to the question label
 }
+%make use vb instead of vec
+\renewcommand{\vec}[1]{\vb{#1}}
 
 \begin{document}
 
@@ -76,46 +81,8 @@
 \newpage
 \section{Notizen aus der Vorlesung}
 Magnetismus wird wahrscheinlich nicht zur Prüfung am 26. kommen. (Cat 15.06.)
-\newpage
-\section*{Ähnliche Fragen vermutlich (GPT-4)}
 
-Einige Fragen sind ähnlich oder decken ähnliche Themen ab. Hier sind die entsprechenden Paare:
-
-Fragen \qref{1} und \qref{13} diskutieren die Austauschenergie beim H2 Molekül und ihre Bedeutung für die chemische Bindung.
-
-Fragen \qref{2} und \qref{14}, \qref{21}, \qref{32}, \qref{40} und \qref{55} fragen nach Informationen, die aus dem Rotations-Schwingungsspektrum von Molekülen abgeleitet werden können.
-
-Fragen \qref{3} und \qref{15} behandeln elektrische Rotations-Schwingungsübergänge und die Entstehung von Schwingungsbanden.
-
-Fragen \qref{4} und \qref{16}, \qref{27} und \qref{45}, \qref{50} und \qref{54} beziehen sich auf den Zusammenhang zwischen der Gitterebene und einem Vektor im reziproken Raum.
-
-Fragen \qref{5} und \qref{17}, \qref{47} und \qref{59} beziehen sich auf das Auftreten von Energiebandlücken mit Hilfe des Models der fast freien Elektronen.
-
-Fragen \qref{6} und \qref{18} behandeln, wie experimentell die Dispersionsrelationskurve von Phononen ermittelt werden kann.
-
-Fragen \qref{7} und \qref{19}, \qref{38}, \qref{51} und \qref{57} diskutieren die Wärmekapazität sowohl in der klassischen als auch in der quantenmechanischen Betrachtung.
-
-Fragen \qref{8} und \qref{20} beziehen sich auf das Bloch-Theorem eines Elektrons im harmonischen Potential.
-
-Fragen \qref{9} und \qref{56} behandeln den Paulschen Paramagnetismus.
-
-Fragen \qref{24} und \qref{37} beziehen sich auf die Hybridisierung in mehratomigen Molekülen.
-
-Fragen \qref{25} und \qref{35}, \qref{44} behandeln die Laue'sche Beugungsbedingung und die Ewald-Konstruktion.
-
-Fragen \qref{26} und \qref{36} diskutieren den Unterschied zwischen einem fcc-Gitter und einer hcp-Struktur.
-
-Fragen \qref{28} und \qref{39}, \qref{48} und \qref{58} vergleichen die Einstein- und Debye-Modelle der spezifischen Wärme.
-
-Fragen \qref{30} und \qref{49} erläutern den Atomfaktor und den Strukturfaktor bei der Röntgenbeugung.
-
-Fragen \qref{41} und \qref{52} behandeln die Lennard-Jones-Potential und Van der Waals Bindung.
-
-Fragen \qref{42} und \qref{33} behandeln das Konzept des Bravaisgitters und der Wigner-Seitz Zelle.
-
-Fragen \qref{43} und \qref{31}, \qref{34} diskutieren das Franck-Condon Prinzip und die Intensität von Schwingungsbänden in einem Molekülspektrum.
-
-Es ist wichtig zu beachten, dass obwohl diese Fragen ähnliche Themen behandeln, die spezifischen Aspekte oder der Kontext, der in jeder Frage behandelt wird, variieren können. Daher ist es wichtig, jede Frage sorgfältig zu lesen und zu verstehen, bevor man versucht, sie zu beantworten.
+Surnev will \textbf{viel Mathematik} und \textbf{wenig Text} bei der VO-Prüfung sehen. (Jax 21.06.)
 
 \newpage
 \input{exams/05-01-2015_Q_1-10.tex}
@@ -124,6 +91,6 @@ Es ist wichtig zu beachten, dass obwohl diese Fragen ähnliche Themen behandeln,
 \input{exams/15-06-2015_Q_31-40.tex}
 \input{exams/16-03-2012_Q_41-50.tex}
 \input{exams/24-03-2015_Q_51-60.tex}
-\input{exams/28-11-2018_Q_61-70.tex}
-\input{exams/31-10-2013_Q_71-88.tex}
+\input{exams/28-11-2018_Q_61-69.tex}
+\input{exams/31-10-2013_Q_70-88.tex}
 \end{document}

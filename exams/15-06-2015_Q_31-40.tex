@@ -1,47 +1,209 @@
 \section{15. Juni 2015}
 
-\question{Elektronenkonfiguration von $B_2$ ($Z=5$)}
+\question{Elektronenkonfiguration von \ch{B2} ($Z=5$)}
 \label{q:31}
 
-$B_2$ = $1\sigma_g^2 ~ 1\sigma_u^{*2} ~ 2\sigma_g^2 ~ 2\sigma_u^{*2} ~ 1\pi_u^2$ \\
+\[\ch{B_2} : (1\sigma_g)^2 ~ (1\sigma_u^*)^2 ~ (2\sigma_g)^2 ~ (2\sigma_u^*)^2 ~ (1\pi_u)^2\]
 
 \begin{figure}[H]
-    \includegraphics[width=0.8\linewidth]{resources/15-06-2015/b2.PNG}
-    \caption{Elektronenkonfiguration von $B_2$}
+    \centering
+    \begin{samepage}
+        \includegraphics[width=0.8\linewidth]{resources/15-06-2015/b2.PNG}
+        \caption{Elektronenkonfiguration von \ch{B2}}
+    \end{samepage}
 \end{figure}
 
 \question{Arten von Para-Diamagnetismus}
 \label{q:32}
 
-\question{Konzept von Bravais Wigner-Seitz Zelle}
+\textbf{Diamagnetismus freier Atome (Langevin):} \\
+\textit{Lenz'sche Regel:} Ändert sich der magnetische Fluss durch einen Stronkreis, so wird in diesem ein Strom induziert, der der Änderung entgegen wirkt. \\
+\textit{Larmor Theorem:} Die Bewegung der Elektronen im Magnetfeld unterscheidet sich von ihrer Bewegung ohne Magnetfeld um eine zusätzliche Präzession mit der Kreisfrequenz $\omega = \frac{e B}{2 m}$ \\
+
+Induzierter Strom bei Ordnungszahl $Z$:
+\begin{align}
+    I = \frac{Q}{T} = - Z \frac{e \omega}{2 \pi} = - \frac{Z e^2 B}{ 4 \pi m}
+\end{align}
+Induziertes magnetisches Moment:
+\begin{align}
+    \mu = I A = -Z \langle \rho ^2 \rangle \frac{e^2 B}{4 m}
+\end{align}
+Mit mittlerem Abstandsquadrat des Elektrons vom Kern:
+\begin{align}
+    \langle r^2 \rangle &= \langle x^2 \rangle + \langle y^2 \rangle + \langle z^2 \rangle \\
+    \langle \rho^2 \rangle  &= \langle x^2 \rangle + \langle y^2 \rangle = \langle r^2 \rangle \perp B
+\end{align}
+Mit kugelsymmetrischer Ladungsverteilung:
+\begin{align}
+    \langle x^2 \rangle = \langle y^2 \rangle = \langle z^2 \rangle \hspace{1.5 cm} \langle \rho^2 \rangle = \frac{2}{3} \langle r^2 \rangle
+\end{align}
+Mit $M = N \mu$, wobei $N$ die Anzahl der Atome pro Volumeneinheit darstellt, ergibt sich die \textit{Langevin-Formel:}
+\begin{align}
+    X _m = \mu_0 \frac{M}{B} = - \frac{\mu _0 N Z e^2}{6 m} \langle r^2 \rangle
+\end{align}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=6cm]{resources/05-05-2015/Frage32_Langevin.PNG}
+    \caption{Langevin-Formel: Zusammenhang $-X$ und $Z_a r_a^2$}
+\end{figure} \bigskip
+
+\textbf{Paramagnetismus:} $X _m > 0$ \\
+Kommt vor bei:
+\begin{enumerate}
+    \item Atomen, Molekülen und Gitterfehlstellen mit einer \textbf{ungeraden} Zahl von Elektronen wie freie \ch{Na}-Atome, gasförmiges Stickstoffoxid, F-Zentren in Alkalihaliden
+    \item Freien Atomen und Ionen mit teilweise gefüllten inneren Schalen (Übergangselemente und isoelektronische Ionen, seltene Erden und Aktiniden)
+    \item Verbindungen mit einer geraden Zahl von Elektronen wie molekularer Sauerstoff und organische Biradikale
+    \item Metallen
+\end{enumerate}
+
+\textit{Paramagnetismus freier Atome:} \\
+Nur Elektronen in teilweise-gefüllten Schalen im Atom tragen zum Paramagnetismus bei. Hierbei tritt auch der \textbf{Zeeman-Effekt} auf. \\
+Magnetisches Moment $\mu$ ist am Gesamtdrehimpuls $J$ mit dem Gyromagnetischen Verhältnis $\gamma$, dem Bahndrehimpuls $\vec{L}$ und Spindrehimpuls $\vec{S}$:
+\begin{align}
+    \Vec{\mu} = \gamma \hbar \vec{J} \hspace{2cm} \vec{J} = \vec{L} + \vec{S}
+\end{align}
+Der Landéfaktor 
+\begin{align}
+    g = 1 + \frac{J(J+1) + S(S+1) - L(L+1)}{2J(J+1)}
+\end{align}
+  wird für die Berechnung der Zeemann-Energie $U$ benötigt, welche von der magnetischen Quantenzahl $m_J$ abhängt:
+  \begin{align}
+      U = - \vec{\mu} \vec{B} = m_J g \mu_B B
+  \end{align}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=6cm]{resources/05-05-2015/Frage32_Zeeman-Effekt.PNG}
+    \caption{Zeeman-Effekt}
+\end{figure}
+
+Bei hoher Temperatur sind bzgl. der Magnetisierung beide Zustände gleich stark besetzt, bei tiefen Temperaturen sind alle magnetischen Momente parallel zum Magnetfeld ausgerichtet $M \approx N \mu$. \bigskip \\
+
+\textbf{Curie-Gesetz:}
+\begin{align}
+    X_M &= \frac{C}{T} \\
+    \mbox{Curie-Konstante: } C &= \frac{N J (J+1) g^2 \mu_B^2 \mu_0}{3 k_B}
+\end{align} \bigskip
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=6cm]{resources/05-05-2015/Frage32_Zsmhang_T_X.PNG}
+    \caption{Zusammenhang $T$ und $\frac{1}{X}$}
+\end{figure}
+
+
+\textit{Paramagnetismus des freien Elektronengases (Pauli):}\\
+\begin{align}
+    X_m \approx \frac{N J (J+1) g^2 \mu _0 \mu _B^2}{3 k_B T}
+\end{align}
+Experimentell ist $X_m$ klein und Temperaturabhängig. \bigskip\\
+
+$T> T_F$:\\
+Anzahl der Elektronen, die ihren Spin umklappen:
+\begin{align}
+    -N_{\uparrow \downarrow} = N_{\downarrow \downarrow} = \frac{1}{2} \mu_B B_0 D(E_F)
+\end{align}
+Mit $D(E_F) = \frac{3N}{2E_F}$, $J=S=\frac{1}{2}$ und $g=2$ folgt:
+\begin{align}
+    X = \frac{3}{2} N \frac{\mu_0 \mu_B^2}{E_F}
+\end{align}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=6cm]{resources/05-05-2015/Frage32_Pauli_Paramagnetismus.PNG}
+    \caption{Pauli-Paramagnetismus}
+\end{figure}
+
+$T \ll T_F$\\
+Die Anzahl der Elektronen ist nun:
+\begin{align}
+    N_{\downarrow \downarrow} &= \frac{1}{2} \int _{-\mu_B B} ^{E_F} dE f(E) D(E+ \mu_B B) \approx \frac{1}{2} \int_0 ^{E_F} dE f(E) D(E) + \frac{1}{2} \mu_B B D(E_F) \hspace{1cm} \mu_B B \ll E_F \\
+    N_{\uparrow \downarrow} &= \frac{1}{2} \int _{\mu_B B} ^{E_F} dE f(E) D(E- \mu_B B) \approx \frac{1}{2} \int_0 ^{E_F} dE f(E) D(E) - \frac{1}{2} \mu_B B D(E_F) 
+\end{align}
+\begin{align}
+    M = \mu (N_{\downarrow \downarrow} - N_{\uparrow \downarrow}) \hspace{2cm} D(E_F) = \frac{3N}{2 E_F}
+\end{align}
+Es folgt:
+\begin{align}
+    X = \frac{3}{2} N \frac{\mu_0 \mu_B^2}{E_F}
+\end{align}
+
+
+\question{Konzept von Bravais-Gitter und Wigner-Seitz-Zelle}
 \label{q:33}
 
-Die Bravais Wigner-Seitz Zelle ist definiert als die Zelle im Raum, die jedem Gitterpunkt am nächsten 
+Die Wigner-Seitz-Zelle ist definiert als die Zelle im Raum, die jedem Gitterpunkt am nächsten 
 liegt. Sie hat die folgenden Eigenschaften:
 \begin{enumerate}
     \item Symmetrie: Die Zelle ist symmetrisch um den Gitterpunkt, von dem aus sie konstruiert wurde, sie weist alles Symmetrieoperationen, welche im gesamten Gitter vorkommen, auf. 
     \item Ein Gitterpunkt pro Zelle: Die Zelle enthält genau einen Gitterpunkt im Inneren der Zelle. Alle anderen Gitterpunkte des Gitters liegen auf den Seitenflächen der Zelle.
-    \item Nächste Nachbarn: Die Zelle teilt den Raum so auf, dass jeder Gitterpunkt seinem nächstgelegenen Nachbarn am nächsten ist.
+    \item Nächste Nachbarn: Die Zelle teilt den Raum so auf, dass jeder Gitterpunkt seinem nächstgelegenen Nachbarn am nächsten ist. %TODO: Zirkelschluss auflösen
 \end{enumerate}
+Wigner-Seitz-Zelle im reziproken Raum = 1. Brillouin-Zone.
 
-Konstruktion:
+Konstruktion siehe \autoref{fig:wigner-seitz}.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\linewidth]{resources/15-06-2015/q33.png}
-    \caption{Konstruktion der Wigner-Seitz Zelle}
+    \caption{Konstruktion der Wigner-Seitz-Zelle}
+    \label{fig:wigner-seitz}
 \end{figure}
 
 \question{Sp sp2 sp3 Bindungen von mehratomigen Molekülen}
 \label{q:34}
 
+Siehe \aqref{62}.
+
 \question{Debye-Petit (oder so, irgendwas mit spezifischer Wärme von Elektronen)}
 \label{q:35}
 
-\question{Atom/Struktur Faktor}
+Siehe \aqref{57}.
+
+\question{Atom-/Struktur-Faktor}
 \label{q:36}
 
-\question{Zustandekommen von Energiebändern und Bandlöchern}
+Siehe \aqref{27}.
+
+\question{Zustandekommen von Energiebändern und Bandlücken}
 \label{q:37}
+
+\textbf{TL;DR} Braggreflexion ist die Ursache für Energiebandlücken, da bei Braggreflexion keine wellenartigen Lösungen der Schrödingergleichung existieren.
+Energiebänder sind die Resultate der Energiebandlücken.
+
+\textbf{TS;WR} Freie $e^-$ mit kontinuierlichen Energien besitzen Wellenfunktionen von der Form $\psi_{k}(\vec{r}) = \exp(i\vec{k}\vec{r})$ (ebene Welle).
+
+Man nehme einen eindimensionalen Kristall mit Gitterkonstante $a$.
+Die Braggbedingung\\$\left(\vec{k} + \vec{G}\right)^2 = k^2$ für Beugung eines Wellenvektors $\vec{k}$ ergibt sich in 1D zu
+\begin{equation}
+    k = \frac{\pm G}{2} = \frac{\pm n \pi}{a}
+\end{equation}
+wobei $G = 2\pi n/a$ ein reziproker Gittervektor ist und $n \in \mathbb{N}$.
+
+Bei solchen $k$ (hier mit $n=1$) überlagert sich die Wellenfunktion $\exp(\pm i \pi x / a)$ eines Wandernden $e^-$ mit seiner Bragg-Reflektierten.
+Mit $\exp(\pm i \pi x / a) = \cos(\pi x/a) \pm i \sin(\pi x/a)$ erhält man eine symmetrische stehende Welle
+\begin{equation}
+    \psi(+) = \exp( i \pi x / a) + \exp(- i \pi x / a) = 2\cos(\pi x/a)
+\end{equation}
+und eine antisymmetrische
+\begin{equation}
+    \psi(-) = \exp( i \pi x / a) - \exp(- i \pi x / a) = 2 i \sin(\pi x/a)
+\end{equation}
+ähnlich wie in den Hybridisierungsorbitalen einer Doppelbindung.
+Die Aufenthaltswahrscheinlichkeiten $\left|\psi(\pm)\right|^2$ in Kombination mit den Potentialen der Atomkerne (Abb. (a)) zeigen, dass die symmetrische Wellenfunktion $\psi(+)$ mehr negative Ladung an die positiven Ionen zieht und dadurch geringere potentielle Energie besitzt, als eine laufende Welle und $\psi(-)$ eine höhere potentielle Energie als eine laufende Welle besitzt.
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[c]{0.4\textwidth}
+        \includegraphics[width=\linewidth]{resources/15-06-2015/q37a.png}
+        \caption{}
+    \end{subfigure}%
+    \begin{subfigure}[c]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{resources/15-06-2015/q37b.png}
+        \caption{}
+    \end{subfigure}% 
+    \caption{
+        (a) Aufenthaltswahrscheinlichkeiten $\left|\psi(\pm)\right|^2$ und für laufende Wellen zusammen mit der Potentiellen Energie einer negativen Ladung um die Kerne.
+        (b) Energie plot mit Bandlücke.
+        }
+\end{figure}
 
 \question{Zusammenhang zwischen Gitterebene und Vektoren im reziproken Gitter}
 \label{q:38}
@@ -50,31 +212,60 @@ Siehe \aqref{4}.
 
 \question{Statische Abschirmung des Elektronengases}
 \label{q:39}
-
+\textit{Annahme: Es geht um Metalle und damit um die Näherung fast freier $e^-$.}\\
+Grundlage ist das Verhalten des Elektronengases um eine positive Punktladung.
+Das Coloumbpotential der Punktladung müsste normal mit $r^-1$ abfallen und weitreichende Auswirkungen auf die freien $e^-$ haben:
+\begin{equation*}
+    \Phi_0(\vec{r}) = \frac{1}{4 \pi \epsilon_0}\frac{q}{r}
+\end{equation*}
+Allerdings steigt die Elektronendichte $n(\vec{r})$ um $q$ an und schwächt somit das Coloumbpotential der positiven Punktladung ab.
+Das Ergebnis ist eine viel weniger weitreichendes Potential welches nur für $e^-$ in der Nähe der positiven Puntladung relevant ist.
+Mathematisch kann dies durch die Thomas-Fermi(für niedrige $T$) und Debye-Hückel (für hohe $T$) Approximationen realisiert werden (siehe Wikipedia Electric-Field screening).
+Dabei ergibt sich folgendes abgeschirmtes Potential:
+\begin{equation*}
+    \Phi(\vec{r}) = \frac{1}{4 \pi \epsilon_0}\frac{q}{r} e^{-r / r_{TF}}
+\end{equation*}
+Dabei ist der exponentiale Faktor die Dämpfung die durch Abschirmung entsteht und die reichweite der Coloumbwechselwirkung verringert.
+$r_{TF}$ ist der Thomas-Fermi (Abschirm-) Radius.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\linewidth]{resources/15-06-2015/q39_pot.png}
+\end{figure}
+\noindent
+Diese Abschirmung führt zusammen mit der Tatsache, dass die Coloumbwechselwirkung der positiv geladenen Ionen in einem periodischen Kristallgitter zusätzlich von der Pauliwechselwirkung abgeschwächt wird, zum Modell der fast freien $e^-$
+(PS.: Pauliwechselwirkung ist das abstoßen der $e^-$ vom Atomrumpf, weil dort schon Rumpfelektronen die verfügbaren Orbitale besetzen.)
 \question{Einstein-Debye Unterschiede und falsche Annahmen}
 \label{q:40}
-\textbf{Einstein-Näherung} 
+
+\textbf{Einstein-Näherung:} 
 \begin{itemize}
-    \item Annahme: alle Atome im Kristall schwingen mit der gleichen Frequenz $\omega$ = $\omega_E$, wobei $\omega_E$ die Frequenz der optischen Moden darstellt. 
-    \item lässt sich nur auf optische Moden anwenden (nicht auf akkustische!)
+    \item Annahme: alle Atome im Kristall schwingen mit der gleichen Frequenz $\omega = \omega_E$, wobei $\omega_E$ die Frequenz der optischen Moden darstellt. 
+    \item lässt sich nur auf optische Moden anwenden (nicht auf akustische!)
     \item funktioniert gut bei hoher Dichte der optischen Phononen und liefert richtiges 
-    Hochtermperaturlimit nach Dulong-Petit-Gesetz
+    Hochtemperaturlimit nach Dulong-Petit-Gesetz
     \item funktioniert schlecht bei tiefen Temperaturen und liefert ungenaues Limit für niedrige Temperaturen
-    \item Falsche Annahme: akkustische Moden werden nicht berücksichtigt und alle harmonischen Oszillatoren im Festkörper würden mit einheitlicher Frequenz schwingen.
+    \item Falsche Annahme: akustische Moden werden nicht berücksichtigt und alle harmonischen Oszillatoren im Festkörper würden mit einheitlicher Frequenz schwingen.
 \end{itemize}
 
-\textbf{Debye-Näherung} 
+\textbf{Debye-Näherung:} 
 \begin{itemize}
     \item Annahme: 
         \begin{itemize}
             \item Vielzahl möglicher Frequenzen und Ausbreitungsgeschwindigkeit $v_i$ von Wellen/Phononen. 
             \item Lineare Dispersion $\omega_i=v_ik$ 
         \end{itemize}
-    \item berücksichtigt nur akkustische Moden
-    \item funktioniert gut bei niedrigen Temperaturen, da niederenergetische (akkustische) Phononen besser dargestellt sind 
+    \item berücksichtigt nur akustische Moden
+    \item funktioniert gut bei niedrigen Temperaturen, da niederenergetische (akustische) Phononen besser dargestellt sind 
     \item liefert korrektes Limit für hohe und tiefe Temperaturen
     \item Falsche Annahme: optische Phononen werden nicht berücksichtigt und Effekte nahe der Brillouinzonengrenze werden nicht richtig beschrieben
 \end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{resources/15-06-2015/debye_dispersion.png}
+    \caption{Debye linearer Zusammenhang nur in blauen Kastl gerechtfertigt. Nicht an Brillouinzonengrenze.}
+    %\label{}
+   \end{figure}
 
 \begin{figure}[H]
  \centering
