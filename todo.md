@@ -89,8 +89,3 @@
 - [x] Frage 86 --- siehe Frage 5
 - [x] Frage 87 --- siehe Frage 8
 - [x] Frage 88 --- Dominik
-
-
-#### Misc
-- [ ] Das ist ein leeres Kästchen
-- [x] Das ist ein volles Kästchen - fertig!
