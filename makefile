@@ -10,10 +10,15 @@ resources := $(shell find ${resource} -type f -name "*")
 ${target}: ${source} ${sources} ${resources}
 	@mkdir -p ${output}
 	@texfot pdflatex --output-directory=${output} $<
+	@texfot pdflatex --output-directory=${output} $<
 	@mv ${output}/${target} $@
 
-.PHONY: clean
+.PHONY: force clean
+
+force: clean ${target}
 
 clean:
 	@rm -f ${target}
 	@rm -rf ${output}
+
+
